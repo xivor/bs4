@@ -1,0 +1,180 @@
+# Welcome to Jekyll!
+# 
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: <b style='color :#007bff; font-weight:900!important;'>Xivor</b><span>Hub</span>
+description: >- # this means to ignore newlines until "baseurl:"
+  XivorHub is an information hub for WvW builds and tactics.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://xivor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+excerpt_separator: "<!--more-->"
+
+# Site settings
+logo: assets/img/logos/logo-512.svg
+favicon: favicon.ico
+navbar-logo: assets/img/logos/logo-256.svg
+
+# Author settings
+author : 
+  name : Roger Lee Cormier
+  alias: Xivor
+  email : rogerleecormier@gmail.com
+  github : xivor/xivor.github.io
+  youtube : UCQm3mI-FElTqMPWkvQOE7_A
+  twitter : 
+  twitch : xivor
+  facebook: 
+  linkedin: rogerleecormier
+  instagram: 
+  pinterest: 
+  google: 
+  feedburner :
+
+# Build settings
+markdown: kramdown
+
+# Collection settings
+collections:
+  guides:
+    output: true
+    sort by: order
+  builds:
+    output: true
+    sort by: order
+
+# Plugins in use
+plugins:
+  - premonition
+  
+# GW2 info
+gwiki:
+  url: https://wiki.guildwars2.com/wiki/Main_Page
+  
+# Class settings
+classes:
+  elementalist:
+    core: 
+      class: elementalist
+      icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
+    hot:  
+      class: tempest
+      icon: https://wiki.guildwars2.com/images/9/90/Tempest_tango_icon_200px.png
+    pof:  
+      class: weaver
+      icon: https://wiki.guildwars2.com/images/3/31/Weaver_tango_icon_200px.png
+  engineer:
+    core:  
+      class: engineer
+      icon: https://wiki.guildwars2.com/images/2/2f/Engineer_tango_icon_200px.png
+    hot:  
+      class: scrapper
+      icon: https://wiki.guildwars2.com/images/3/3a/Scrapper_tango_icon_200px.png
+    pof:  
+      class: holosmith
+      icon: https://wiki.guildwars2.com/images/a/ae/Holosmith_tango_icon_200px.png
+  guardian:
+    core:  
+      class: guardian
+      icon: https://wiki.guildwars2.com/images/6/6c/Guardian_tango_icon_200px.png
+    hot:  
+      class: dragonhunter
+      icon: https://wiki.guildwars2.com/images/1/1f/Dragonhunter_tango_icon_200px.png
+    pof:  
+      class: firebrand
+      icon: https://wiki.guildwars2.com/images/7/73/Firebrand_tango_icon_200px.png
+  mesmer:
+    core:  
+      class: mesmer
+      icon: https://wiki.guildwars2.com/images/7/73/Mesmer_tango_icon_200px.png
+    hot:  
+      class: chronomancer
+      icon: https://wiki.guildwars2.com/images/8/8b/Chronomancer_tango_icon_200px.png
+    pof:  
+      class: mirage
+      icon: https://wiki.guildwars2.com/images/a/a9/Mirage_tango_icon_200px.png
+  necromancer:
+    core:  
+      class: necromancer
+      icon: https://wiki.guildwars2.com/images/c/cd/Necromancer_tango_icon_200px.png
+    hot:  
+      class: reaper
+      icon: https://wiki.guildwars2.com/images/9/95/Reaper_tango_icon_200px.png
+    pof:  
+      class: scourge
+      icon: https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png
+  ranger:
+    core:  
+      class: ranger
+      icon: https://wiki.guildwars2.com/images/5/51/Ranger_tango_icon_200px.png
+    hot:  
+      class: druid
+      icon: https://wiki.guildwars2.com/images/6/6d/Druid_tango_icon_200px.png
+    pof:  
+      class: soulbeast
+      icon: https://wiki.guildwars2.com/images/f/f6/Soulbeast_tango_icon_200px.png
+  revenant:
+    core:  
+      class: revenant
+      icon: https://wiki.guildwars2.com/images/a/a8/Revenant_tango_icon_200px.png
+    hot:  
+      class: herald
+      icon: https://wiki.guildwars2.com/images/c/c7/Herald_tango_icon_200px.png
+    pof:  
+      class: renegade
+      icon: https://wiki.guildwars2.com/images/b/bc/Renegade_tango_icon_200px.png
+  thief: 
+    core:  
+      class: thief
+      icon: https://wiki.guildwars2.com/images/1/19/Thief_tango_icon_200px.png
+    hot:  
+      class: daredevil
+      icon: https://wiki.guildwars2.com/images/c/ca/Daredevil_tango_icon_200px.png
+    pof:  
+      class: deadeye
+      icon: https://wiki.guildwars2.com/images/b/b0/Deadeye_tango_icon_200px.png
+  warrior:
+    core:  
+      class: warrior
+      icon: https://wiki.guildwars2.com/images/d/db/Warrior_tango_icon_200px.png
+    hot:  
+      class: berserker
+      icon: https://wiki.guildwars2.com/images/8/80/Berserker_tango_icon_200px.png
+    pof:  
+      class: spellbreaker
+      icon: https://wiki.guildwars2.com/images/7/78/Spellbreaker_tango_icon_200px.png
+
+
+# Permalinks
+#permalink: /:title/
+#permalink: /:categories/:title/
+#permalink: /:year/:month/:day/:title.html
+
+# Finding solution for pagination, now is disabled
+#paginate: 6
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
