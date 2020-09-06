@@ -7,42 +7,48 @@ custom-head:
 <!DOCTYPE html>
 <html lang="en">
   <style type="text/css">
-    html,
-    body,
-    .jarallax {
-      height: 800px;
-      min-height: 800px;
+    html, body, .jarallax {
+      height: 700px;
+      min-height: 700px;
     }
-
+    .shard-responsive {
+      top: 60px;
+      width: 384px;
+      height: 384px
+    }
     @media (max-width: 740px) {
-      html,
-      body,
-      header,
-      .jarallax {
+      html, body, .jarallax {
         height: 100%;
         min-height: 100%;
       }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      html,
-      body,
-      header,
-      .jarallax {
-        height: 100%;
-        min-height: 100%;
+      .shard-responsive {
+        top: 60px;
+        width: 384px;
+        height: 384px
       }
-    }
-
-    @media (min-width: 1020px) and (max-width: 1500px) {
-      html,
-      body,
-      header,
-      .jarallax {
-        height: 460px;
-        min-height: 460px;
+      @media (min-width: 800px) and (max-width: 850px) {
+        html, body, .jarallax {
+          height: 100%;
+          min-height: 100%;
+        }
+        .shard-responsive {
+          top: 60px;
+          width: 384px;
+          height: 384px
+        }
       }
-    }
+      @media (min-width: 1020px) and (max-width: 1500px) {
+        html, body, .jarallax {
+          height: 100%;
+          min-height: 100%;
+        }
+        .shard-responsive {
+          top: 60px;
+          width: 384px;
+          height: 384px
+        }
+      }
+
   </style>
 
   <body class="homepage-v1">
@@ -60,7 +66,7 @@ custom-head:
         "
       >
         <!-- Shards -->
-        <img src="{{site.logo}}" alt="Shard" class="shard" style="top: 60px; width:384px; height:384px" />
+        <img src="{{site.logo}}" alt="Shard" class="shard shard-responsive" />
         <!-- Shards -->
         <div class="mask rgba-black-light">
           <div
