@@ -23,7 +23,7 @@ group :jekyll_plugins do
   gem 'kramdown-parser-gfm', "~> 1.1.0"
   gem 'premonition'
   gem 'jekyll-admin'
-  gem 'github-pages', '~> 207'
+# gem 'github-pages', '~> 207'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
