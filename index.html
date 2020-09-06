@@ -9,7 +9,48 @@ canonical:
 img:
 custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html code on the head of the site -->
 ---
+<style>
+    html,
+    body,
+    header,
+    .jarallax {
+      height: 600px;
+      min-height: 600px;
+    }
 
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 100%;
+        min-height: 100%;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 100%;
+        min-height: 100%;
+      }
+    }
+
+    @media (min-width: 1020px) and (max-width: 1500px) {
+
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 460px;
+        min-height: 460px;
+      }
+    }
+    </style>
     <header>
         <!-- Intro settings
         <style>
@@ -32,7 +73,8 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
         <!-- Shards -->
         <img src="{{site.logo}}" alt="Shard" class="shard" style="top:65px">
         <!-- Shards -->
-        <div class="welcome d-flex justify-content-center flex-column">
+        <div class="welcome d-flex justify-content-center flex-column view jarallax" data-jarallax='{"speed": 0.2}'
+      style="background-image: url(https://mdbootstrap.com/img/Photos/Others/nature1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">">
             <div class="inner-wrapper mt-auto mb-auto">
                 <h1 class="hidden-sm-down slide-in visible">
                     <font color="#0067F4"><b>Xivor</b></font>Hub
