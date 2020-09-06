@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <b style='color :#007bff; font-weight:900!important;'>Xivor</b><span>Hub</span>
+title: <b style='color:{{site.logo-font-color}}; font-weight:900!important;'>Xivor</b><span>Hub</span>
 description: >- # this means to ignore newlines until "baseurl:"
   XivorHub is an information hub for WvW builds and tactics.
 baseurl: "bs4" # the subpath of your site, e.g. /blog
@@ -26,6 +26,7 @@ excerpt_separator: "<!--more-->"
 logo: assets/img/logos/logo-512.svg
 favicon: assets/img/logos/favicon.ico
 navbar-logo: assets/img/logos/logo-256.svg
+logo-font-color: "#2A7869"
 
 # Author settings
 author : 
