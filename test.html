@@ -7,62 +7,96 @@ custom-head:
 <!DOCTYPE html>
 <html lang="en">
   <style type="text/css">
-    
-    html, body, .jarallax {
+    // Extra small devices (portrait phones, less than 576px)
+    // No media query since this is the default in Bootstrap
+    html,
+    body,
+    .jarallax {
       height: 700px;
       min-height: 700px;
     }
     .shard-img-responsive {
       top: 60px;
       width: 450px;
-      height: 450px
+      height: 450px;
     }
     .shard-container-responsive {
-      margin-top:200px
+      margin-top: 200px;
     }
-    @media (max-width: 740px) {
-      html, body, .jarallax {
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+      html,
+      body,
+      .jarallax {
         height: 87%;
         min-height: 87%;
       }
       .shard-img-responsive {
         top: 60px;
         width: 256px;
-        height: 256px
+        height: 256px;
       }
       .shard-container-responsive {
-        margin-top:110px
+        margin-top: 110px;
       }
-      @media (min-width: 800px) and (max-width: 850px) {
-        html, body, .jarallax {
-          height: 100%;
-          min-height: 100%;
-        }
-        .shard-img-responsive {
-          top: 60px;
-          width: 384px;
-          height: 384px
-        }
-        .shard-container-responsive {
-          margin-top:50
-        }
-      }
-      @media (min-width: 1020px) and (max-width: 1500px) {
-        html, body, .jarallax {
-          height: 100%;
-          min-height: 100%;
-        }
-        .shard-img-responsive {
-          top: 60px;
-          
-          width: 384px;
-          height: 384px
-        }
-        .shard-container-responsive {
-          margin-top:70
-        }
-      }
+    }
 
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+      html,
+      body,
+      .jarallax {
+        height: 87%;
+        min-height: 87%;
+      }
+      .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+      }
+      .shard-container-responsive {
+        margin-top: 110px;
+      }
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+      html,
+      body,
+      .jarallax {
+        height: 100%;
+        min-height: 100%;
+      }
+      .shard-img-responsive {
+        top: 60px;
+        width: 384px;
+        height: 384px;
+      }
+      .shard-container-responsive {
+        margin-top: 50;
+      }
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+      html,
+      body,
+      .jarallax {
+        height: 100%;
+        min-height: 100%;
+      }
+      .shard-img-responsive {
+        top: 60px;
+
+        width: 384px;
+        height: 384px;
+      }
+      .shard-container-responsive {
+        margin-top: 70;
+      }
+    }
+    
   </style>
 
   <body class="homepage-v1">
@@ -80,7 +114,11 @@ custom-head:
         "
       >
         <!-- Shards -->
-        <img src="{{site.logo}}" alt="Shard" class="shard shard-img-responsive" />
+        <img
+          src="{{site.logo}}"
+          alt="Shard"
+          class="shard shard-img-responsive"
+        />
         <!-- Shards -->
         <div class="mask rgba-black-light">
           <div
