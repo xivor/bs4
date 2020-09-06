@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <b style='color:{{site.logo-font-color}}; font-weight:900!important;'>Xivor</b><span>Hub</span>
+title: <b style='color:#2A7869; font-weight:900!important;'>Xivor</b><span>Hub</span>
 description: >- # this means to ignore newlines until "baseurl:"
   XivorHub is an information hub for WvW builds and tactics.
 baseurl: "bs4" # the subpath of your site, e.g. /blog
