@@ -22,7 +22,7 @@ The **Areas stats [+] window** will display the raw current statistics for you a
 
 The default configuration displays raw damage output. This displays the real-time damage-per-second and total damage for a battle. The information that is displayed from right to left is as follows:
 
-![Area Stats window]({{site.url}}/assets/img/addons/image%20%2831%29.png)
+![Area Stats window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2831%29.png)
 
 ####  Area Stats Window Components
 
@@ -39,7 +39,7 @@ The bar will display (in order from left to right):
 
 The **Area Stats** window can be customized with a variety of special configurations that can display levels and types of combat statistics.
 
-![]({{site.url}}/assets/img/addons/image%20%287%29.png)
+![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%287%29.png)
 
 Right click on the Damage window to find the Display menu. Here is where we configure the settings for the way the window appears.
 
@@ -67,7 +67,7 @@ The **Area Stats** window is highly customizable and also allows for multiple in
 
 The **Buffs window** will display which and how many buffs players are receiving. By default, this involves buffs they are receiving and putting out. This is a confusing window and it is recommended to not use it.
 
-![Buffs window]({{site.url}}/assets/img/addons/image%20%2826%29.png)
+![Buffs window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2826%29.png)
 
 #### Buff's Window Components
 
@@ -85,7 +85,7 @@ The bar will display (in order from left to right):
 
  The **Self Stats window** will display stats that you are outputting in a minimalistic window.   
 
-![Self Stats window]({{site.url}}/assets/img/addons/image%20%2825%29.png)
+![Self Stats window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2825%29.png)
 
 #### Self Stats Window Components
 

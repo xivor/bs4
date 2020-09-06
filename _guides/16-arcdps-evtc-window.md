@@ -16,7 +16,7 @@ description: Record Guild Wars 2 metrics to parse out into easily-readble report
 
 {{page.title}} is the method ArcDPS uses to {{page.description | downcase}}. There are several settings that are recommended for logging WvW encounters.
 
-![EVTC Logging Options]({{site.url}}/assets/img/addons/image%20%2827%29.png)
+![EVTC Logging Options]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2827%29.png)
 
 #### Boss Encounter Logging Options
 

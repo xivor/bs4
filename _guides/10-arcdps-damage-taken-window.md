@@ -15,7 +15,7 @@ description: Monitor the damage taken in ArcDPS during combat encounters
 
 The {{page.title}} is where the user can {{page.description | downcase}}.<!--more-->  This window can be assigned to any of the **Area Stats** window slots other than the primary. These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
-![Damage Taken window]({{site.url}}/assets/img/addons/damagetaken.png)
+![Damage Taken window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/damagetaken.png)
 
 #### Configuration
 
@@ -83,8 +83,8 @@ The {{page.title}} is where the user can {{page.description | downcase}}.<!--mor
 * Profession: **Selected**
 * Max Name Length: **0** 
 * Max Displayed: **10** 
-* Stats Format: ![]({{site.url}}/assets/img/addons/capture%20%281%29.png)
-* Title Bar Format: ![]({{site.url}}/assets/img/addons/capture%20%284%29.png) 
+* Stats Format: ![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/capture%20%281%29.png)
+* Title Bar Format: ![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/capture%20%284%29.png) 
 
 ###### Style
 

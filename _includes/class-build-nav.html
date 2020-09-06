@@ -5,8 +5,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand" target="_blank" href="{{ site.url }}">
-            <img src="{{ site.url }}/{{ site.baseurl }}{{ site.navbar-logo }}" height="35" alt="" loading="lazy"
+        <a class="navbar-brand" target="_blank" href="{{ site.url }}/{{ site.baseurl }}">
+            <img src="{{ site.url }}/{{ site.baseurl }}/{{ site.navbar-logo }}" height="35" alt="" loading="lazy"
                 style="margin-top: -3px;" />&nbsp;{{site.title}}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExample01"
             aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                         </li>
                         {% for item in site.guides %}
                         {% if item.categories contains "addons" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -44,7 +44,7 @@
                         </li>
                         {% for item in site.guides %}
                         {% if item.categories contains "arcdps" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -62,7 +62,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "elementalist" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -76,7 +76,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "engineer" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -90,7 +90,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "guardian" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -104,7 +104,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "mesmer" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -118,7 +118,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "necromancer" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -132,7 +132,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "ranger" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -146,7 +146,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "revenant" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -160,7 +160,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "thief" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -174,7 +174,7 @@
                         </li>
                         {% for item in site.builds %}
                         {% if item.categories contains "warrior" %}
-                        <li><a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>

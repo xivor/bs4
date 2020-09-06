@@ -15,7 +15,7 @@ description: Monitor the condition-cleansing ability of the group during combat 
 
 The {{page.title}} is where the user can {{page.description | downcase}}.<!--more--> These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
-![Squad Cleanses window]({{site.url}}/assets/img/addons/image%20%283%29.png)
+![Squad Cleanses window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%283%29.png)
 
 #### Configuration
 
@@ -83,8 +83,8 @@ The {{page.title}} is where the user can {{page.description | downcase}}.<!--mor
 * Profession: **Selected**
 * Max Name Length: **0**
 * Max Displayed: **10**
-* Stats Format: ![]({{site.url}}/assets/img/addons/capture%20%281%29.png)
-* Title Bar Format: ![]({{site.url}}/assets/img/addons/capture%20%284%29.png)
+* Stats Format: ![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/capture%20%281%29.png)
+* Title Bar Format: ![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/capture%20%284%29.png)
 
 ##### Style
 
