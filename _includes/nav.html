@@ -33,7 +33,7 @@
                         </li>
                         {% for item in site.guides %}
                         {% if item.categories contains "addons" %}
-                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         <li>
@@ -47,7 +47,7 @@
                         </li>
                         {% for item in site.guides %}
                         {% if item.categories contains "arcdps" %}
-                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
+                        <li><a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
