@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <h6 class="white-text text-uppercase font-weight-bold"><b style="color:{{primary-color}}; font-weight:900!important;">Xivor</b><span>Hub</span></h6>
+title: <span class="white-text text-uppercase font-weight-bold"><b style="color:#1A503E; font-weight:900!important;">Xivor</b><span>Hub</span></span>
 # title: <b style='color:#1A503E; font-weight:900!important;'>Xivor</b><span>Hub</span>
 description: >- # this means to ignore newlines until "baseurl:"
   XivorHub is an information hub for WvW builds and tactics.
