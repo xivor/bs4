@@ -46,141 +46,140 @@
 
 <!-- Custom styles -->
 <style>
-body {
-	font-family: "Lato", sans-serif;
-}
-.w-33 {
-	width: 33% !important;
-}
-.w-66 {
-	width: 66% !important;
-}
-.bg {
-	background-image: url("https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2020/07/f8b45Drizzlewood-Coast-MapMeta.jpg");
-}
-.dropdown-divider {
-	border-top: 1px solid rgba(0, 0, 0, 0.05);
-}
-/* Extra small devices (portrait phones, less than 576px) */
+  body {
+  	font-family: "Lato", sans-serif;
+  }
+  .w-33 {
+  	width: 33% !important;
+  }
+  .w-66 {
+  	width: 66% !important;
+  }
+  .bg {
+  	background-image: url("https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2020/07/f8b45Drizzlewood-Coast-MapMeta.jpg");
+  }
+  .dropdown-divider {
+  	border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
 
-/* No media query since this is the default in Bootstrap */
+  /* Extra small devices (portrait phones, less than 576px) */
+  /* No media query since this is the default in Bootstrap */
+  html, body, .jarallax {
+  	height: 480px;
+  	min-height: 480px;
+  }
+  .shard-img-responsive {
+  	top: 60px;
+  	width: 180px;
+  	height: 180px;
+  }
+  .shard-container-responsive {
+  	margin-top: 90px;
+  }
 
-html, body, .jarallax {
-	height: 480px;
-	min-height: 480px;
-}
-.shard-img-responsive {
-	top: 60px;
-	width: 180px;
-	height: 180px;
-}
-.shard-container-responsive {
-	margin-top: 90px;
-}
-/* Small devices (landscape phones, 576px and up) */
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+  	html, body, .jarallax {
+  		height: 600px;
+  		min-height: 600px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 256px;
+  		height: 256px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 100px;
+  	}
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+  	html, body, .jarallax {
+  		height: 600px;
+  		min-height: 600px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 256px;
+  		height: 256px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 100px;
+  	}
+  }
 
-@media (min-width: 576px) {
-	html, body, .jarallax {
-		height: 600px;
-		min-height: 600px;
-	}
-	.shard-img-responsive {
-		top: 60px;
-		width: 256px;
-		height: 256px;
-	}
-	.shard-container-responsive {
-		margin-top: 100px;
-	}
-}
-/* Medium devices (tablets, 768px and up) */
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+  	html, body, .jarallax {
+  		height: 600px;
+  		min-height: 600px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 256px;
+  		height: 256px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 100;
+  	}
+  }
 
-@media (min-width: 768px) {
-	html, body, .jarallax {
-		height: 600px;
-		min-height: 600px;
-	}
-	.shard-img-responsive {
-		top: 60px;
-		width: 256px;
-		height: 256px;
-	}
-	.shard-container-responsive {
-		margin-top: 100px;
-	}
-}
-/* Large devices (desktops, 992px and up) */
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+  	html, body, .jarallax {
+  		height: 720px;
+  		min-height: 720px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 384px;
+  		height: 384px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 150;
+  	}
+  }
+  
+  /* Set Material Icons to same size as FontAwesome */
+  .material-icons {
+  	font: normal normal normal 16px/1 "Material Icons";
+  	display: inline-block;
+  	transform: translateY(10%);
+  	text-transform: none;
+  	letter-spacing: normal;
+  	word-wrap: normal;
+  	white-space: nowrap;
+  	direction: ltr;
+  	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+  	-moz-osx-font-smoothing: grayscale;
+  	font-feature-settings: "liga";
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+  	.navbar:not(.top-nav-collapse) {
+  		background: #{{primary-color}}}
+  	}
+  	!important;
+  }
 
-@media (min-width: 992px) {
-	html, body, .jarallax {
-		height: 600px;
-		min-height: 600px;
-	}
-	.shard-img-responsive {
-		top: 60px;
-		width: 256px;
-		height: 256px;
-	}
-	.shard-container-responsive {
-		margin-top: 100;
-	}
-}
-/* Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-	html, body, .jarallax {
-		height: 720px;
-		min-height: 720px;
-	}
-	.shard-img-responsive {
-		top: 60px;
-		width: 384px;
-		height: 384px;
-	}
-	.shard-container-responsive {
-		margin-top: 150;
-	}
-}
-/* Set Material Icons to same size as FontAwesome */
-
-.material-icons {
-	font: normal normal normal 16px/1 "Material Icons";
-	display: inline-block;
-	transform: translateY(10%);
-	text-transform: none;
-	letter-spacing: normal;
-	word-wrap: normal;
-	white-space: nowrap;
-	direction: ltr;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	-moz-osx-font-smoothing: grayscale;
-	font-feature-settings: "liga";
-}
-@media (min-width: 800px) and (max-width: 850px) {
-	.navbar:not(.top-nav-collapse) {
-		background: #{{primary-color}}}
-	}
-	!important;
-}
-
-.top-nav-collapse {
-	background-color: #9da4b1 !important;
-}
-.navbar:not(.top-nav-collapse) {
-	background: transparent !important;
-}
-@media (max-width: 768px) {
-	.navbar:not(.top-nav-collapse) {
-		background: #9da4b1 !important;
-	}
-}
-@media (min-width: 800px) and (max-width: 850px) {
-	.navbar:not(.top-nav-collapse) {
-		background: #9da4b1!important;
-	}
-}
-footer.page-footer {
-	background-color: #9da4b1;
-}
+  .top-nav-collapse {
+  	background-color: #9da4b1 !important;
+  }
+  .navbar:not(.top-nav-collapse) {
+  	background: transparent !important;
+  }
+  @media (max-width: 768px) {
+  	.navbar:not(.top-nav-collapse) {
+  		background: #9da4b1 !important;
+  	}
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+  	.navbar:not(.top-nav-collapse) {
+  		background: #9da4b1!important;
+  	}
+  }
+  footer.page-footer {
+  	background-color: #9da4b1;
+  }
 </style>
