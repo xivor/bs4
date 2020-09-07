@@ -151,6 +151,7 @@
       margin-top: 150;
     }
   }
+  /* Set Material Icons to same size as FontAwesome */
   .material-icons {
     font: normal normal normal 16px/1 "Material Icons";
     display: inline-block;
@@ -165,5 +166,30 @@
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: "liga";
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #{{primary-color}} !important;
+    }
+  }
+  /* Navbar animation */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .top-nav-collapse {
+    background-color: #{{primary-color}};
+  }
+
+  /* Adding color to the Navbar on mobile */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: #{{primary-color}};
+    }
+  }
+
+  /* Footer color for sake of consistency with Navbar */
+  .page-footer {
+    background-color: #{{primary-color}};
   }
 </style>
