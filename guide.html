@@ -16,7 +16,8 @@ description: Chronomancer WvW build focusing on boon strip support
 <head>
 
 	<link href="{{site.url}}/{{site.baseurl}}/assets/css/builds.css" rel="stylesheet" type="text/css"> 
-<style>html, body {
+<style>
+html, body {
     color: #fff;
     background-color: #1c1c1c;
     background: url({{site.url}}/{{site.baseurl}}/assets/img/backgrounds/bg-top.7638aa9b.jpg);
@@ -24,14 +25,22 @@ description: Chronomancer WvW build focusing on boon strip support
     background-position: top;
     background-attachment: fixed;
     position: relative;
-}</style>
+    }
+html, body {
+    height: 100%;
+    margin: 0;
+    }
+
+#wrapper {
+    min-height: 100%; 
+    }
+    </style>
 </head>
 
 <body>
     <!-- Full Page Intro -->
-    <div class="xvr-view">
+    <div id="wrapper" class="mask rgba-teal-light xvr-view">
         <!-- Mask & flexbox options-->
-        <div class="mask rgba-teal-light align-items-center">
         	<div class="container xvr-container-dark mt-10">
         		<div class="row">
         			<div class="col text-center">
@@ -76,5 +85,4 @@ description: Chronomancer WvW build focusing on boon strip support
                 </div>
             </div>
         </div>
-	</div>
 </body>
