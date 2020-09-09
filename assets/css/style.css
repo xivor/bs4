@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Mono);
 
 html,
-body,
-    {
+body {
     color: #fff;
     background-color: #1c1c1c;
     background: url({{site.url}}/{{site.baseurl}}/assets/img/backgrounds/bg-top.7638aa9b.jpg);
