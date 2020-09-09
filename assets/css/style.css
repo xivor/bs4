@@ -87,10 +87,6 @@ hr {
     .shard-container-responsive {
         margin-top: 100px;
     }
-
-    .navbar:not(.top-nav-collapse) {
-        background: #41A489 !important;
-    }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
