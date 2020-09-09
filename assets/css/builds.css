@@ -1,9 +1,140 @@
+html,
+body {
+    color: #fff;
+    background-color: #1c1c1c;
+    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg-top.7638aa9b.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+@media screen and (max-width: 531px) {
+    img.header-icon {
+        max-width: 160px;
+    }
+
+    .xvr-banner-header-wrapper {
+        padding-top: 4rem;
+        padding-bottom: 7rem;
+    }
+
+    .xvr-banner-header-text {
+        transform: none;
+    }
+
+    .xvr-banner-text-top {
+        text-align: center;
+    }
+
+    .xvr-banner-text {
+        text-align: center;
+    }
+
+    .xvr-banner-text-bottom {
+        text-align: center !important;
+    }
+
+    .xvr-banner-container {
+        top: -150px;
+        left: 0;
+        z-index: 0;
+        left: -900px;
+    }
+}
+
+@media (min-device-width: 532px) {
+    img.header-icon {
+        max-width: 160px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hidden-xs-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .hidden-sm-up {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    span.xvr-banner-text {
+        font-size: 9vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-sm-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .hidden-md-up {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .xvr-banner-header-wrapper {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    .hidden-md-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .hidden-lg-up {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .hidden-lg-down {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hidden-xl-up {
+        display: none !important;
+    }
+}
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(19, 19, 19, .33) !important;
     border-bottom: 1px solid rgba(236, 236, 236, .11) !important;
+}
+
+.shard {
+    will-change: transform;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+    z-index: 1;
+    width: 512px;
+    animation: float 7s ease-in-out infinite;
 }
 
 .xvr-view {
@@ -51,11 +182,6 @@ hr {
     display: inline-block;
 }
 
-@media (min-device-width: 532px) {
-    img.header-icon {
-        max-width: 160px;
-    }
-}
 
 .xvr-banner-header-icon {
     display: inline-block;
@@ -70,46 +196,7 @@ img.header-icon {
     max-width: 240px;
 }
 
-@media screen and (max-width: 531px) {
-    img.header-icon {
-        max-width: 160px;
-    }
 
-    .xvr-banner-header-wrapper {
-        padding-top: 4rem;
-        padding-bottom: 7rem;
-    }
-
-    .xvr-banner-header-text {
-        transform: none;
-    }
-
-    .xvr-banner-text-top {
-        text-align: center;
-    }
-
-    .xvr-banner-text {
-        text-align: center;
-    }
-
-    .xvr-banner-text-bottom {
-        text-align: center !important;
-    }
-
-    .xvr-banner-container {
-        top: -150px;
-        left: 0;
-        z-index: 0;
-        left: -900px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .xvr-banner-header-wrapper {
-        padding-top: 2rem;
-        padding-bottom: 5rem;
-    }
-}
 
 span.xvr-banner-text-top {
     font-size: 1.9rem;
@@ -132,11 +219,7 @@ span.xvr-banner-text {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 600px) {
-    span.xvr-banner-text {
-        font-size: 9vw;
-    }
-}
+
 
 span.xvr-banner-text-bottom {
     font-size: 1.9rem;
