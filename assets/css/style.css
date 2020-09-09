@@ -8,21 +8,38 @@ html {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
-    position: relative
-}
-
-body,
-html {
+    position: relative;
     height: 100%;
-    margin: 0
+    margin: 0;
+    font-family: Lato, sans-serif
 }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(19, 19, 19, .33) !important;
+    border-bottom: 1px solid rgba(236, 236, 236, .11) !important
+}
 #wrapper {
     min-height: 100%
 }
 
-body {
-    font-family: Lato, sans-serif
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .75rem;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400
 }
 
 .w-33 {
@@ -31,10 +48,6 @@ body {
 
 .w-66 {
     width: 66% !important
-}
-
-.bg {
-    background-image: url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2020/07/f8b45Drizzlewood-Coast-MapMeta.jpg)
 }
 
 .dropdown-divider {
@@ -56,6 +69,46 @@ body {
     margin-top: 90px
 }
 
+@media screen and (max-width:531px) {
+    img.header-icon {
+        max-width: 160px
+    }
+
+    .xvr-banner-header-wrapper {
+        padding-top: 4rem;
+        padding-bottom: 7rem
+    }
+
+    .xvr-banner-header-text {
+        transform: none
+    }
+
+    .xvr-banner-text-top {
+        text-align: center
+    }
+
+    .xvr-banner-text {
+        text-align: center
+    }
+
+    .xvr-banner-text-bottom {
+        text-align: center !important
+    }
+
+    .xvr-banner-container {
+        top: -150px;
+        left: 0;
+        z-index: 0;
+        left: -900px
+    }
+}
+
+@media (min-width:532px) {
+    img.header-icon {
+        max-width: 160px
+    }
+}
+
 @media (min-width:576px) {
     .jarallax {
         height: 600px;
@@ -73,7 +126,17 @@ body {
     }
 }
 
+@media screen and (max-width:600px) {
+    span.xvr-banner-text {
+        font-size: 9vw
+    }
+}
+
 @media (min-width:768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #41a489 !important
+    }
+
     .jarallax {
         height: 600px;
         min-height: 600px
@@ -87,6 +150,18 @@ body {
 
     .shard-container-responsive {
         margin-top: 100px
+    }
+}
+
+@media (min-width:800px) and (max-width:850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #41a489 !important
+    }
+}
+@media screen and (max-width:991px) {
+    .xvr-banner-header-wrapper {
+        padding-top: 2rem;
+        padding-bottom: 5rem
     }
 }
 
@@ -145,18 +220,6 @@ body {
 
 .navbar:not(.top-nav-collapse) {
     background: 0 0 !important
-}
-
-@media (max-width:768px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #41a489 !important
-    }
-}
-
-@media (min-width:800px) and (max-width:850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #41a489 !important
-    }
 }
 
 footer.page-footer {
@@ -307,64 +370,19 @@ footer.page-footer {
     margin-right: 3.5em
 }
 
-.m body,
-html {
-    color: #fff;
-    background-color: #1c1c1c;
-    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg-top.7638aa9b.jpg);
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    position: relative
-}
-
-body,
-html {
-    height: 100%;
-    margin: 0
-}
-
-#wrapper {
-    min-height: 100%
-}
-
-body,
-html {
-    color: #fff;
-    background-color: #1c1c1c;
-    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg-top.7638aa9b.jpg);
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    position: relative;
-    font-family: Lato, sans-serif
-}
-
-body,
-html {
-    height: 100%;
-    margin: 0
-}
-
-.w-33 {
-    width: 33% !important
-}
-
-.w-66 {
-    width: 66% !important
-}
-
 .dropdown-divider {
     border-top: 1px solid rgba(0, 0, 0, .05)
 }
 
-#wrapper {
-    min-height: 100%
-}
-
-.jarallax {
-    height: 480px;
-    min-height: 480px
+.shard {
+    will-change: transform;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+    z-index: 1;
+    /* width: 512px; */
+    animation: float 7s ease-in-out infinite
 }
 
 .shard-img-responsive {
@@ -375,151 +393,6 @@ html {
 
 .shard-container-responsive {
     margin-top: 90px
-}
-
-@media screen and (max-width:531px) {
-    img.header-icon {
-        max-width: 160px
-    }
-
-    .xvr-banner-header-wrapper {
-        padding-top: 4rem;
-        padding-bottom: 7rem
-    }
-
-    .xvr-banner-header-text {
-        transform: none
-    }
-
-    .xvr-banner-text-top {
-        text-align: center
-    }
-
-    .xvr-banner-text {
-        text-align: center
-    }
-
-    .xvr-banner-text-bottom {
-        text-align: center !important
-    }
-
-    .xvr-banner-container {
-        top: -150px;
-        left: 0;
-        z-index: 0;
-        left: -900px
-    }
-}
-
-@media (min-device-width:532px) {
-    img.header-icon {
-        max-width: 160px
-    }
-}
-
-@media (min-width:576px) {
-    .jarallax {
-        height: 600px;
-        min-height: 600px
-    }
-
-    .shard-img-responsive {
-        top: 60px;
-        width: 256px;
-        height: 256px
-    }
-
-    .shard-container-responsive {
-        margin-top: 100px
-    }
-}
-
-@media screen and (max-width:600px) {
-    span.xvr-banner-text {
-        font-size: 9vw
-    }
-}
-
-@media (min-width:768px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #41a489 !important
-    }
-
-    .jarallax {
-        height: 600px;
-        min-height: 600px
-    }
-
-    .shard-img-responsive {
-        top: 60px;
-        width: 256px;
-        height: 256px
-    }
-
-    .shard-container-responsive {
-        margin-top: 100px
-    }
-}
-
-@media (min-width:800px) and (max-width:850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #41a489 !important
-    }
-}
-
-@media screen and (max-width:991px) {
-    .xvr-banner-header-wrapper {
-        padding-top: 2rem;
-        padding-bottom: 5rem
-    }
-}
-
-@media (min-width:992px) {
-    .jarallax {
-        height: 600px;
-        min-height: 600px
-    }
-
-    .shard-img-responsive {
-        top: 60px;
-        width: 256px;
-        height: 256px
-    }
-
-    .shard-container-responsive {
-        margin-top: 100
-    }
-}
-
-@media (min-width:1200px) {
-    .shard-img-responsive {
-        top: 60px;
-        width: 384px;
-        height: 384px
-    }
-
-    .shard-container-responsive {
-        margin-top: 150
-    }
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(19, 19, 19, .33) !important;
-    border-bottom: 1px solid rgba(236, 236, 236, .11) !important
-}
-
-.shard {
-    will-change: transform;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 20px;
-    z-index: 1;
-    width: 512px;
-    animation: float 7s ease-in-out infinite
 }
 
 .xvr-view {
@@ -555,7 +428,6 @@ span.xvr-banner-text-top {
     font-size: 1.9rem;
     line-height: 1.9rem;
     font-weight: 600;
-    display: block;
     display: block;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
     text-transform: uppercase
@@ -795,189 +667,6 @@ a.clr-txt-necromancer:hover {
     font-feature-settings: "liga"
 }
 
-.top-nav-collapse {
-    background-color: #41a489 !important
-}
-
-.navbar:not(.top-nav-collapse) {
-    background: 0 0 !important
-}
-
-footer.page-footer {
-    background-color: #1a503e
-}
-
-.pt-6 {
-    padding-top: 3.5em
-}
-
-.pt-7 {
-    padding-top: 4em
-}
-
-.pt-8 {
-    padding-top: 4.5em
-}
-
-.pt-9 {
-    padding-top: 5em
-}
-
-.pt-10 {
-    padding-top: 5.5em
-}
-
-.pb-6 {
-    padding-bottom: 3.5em
-}
-
-.pb-7 {
-    padding-bottom: 4em
-}
-
-.pb-8 {
-    padding-bottom: 4.5em
-}
-
-.pb-9 {
-    padding-bottom: 5em
-}
-
-.pb-10 {
-    padding-bottom: 5.5em
-}
-
-.pl-6 {
-    padding-left: 3.5em
-}
-
-.pl-7 {
-    padding-left: 4em
-}
-
-.pl-8 {
-    padding-left: 4.5em
-}
-
-.pl-9 {
-    padding-left: 5em
-}
-
-.pl-10 {
-    padding-left: 5.5em
-}
-
-.pr-6 {
-    padding-right: 3.5em
-}
-
-.pr-7 {
-    padding-right: 4em
-}
-
-.pr-8 {
-    padding-right: 4.5em
-}
-
-.pr-9 {
-    padding-right: 5em
-}
-
-.pr-10 {
-    padding-right: 5.5em
-}
-
-.mt-6 {
-    margin-top: 3.5em
-}
-
-.mt-7 {
-    margin-top: 4em
-}
-
-.mt-8 {
-    margin-top: 4.5em
-}
-
-.mt-9 {
-    margin-top: 5em
-}
-
-.mt-10 {
-    margin-top: 5.5em
-}
-
-.mb-6 {
-    margin-bottom: 3.5em
-}
-
-.mb-7 {
-    margin-bottom: 4em
-}
-
-.mb-8 {
-    margin-bottom: 4.5em
-}
-
-.mb-9 {
-    margin-bottom: 5em
-}
-
-.mb-10 {
-    margin-bottom: 5.5em
-}
-
-.ml-6 {
-    margin-left: 3.5em
-}
-
-.ml-7 {
-    margin-left: 4em
-}
-
-.ml-8 {
-    margin-left: 4.5em
-}
-
-.ml-9 {
-    margin-left: 5em
-}
-
-.ml-10 {
-    margin-left: 5.5em
-}
-
-.mr-6 {
-    margin-right: 3.5em
-}
-
-.mr-7 {
-    margin-right: 4em
-}
-
-.mr-8 {
-    margin-right: 4.5em
-}
-
-.mr-9 {
-    margin-right: 5em
-}
-
-.mr-10 {
-    margin-right: 5.5em
-}
-
-.shard {
-    will-change: transform;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 20px;
-    z-index: 1;
-    width: 512px;
-    animation: float 7s ease-in-out infinite
-}
-
 @keyframes float {
     0% {
         transform: translate(-50%, 0)
@@ -990,86 +679,6 @@ footer.page-footer {
     100% {
         transform: translate(-50%, 0)
     }
-}
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: .75rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400
-}
-
-.btn {
-    font-weight: 300;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    border: 1px solid transparent;
-    padding: .75rem 1.25rem;
-    font-size: .875rem;
-    line-height: 1.1;
-    border-radius: .375rem;
-    transition: all 250ms cubic-bezier(.27, .01, .38, 1.06)
-}
-
-.nav {
-    font-size: .875rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
-}
-
-.navbar-brand {
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-    margin-right: 1.5rem;
-    font-size: 1rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400
-}
-
-.page-content .color .title {
-    display: inline-block;
-    font-family: Lato;
-    width: 100%;
-    font-size: 1rem
-}
-
-@keyframes float {
-    0% {
-        transform: translate(-50%, 0)
-    }
-
-    50% {
-        transform: translate(-50%, -20px)
-    }
-
-    100% {
-        transform: translate(-50%, 0)
-    }
-}
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: .75rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400
 }
 
 .btn {
@@ -1109,6 +718,4 @@ h6 {
     border-radius: .25rem;
     padding: 1rem 1rem;
     margin-bottom: 2rem
-}
-
 }
