@@ -22,10 +22,6 @@ hr {
     border-bottom: 1px solid rgba(236, 236, 236, .11) !important
 }
 
-#wrapper {
-    min-height: 100%;
-}
-
 .w-33 {
     width: 33% !important;
 }
@@ -42,7 +38,7 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-footer.page-footer {
+.page-footer {
     background-color: #1A503E;
 }
 
