@@ -1,17 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Mono);
 
+html,
 body,
-html {
+    {
     color: #fff;
     background-color: #1c1c1c;
-    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg-top.7638aa9b.jpg);
+    background: url({{site.url}}/{{site.baseurl}}/assets/img/backgrounds/bg-top.7638aa9b.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
     position: relative;
+    font-family: "Lato", sans-serif;
     height: 100%;
     margin: 0;
-    font-family: Lato, sans-serif
 }
 
 hr {
@@ -21,184 +22,120 @@ hr {
     border-top: 1px solid rgba(19, 19, 19, .33) !important;
     border-bottom: 1px solid rgba(236, 236, 236, .11) !important
 }
-#wrapper {
-    min-height: 100%
-}
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: .75rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400
+#wrapper {
+    min-height: 100%;
 }
 
 .w-33 {
-    width: 33% !important
+    width: 33% !important;
 }
 
 .w-66 {
-    width: 66% !important
+    width: 66% !important;
+}
+
+.bg {
+    background-image: url("https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2020/07/f8b45Drizzlewood-Coast-MapMeta.jpg");
 }
 
 .dropdown-divider {
-    border-top: 1px solid rgba(0, 0, 0, .05)
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.jarallax {
-    height: 480px;
-    min-height: 480px
+footer.page-footer {
+    background-color: #1A503E;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
 
 .shard-img-responsive {
     top: 60px;
     width: 180px;
-    height: 180px
+    height: 180px;
 }
 
 .shard-container-responsive {
-    margin-top: 90px
+    margin-top: 90px;
 }
 
-@media screen and (max-width:531px) {
-    img.header-icon {
-        max-width: 160px
-    }
-
-    .xvr-banner-header-wrapper {
-        padding-top: 4rem;
-        padding-bottom: 7rem
-    }
-
-    .xvr-banner-header-text {
-        transform: none
-    }
-
-    .xvr-banner-text-top {
-        text-align: center
-    }
-
-    .xvr-banner-text {
-        text-align: center
-    }
-
-    .xvr-banner-text-bottom {
-        text-align: center !important
-    }
-
-    .xvr-banner-container {
-        top: -150px;
-        left: 0;
-        z-index: 0;
-        left: -900px
-    }
+/* Dynamic transparent nav */
+.top-nav-collapse {
+    background-color: #41A489 !important;
 }
 
-@media (min-width:532px) {
-    img.header-icon {
-        max-width: 160px
-    }
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
 }
 
-@media (min-width:576px) {
-    .jarallax {
-        height: 600px;
-        min-height: 600px
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
 
     .shard-img-responsive {
         top: 60px;
         width: 256px;
-        height: 256px
+        height: 256px;
     }
 
     .shard-container-responsive {
-        margin-top: 100px
+        margin-top: 100px;
     }
 }
 
-@media screen and (max-width:600px) {
-    span.xvr-banner-text {
-        font-size: 9vw
-    }
-}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 
-@media (min-width:768px) {
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100px;
+    }
+
     .navbar:not(.top-nav-collapse) {
-        background: #41a489 !important
-    }
-
-    .jarallax {
-        height: 600px;
-        min-height: 600px
-    }
-
-    .shard-img-responsive {
-        top: 60px;
-        width: 256px;
-        height: 256px
-    }
-
-    .shard-container-responsive {
-        margin-top: 100px
+        background: #41A489 !important;
     }
 }
 
-@media (min-width:800px) and (max-width:850px) {
+@media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-        background: #41a489 !important
-    }
-}
-@media screen and (max-width:991px) {
-    .xvr-banner-header-wrapper {
-        padding-top: 2rem;
-        padding-bottom: 5rem
+        background: #41A489 !important;
     }
 }
 
-@media (min-width:992px) {
-    .jarallax {
-        height: 600px;
-        min-height: 600px
-    }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 
     .shard-img-responsive {
         top: 60px;
         width: 256px;
-        height: 256px
+        height: 256px;
     }
 
     .shard-container-responsive {
-        margin-top: 100
+        margin-top: 100;
     }
 }
 
-@media (min-width:1200px) {
-    .jarallax {
-        height: 720px;
-        min-height: 720px
-    }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 
     .shard-img-responsive {
         top: 60px;
         width: 384px;
-        height: 384px
+        height: 384px;
     }
 
     .shard-container-responsive {
-        margin-top: 150
+        margin-top: 150;
     }
 }
 
+/* Set Material Icons to same size as FontAwesome */
 .material-icons {
     font: normal normal normal 16px/1 "Material Icons";
     display: inline-block;
@@ -211,511 +148,167 @@ h6 {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: "liga"
+    font-feature-settings: "liga";
 }
 
-.top-nav-collapse {
-    background-color: #41a489 !important
-}
-
-.navbar:not(.top-nav-collapse) {
-    background: 0 0 !important
-}
-
-footer.page-footer {
-    background-color: #1a503e
-}
-
+/* Additional cell padding in Bootstrap methods */
 .pt-6 {
-    padding-top: 3.5em
+    padding-top: 3.5em;
 }
 
 .pt-7 {
-    padding-top: 4em
+    padding-top: 4.0em;
 }
 
 .pt-8 {
-    padding-top: 4.5em
+    padding-top: 4.5em;
 }
 
 .pt-9 {
-    padding-top: 5em
+    padding-top: 5.0em;
 }
 
 .pt-10 {
-    padding-top: 5.5em
+    padding-top: 5.5em;
 }
 
 .pb-6 {
-    padding-bottom: 3.5em
+    padding-bottom: 3.5em;
 }
 
 .pb-7 {
-    padding-bottom: 4em
+    padding-bottom: 4.0em;
 }
 
 .pb-8 {
-    padding-bottom: 4.5em
+    padding-bottom: 4.5em;
 }
 
 .pb-9 {
-    padding-bottom: 5em
+    padding-bottom: 5.0em;
 }
 
 .pb-10 {
-    padding-bottom: 5.5em
+    padding-bottom: 5.5em;
 }
 
 .pl-6 {
-    padding-left: 3.5em
+    padding-left: 3.5em;
 }
 
 .pl-7 {
-    padding-left: 4em
+    padding-left: 4.0em;
 }
 
 .pl-8 {
-    padding-left: 4.5em
+    padding-left: 4.5em;
 }
 
 .pl-9 {
-    padding-left: 5em
+    padding-left: 5.0em;
 }
 
 .pl-10 {
-    padding-left: 5.5em
+    padding-left: 5.5em;
 }
 
 .pr-6 {
-    padding-right: 3.5em
+    padding-right: 3.5em;
 }
 
 .pr-7 {
-    padding-right: 4em
+    padding-right: 4.0em;
 }
 
 .pr-8 {
-    padding-right: 4.5em
+    padding-right: 4.5em;
 }
 
 .pr-9 {
-    padding-right: 5em
+    padding-right: 5.0em;
 }
 
 .pr-10 {
-    padding-right: 5.5em
+    padding-right: 5.5em;
 }
 
+/* Additional cell margin in Bootstrap methods */
 .mt-6 {
-    margin-top: 3.5em
+    margin-top: 3.5em;
 }
 
 .mt-7 {
-    margin-top: 4em
+    margin-top: 4.0em;
 }
 
 .mt-8 {
-    margin-top: 4.5em
+    margin-top: 4.5em;
 }
 
 .mt-9 {
-    margin-top: 5em
+    margin-top: 5.0em;
 }
 
 .mt-10 {
-    margin-top: 5.5em
+    margin-top: 5.5em;
 }
 
 .mb-6 {
-    margin-bottom: 3.5em
+    margin-bottom: 3.5em;
 }
 
 .mb-7 {
-    margin-bottom: 4em
+    margin-bottom: 4.0em;
 }
 
 .mb-8 {
-    margin-bottom: 4.5em
+    margin-bottom: 4.5em;
 }
 
 .mb-9 {
-    margin-bottom: 5em
+    margin-bottom: 5.0em;
 }
 
 .mb-10 {
-    margin-bottom: 5.5em
+    margin-bottom: 5.5em;
 }
 
 .ml-6 {
-    margin-left: 3.5em
+    margin-left: 3.5em;
 }
 
 .ml-7 {
-    margin-left: 4em
+    margin-left: 4.0em;
 }
 
 .ml-8 {
-    margin-left: 4.5em
+    margin-left: 4.5em;
 }
 
 .ml-9 {
-    margin-left: 5em
+    margin-left: 5.0em;
 }
 
 .ml-10 {
-    margin-left: 5.5em
+    margin-left: 5.5em;
 }
 
 .mr-6 {
-    margin-right: 3.5em
+    margin-right: 3.5em;
 }
 
-.dropdown-divider {
-    border-top: 1px solid rgba(0, 0, 0, .05)
+.mr-7 {
+    margin-right: 4.0em;
 }
 
-.shard {
-    will-change: transform;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 20px;
-    z-index: 1;
-    /* width: 512px; */
-    animation: float 7s ease-in-out infinite
+.mr-8 {
+    margin-right: 4.5em;
 }
 
-.shard-img-responsive {
-    top: 60px;
-    width: 180px;
-    height: 180px
+.mr-9 {
+    margin-right: 5.0em;
 }
 
-.shard-container-responsive {
-    margin-top: 90px
-}
-
-.xvr-view {
-    height: 100%
-}
-
-.xvr-container-dark {
-    background: #212121;
-    padding-top: 1rem;
-    border-top: 24px solid #181818;
-    z-index: 1;
-    position: relative
-}
-
-.xvr-banner-container {
-    position: fixed;
-    top: -200px;
-    left: 0;
-    z-index: 0
-}
-
-.xvr-banner-header-wrapper {
-    padding-top: 0;
-    padding-bottom: 0;
-    display: inline-block
-}
-
-.xvr-banner-header-icon {
-    display: inline-block
-}
-
-span.xvr-banner-text-top {
-    font-size: 1.9rem;
-    line-height: 1.9rem;
-    font-weight: 600;
-    display: block;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
-    text-transform: uppercase
-}
-
-span.xvr-banner-text {
-    font-size: 3.25rem;
-    line-height: 3.25rem;
-    font-weight: 600;
-    display: block;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
-    text-transform: uppercase
-}
-
-span.xvr-banner-text-bottom {
-    font-size: 1.9rem;
-    line-height: 1.9rem;
-    font-weight: 600;
-    display: block;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
-    text-transform: uppercase
-}
-
-.clr-elementalist {
-    background: #a3362e
-}
-
-.clr-container-elementalist {
-    border-top: 24px solid #a3362e
-}
-
-.clr-elementalist-light {
-    background: #c54838
-}
-
-.clr-elementalist-dark {
-    background: #a3362e
-}
-
-.clr-txt-elementalist,
-.clr-txt-elementalist a,
-a.clr-txt-elementalist:hover {
-    color: #c54838
-}
-
-.clr-warrior {
-    background: #bc8d16
-}
-
-.clr-container-warrior {
-    border-top: 24px solid #bc8d16
-}
-
-.clr-warrior-light {
-    background: #d9ac3b
-}
-
-.clr-warrior-dark {
-    background: #bc8d16
-}
-
-.clr-txt-warrior,
-.clr-txt-warrior a,
-a.clr-txt-warrior:hover {
-    color: #d9ac3b
-}
-
-.clr-revenant {
-    background: #572435
-}
-
-.clr-container-revenant {
-    border-top: 24px solid #572435
-}
-
-.clr-revenant-light {
-    background: #7e3648
-}
-
-.clr-revenant-dark {
-    background: #572435
-}
-
-.clr-txt-revenant,
-.clr-txt-revenant a,
-a.clr-txt-revenant:hover {
-    color: #7e3648
-}
-
-.clr-guardian {
-    background: #67aecb
-}
-
-.clr-container-guardian {
-    border-top: 24px solid #67aecb
-}
-
-.clr-guardian-light {
-    background: #95d5e7
-}
-
-.clr-guardian-dark {
-    background: #67aecb
-}
-
-.clr-txt-guardian,
-.clr-txt-guardian a,
-a.clr-txt-guardian:hover {
-    color: #95d5e7
-}
-
-.clr-mesmer {
-    background: #724192
-}
-
-.clr-container-mesmer {
-    border-top: 24px solid #724192
-}
-
-.clr-mesmer-light {
-    background: #9d66a6
-}
-
-.clr-mesmer-dark {
-    background: #724192
-}
-
-.clr-txt-chronomancer,
-.clr-txt-chronomancer a,
-.clr-txt-mesmer,
-.clr-txt-mesmer a,
-a.clr-txt-chronomancer:hover,
-a.clr-txt-mesmer:hover {
-    color: #9d66a6
-}
-
-.clr-engineer {
-    background: #98692c
-}
-
-.clr-container-engineer {
-    border-top: 24px solid #98692c
-}
-
-.clr-engineer-light {
-    background: #ba8840
-}
-
-.clr-engineer-dark {
-    background: #98692c
-}
-
-.clr-txt-engineer,
-.clr-txt-engineer a,
-a.clr-txt-engineer:hover {
-    color: #ba8840
-}
-
-.clr-ranger {
-    background: #8ea53a
-}
-
-.clr-container-ranger {
-    border-top: 24px solid #8ea53a
-}
-
-.clr-ranger-light {
-    background: #adc35d
-}
-
-.clr-ranger-dark {
-    background: #8ea53a
-}
-
-.clr-txt-ranger,
-.clr-txt-ranger a,
-a.clr-txt-ranger:hover {
-    color: #adc35d
-}
-
-.clr-thief {
-    background: #495578
-}
-
-.clr-container-thief {
-    border-top: 24px solid #495578
-}
-
-.clr-thief-light {
-    background: #676e8b
-}
-
-.clr-thief-dark {
-    background: #495578
-}
-
-.clr-txt-thief,
-.clr-txt-thief a,
-a.clr-txt-thief:hover {
-    color: #676e8b
-}
-
-.clr-necromancer {
-    background: #3f5847
-}
-
-.clr-container-necromancer {
-    border-top: 24px solid #3f5847
-}
-
-.clr-necromancer-light {
-    background: #5b775a
-}
-
-.clr-necromancer-dark {
-    background: #3f5847
-}
-
-.clr-txt-necromancer,
-.clr-txt-necromancer a,
-a.clr-txt-necromancer:hover {
-    color: #5b775a
-}
-
-.material-icons {
-    font: normal normal normal 16px/1 "Material Icons";
-    display: inline-block;
-    transform: translateY(10%);
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grey;
-    font-feature-settings: "liga"
-}
-
-@keyframes float {
-    0% {
-        transform: translate(-50%, 0)
-    }
-
-    50% {
-        transform: translate(-50%, -20px)
-    }
-
-    100% {
-        transform: translate(-50%, 0)
-    }
-}
-
-.btn {
-    font-weight: 300;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    border: 1px solid transparent;
-    padding: .75rem 1.25rem;
-    font-size: .875rem;
-    line-height: 1.1;
-    border-radius: .375rem;
-    transition: all 250ms cubic-bezier(.27, .01, .38, 1.06)
-}
-
-.nav {
-    font-size: .875rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
-}
-
-.navbar-brand {
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-    margin-right: 1.5rem;
-    font-size: 1rem;
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400
-}
-
-.page-content .color .title {
-    display: inline-block;
-    font-family: Lato;
-    width: 100%;
-    font-size: 1rem
-}
-
-.general-panel-wrapper {
-    border: 1px solid rgba(236, 236, 236, .2);
-    border-radius: .25rem;
-    padding: 1rem 1rem;
-    margin-bottom: 2rem
+.mr-10 {
+    margin-right: 5.5em;
 }
