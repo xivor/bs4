@@ -4,7 +4,7 @@ html,
 body {
     color: #fff;
     background-color: #1c1c1c;
-    background: url({{site.url}}/{{site.baseurl}}/assets/img/backgrounds/bg-top.7638aa9b.jpg);
+    background: url(https://xivor.github.io/assets/img/backgrounds/bg-top.7638aa9b.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -30,9 +30,6 @@ hr {
     width: 66% !important;
 }
 
-.bg {
-    background-image: url("https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2020/07/f8b45Drizzlewood-Coast-MapMeta.jpg");
-}
 
 .dropdown-divider {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
