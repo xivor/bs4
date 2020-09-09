@@ -34,4 +34,270 @@
   rel="stylesheet"
   href="{{ site.url }}/{{ site.baseurl }}/assets/css/mdb.min.css"
 />
+<!-- Your custom styles (optional) -->
+<link
+  rel="stylesheet"
+  href="{{ site.url }}/{{ site.baseurl }}/assets/css/shard.css"
+/>
+<link
+  rel="stylesheet"
+  href="{{ site.url }}/{{ site.baseurl }}/assets/css/style.css"
+/>
 
+<!-- Custom styles -->
+<style>
+  body {
+  	font-family: "Lato", sans-serif;
+  }
+  .w-33 {
+  	width: 33% !important;
+  }
+  .w-66 {
+  	width: 66% !important;
+  }
+  .bg {
+  	background-image: url("https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2020/07/f8b45Drizzlewood-Coast-MapMeta.jpg");
+  }
+  .dropdown-divider {
+  	border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  /* No media query since this is the default in Bootstrap */
+  .jarallax {
+  	height: 480px;
+  	min-height: 480px;
+  }
+  .shard-img-responsive {
+  	top: 60px;
+  	width: 180px;
+  	height: 180px;
+  }
+  .shard-container-responsive {
+  	margin-top: 90px;
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+  	.jarallax {
+  		height: 600px;
+  		min-height: 600px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 256px;
+  		height: 256px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 100px;
+  	}
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+  	.jarallax {
+  		height: 600px;
+  		min-height: 600px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 256px;
+  		height: 256px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 100px;
+  	}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+  	.jarallax {
+  		height: 600px;
+  		min-height: 600px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 256px;
+  		height: 256px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 100;
+  	}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+  	.jarallax {
+  		height: 720px;
+  		min-height: 720px;
+  	}
+  	.shard-img-responsive {
+  		top: 60px;
+  		width: 384px;
+  		height: 384px;
+  	}
+  	.shard-container-responsive {
+  		margin-top: 150;
+  	}
+  }
+  
+  /* Set Material Icons to same size as FontAwesome */
+  .material-icons {
+  	font: normal normal normal 16px/1 "Material Icons";
+  	display: inline-block;
+  	transform: translateY(10%);
+  	text-transform: none;
+  	letter-spacing: normal;
+  	word-wrap: normal;
+  	white-space: nowrap;
+  	direction: ltr;
+  	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizeLegibility;
+  	-moz-osx-font-smoothing: grayscale;
+  	font-feature-settings: "liga";
+  }
+
+  /* Dynamic transparent nav */
+  .top-nav-collapse {
+  	background-color: #41A489 !important;
+  }
+  .navbar:not(.top-nav-collapse) {
+  	background: transparent !important;
+  }
+  @media (max-width: 768px) {
+  	.navbar:not(.top-nav-collapse) {
+  		background: #41A489 !important;
+  	}
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+  	.navbar:not(.top-nav-collapse) {
+  		background: #41A489 !important;
+  	}
+  }
+  footer.page-footer {
+  	background-color: #1A503E;
+  }
+  /* Additional cell padding in Bootstrap methods */
+  .pt-6 {
+      padding-top:3.5em;
+  }
+  .pt-7 {
+      padding-top:4.0em;
+  }
+  .pt-8 {
+      padding-top:4.5em;
+  }
+  .pt-9 {
+      padding-top:5.0em;
+  }
+  .pt-10 {
+      padding-top:5.5em;
+  }
+  .pb-6 {
+      padding-bottom:3.5em;
+  }
+  .pb-7 {
+      padding-bottom:4.0em;
+  }
+  .pb-8 {
+      padding-bottom:4.5em;
+  }
+  .pb-9 {
+      padding-bottom:5.0em;
+  }
+  .pb-10 {
+      padding-bottom:5.5em;
+  }
+  .pl-6 {
+      padding-left:3.5em;
+  }
+  .pl-7 {
+      padding-left:4.0em;
+  }
+  .pl-8 {
+      padding-left:4.5em;
+  }
+  .pl-9 {
+      padding-left:5.0em;
+  }
+  .pl-10 {
+      padding-left:5.5em;
+  }
+  .pr-6 {
+      padding-right:3.5em;
+  }
+  .pr-7 {
+      padding-right:4.0em;
+  }
+  .pr-8 {
+      padding-right:4.5em;
+  }
+  .pr-9 {
+      padding-right:5.0em;
+  }
+  .pr-10 {
+      padding-right:5.5em;
+  }
+  
+/* Additional cell margin in Bootstrap methods */
+  .mt-6 {
+      margin-top:3.5em;
+  }
+  .mt-7 {
+      margin-top:4.0em;
+  }
+  .mt-8 {
+      margin-top:4.5em;
+  }
+  .mt-9 {
+      margin-top:5.0em;
+  }
+  .mt-10 {
+      margin-top:5.5em;
+  }
+  .mb-6 {
+      margin-bottom:3.5em;
+  }
+  .mb-7 {
+      margin-bottom:4.0em;
+  }
+  .mb-8 {
+      margin-bottom:4.5em;
+  }
+  .mb-9 {
+      margin-bottom:5.0em;
+  }
+  .mb-10 {
+      margin-bottom:5.5em;
+  }
+  .ml-6 {
+      margin-left:3.5em;
+  }
+  .ml-7 {
+      margin-left:4.0em;
+  }
+  .ml-8 {
+      margin-left:4.5em;
+  }
+  .ml-9 {
+      margin-left:5.0em;
+  }
+  .ml-10 {
+      margin-left:5.5em;
+  }
+  .mr-6 {
+      margin-right:3.5em;
+  }
+  .mr-7 {
+      margin-right:4.0em;
+  }
+  .mr-8 {
+      margin-right:4.5em;
+  }
+  .mr-9 {
+      margin-right:5.0em;
+  }
+  .mr-10 {
+      margin-right:5.5em;
+  }
+</style>
