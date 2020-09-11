@@ -1,9 +1,9 @@
 --- 
 layout: index 
-class: mesmer
+prof: mesmer
 ---
 <div class="mt-10">
-{% assign class = site.data.classes[page.class] %}
-    <div class="mt-10 {{class.text-color}}">{{class.icon}}&nbsp;{{class.prof}} - {{class.xpac}}</div>
+{% assign class = site.data.profs[page.prof] %}
+    <div class="mt-10 {{prof.text-color}}">{{prof.icon}}&nbsp;{{prof.prof}} - {{prof.xpac}}</div>
 
 </div>
