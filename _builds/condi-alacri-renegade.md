@@ -7,4 +7,4 @@ categories:
   - revenant
 ---
 
-… post contents …&nbsp;
+… post contents …
