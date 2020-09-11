@@ -1,10 +1,16 @@
+---
+layout: index
+title: Style CSS
+custom-head:
+---
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Mono);
 
 html,
 body {
     color: #fff;
     background-color: #1c1c1c;
-    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg-top.7638aa9b.jpg);
+    /*background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg-top.7638aa9b.jpg);*/
+    background: url({{ site.url }}/{{ site.baseurl }}/assets/img/{{site.bg-image}});
     background-size: cover;
     background-position: top;
     background-attachment: fixed;

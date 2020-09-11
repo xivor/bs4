@@ -28,6 +28,7 @@ logo: assets/img/logos/logo-512.svg
 favicon: assets/img/logos/favicon.ico
 navbar-logo: assets/img/logos/logo-256.svg
 primary-color: 1A503E
+bg-image: assets/img/logos/bg.jpg
 
 # Author settings
 author:
