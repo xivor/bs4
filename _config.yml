@@ -24,11 +24,11 @@ url: "https://xivor.github.io" # the base hostname & protocol for your site, e.g
 excerpt_separator: "<!--more-->"
 
 # Site settings
-logo: assets/img/logos/logo-512.svg
-favicon: assets/img/logos/favicon.ico
-navbar-logo: assets/img/logos/logo-256.svg
+logo: /assets/img/logos/logo-512.svg
+favicon: /assets/img/logos/favicon.ico
+navbar-logo: /assets/img/logos/logo-256.svg
 primary-color: 1A503E
-bg-image: assets/img/logos/bg.jpg
+bg-image: /assets/img/logos/bg.jpg
 
 # Author settings
 author:
