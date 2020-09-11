@@ -1,8 +1,9 @@
 ---
 title: DPS Invocation Herald
-preview: Preview
-permalink: /builds/dps-inv-herald
-layout: post
+layout: build
+prof: herald
+build-type: power devastation
+build-role: dps
 categories:
   - revenant
 ---

@@ -1,8 +1,9 @@
 ---
 title: Condi Alacri-Renegade
-preview: Preview
-permalink: /builds/condi-alacri-renegade
-layout: post
+layout: build
+prof: renegade
+build-type: condi
+build-role: support dps
 categories:
   - revenant
 ---

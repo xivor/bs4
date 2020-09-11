@@ -6,7 +6,6 @@ layout: default
 
     <div class="{{prof.mask}}">
         <div class="container xvr-container-dark mt-10">
-        {% include themes/build.html %}
             <div class="row">
                 <div class="col text-center">
                     <div class="xvr-banner-header-wrapper text-white">
@@ -16,12 +15,13 @@ layout: default
                         <div class="xvr-banner-header-text text-left">
                             <span class="xvr-banner-text-top">{{page.build-type}}</span> 
                             <span class="xvr-banner-text">{{prof.prof}}</span> 
-                            <span class="xvr-banner-text-bottom text-right">{{page.build-role}}</span> 
+                            <span class="xvr-banner-text-bottom text-right">WvW {{page.build-role}}</span> 
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
+                {% include themes/build.html %}
                 <div class="col text-center text-uppercase">
                     <hr>
                     <span class="text-white">Author: </span>

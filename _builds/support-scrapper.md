@@ -1,8 +1,9 @@
 ---
 title: Support Scrapper
-preview: Preview
-permalink: /builds/support-scrapper
-layout: post
+layout: build
+prof: scrapper
+build-type: heal
+build-role: support
 categories:
   - engineer
 ---

@@ -1,8 +1,9 @@
 ---
 title: DPS Alacri-Renegade
-preview: Preview
-permalink: /builds/dps-alac-renegade
-layout: post
+layout: build
+prof: renegade
+build-type: power alacrity
+build-role: support dps
 categories:
   - revenant
 ---

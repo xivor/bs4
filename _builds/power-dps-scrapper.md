@@ -1,8 +1,9 @@
 ---
 title: DPS Scrapper
-preview: Preview
-permalink: /builds/dps-scrapper
-layout: post
+layout: build
+prof: scrapper
+build-type: power
+build-role: dps
 categories:
   - engineer
 ---

@@ -1,11 +1,11 @@
 ---
-layout: build
 title: Condi DPS Scourge
-categories:
-  - necromancer
+layout: build
 prof: scourge
 build-type: condi
 build-role: dps
+categories:
+  - necromancer
 ---
 
 … post contents …

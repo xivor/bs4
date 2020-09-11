@@ -1,8 +1,9 @@
 ---
 title: DPS Immob Soulbeast
-preview: Preview
-permalink: /builds/dps-immob-Soulbeast
-layout: post
+layout: build
+prof: soulbeast
+build-type: power immob
+build-role: utility dps
 categories:
   - ranger
 ---

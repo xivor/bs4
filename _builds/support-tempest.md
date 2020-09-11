@@ -1,8 +1,9 @@
 ---
 title: Support Tempest
-preview: Preview
-permalink: /builds/support-tempest
-layout: post
+layout: build
+prof: tempest
+build-type: heal
+build-role: support
 categories:
   - elementalist
 ---

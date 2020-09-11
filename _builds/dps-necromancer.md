@@ -1,8 +1,9 @@
 ---
 title: DPS Necromancer
-preview: Preview
-permalink: /builds/dps-necromancer
-layout: post
+layout: build
+prof: necromancer
+build-type: power
+build-role: dps
 categories:
   - necromancer
 ---

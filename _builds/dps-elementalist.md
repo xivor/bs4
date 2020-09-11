@@ -1,8 +1,9 @@
 ---
 title: DPS Elementalist
-preview: Preview
-permalink: /builds/dps-elementalist
-layout: post
+layout: build
+prof: elementalist
+build-type: power
+build-role: dps
 categories:
   - elementalist
 ---

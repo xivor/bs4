@@ -1,8 +1,9 @@
 ---
 title: DPS Reaper
-preview: Preview
-permalink: /builds/dps-reaper
-layout: post
+layout: build
+prof: reaper
+build-type: power
+build-role: dps
 categories:
   - necromancer
 ---

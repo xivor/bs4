@@ -1,8 +1,9 @@
 ---
 title: DPS Weaver
-preview: Preview
-permalink: /builds/dps-weaver
-layout: post
+layout: build
+prof: weaver
+build-type: power
+build-role: dps
 categories:
   - elementalist
 ---

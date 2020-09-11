@@ -1,8 +1,9 @@
 ---
 title: DPS Dragonhunter
-preview: Preview
-permalink: /builds/dps-dragonhunter
-layout: post
+layout: build
+prof: dragonhunter
+build-type: power
+build-role: dps
 categories:
   - guardian
 ---

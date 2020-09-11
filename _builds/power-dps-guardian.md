@@ -1,8 +1,9 @@
 ---
 title: DPS Guardian
-preview: Preview
-permalink: /builds/dps-guardian
-layout: post
+layout: build
+prof: guardian
+build-type: power
+build-role: dps
 categories:
   - guardian
 ---

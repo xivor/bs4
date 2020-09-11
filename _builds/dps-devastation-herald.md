@@ -1,8 +1,9 @@
 ---
 title: DPS Devastation Herald
-preview: Preview
-permalink: /builds/dps-dev-herald
-layout: post
+layout: build
+prof: herald
+build-type: power devastation
+build-role: dps
 categories:
   - revenant
 ---

@@ -1,8 +1,9 @@
 ---
 title: DPS Scourge
-preview: Preview
-permalink: /builds/dps-scourge
-layout: post
+layout: build
+prof: scourge
+build-type: power
+build-role: dps
 categories:
   - necromancer
 ---

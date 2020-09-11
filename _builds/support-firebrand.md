@@ -1,8 +1,9 @@
 ---
 title: Support Firebrand
-preview: Preview
-permalink: /builds/support-firebrand
-layout: post
+layout: build
+prof: firebrand
+build-type: heal
+build-role: support
 categories:
   - guardian
 ---
