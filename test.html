@@ -1,11 +1,9 @@
 --- 
 layout: index 
-text-color:
+prof: mesmer
 ---
 <div class="mt-10">
-{% for class in site.classes %}
-    {% assign text-color = site.class[class].text-color %}
-    <div class="{{text-color}}">test here</div>
-    <div>extra line </div>
-{% endfor %}
+{% assign class = site.data.classes[page.class] %}
+    <div class="mt-10 {{class.text-color}}">{{class.icon}}&nbsp;{{class.prof}} - {{class.xpac}}</div>
+
 </div>
