@@ -7,6 +7,7 @@ tags:
 author: Xivor 
 build-type: boon-strip 
 build-class: chronomancer 
+build-ext: core
 build-role: wvw support 
 title: Boon Strip Chronomancer - WvW Support 
 date: September 06, 2020 
@@ -38,7 +39,7 @@ description: Chronomancer WvW build focusing on boon strip support
                 <div class="col text-center text-uppercase">
                     <hr>
                     <span class="text-white">Author: </span>
-                    <span class="{{site.mesmer.text-color}}">{{page.author}}</span>
+                    <span class="{{site.{{page.build-class}}.{{page.build-ext}}.text-color}}">{{page.author}}</span>
                     <span class="text-white">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <span class="text-white">Last updated on </span>
                     <span class="clr-txt-mesmer">{{page.date}}.</span>
