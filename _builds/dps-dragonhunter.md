@@ -1,7 +1,7 @@
 ---
 title: DPS Dragonhunter
 preview: Preview
-permalink: /guides/dps-dragonhunter
+permalink: /builds/dps-dragonhunter
 layout: post
 categories:
   - guardian

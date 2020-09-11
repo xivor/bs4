@@ -1,7 +1,7 @@
 ---
 title: DPS Invocation Herald
 preview: Preview
-permalink: /guides/dps-inv-herald
+permalink: /builds/dps-inv-herald
 layout: post
 categories:
   - revenant

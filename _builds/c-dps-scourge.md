@@ -1,7 +1,7 @@
 ---
 title: Condi DPS Scourge
 preview: Preview
-permalink: /guides/condi-dps-scourge
+permalink: /builds/condi-dps-scourge
 layout: build
 categories:
   - necromancer

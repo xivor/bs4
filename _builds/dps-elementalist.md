@@ -1,7 +1,7 @@
 ---
 title: DPS Elementalist
 preview: Preview
-permalink: /guides/dps-elementalist
+permalink: /builds/dps-elementalist
 layout: post
 categories:
   - elementalist

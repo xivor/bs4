@@ -1,7 +1,7 @@
 ---
 title: DPS Scourge
 preview: Preview
-permalink: /guides/dps-scourge
+permalink: /builds/dps-scourge
 layout: post
 categories:
   - necromancer

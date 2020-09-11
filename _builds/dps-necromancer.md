@@ -1,7 +1,7 @@
 ---
 title: DPS Necromancer
 preview: Preview
-permalink: /guides/dps-necromancer
+permalink: /builds/dps-necromancer
 layout: post
 categories:
   - necromancer

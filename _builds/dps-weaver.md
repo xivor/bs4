@@ -1,7 +1,7 @@
 ---
 title: DPS Weaver
 preview: Preview
-permalink: /guides/dps-weaver
+permalink: /builds/dps-weaver
 layout: post
 categories:
   - elementalist

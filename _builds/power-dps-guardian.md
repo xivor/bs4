@@ -1,7 +1,7 @@
 ---
 title: DPS Guardian
 preview: Preview
-permalink: /guides/dps-guardian
+permalink: /builds/dps-guardian
 layout: post
 categories:
   - guardian

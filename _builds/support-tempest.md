@@ -1,7 +1,7 @@
 ---
 title: Support Tempest
 preview: Preview
-permalink: /guides/support-tempest
+permalink: /builds/support-tempest
 layout: post
 categories:
   - elementalist

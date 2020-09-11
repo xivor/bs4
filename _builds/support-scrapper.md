@@ -1,7 +1,7 @@
 ---
 title: Support Scrapper
 preview: Preview
-permalink: /guides/support-scrapper
+permalink: /builds/support-scrapper
 layout: post
 categories:
   - engineer

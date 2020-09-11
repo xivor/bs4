@@ -1,7 +1,7 @@
 ---
 title: Support Firebrand
 preview: Preview
-permalink: /guides/support-firebrand
+permalink: /builds/support-firebrand
 layout: post
 categories:
   - guardian
