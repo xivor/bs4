@@ -1,7 +1,6 @@
 ---
-title: Condi DPS Scourge
-preview: Preview
 layout: build
+title: Condi DPS Scourge
 categories:
   - necromancer
 prof: scourge
