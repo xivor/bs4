@@ -351,19 +351,19 @@ span.xvr-banner-text-bottom {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
-.xvr-txt-clr-necro-dk,
-.xvr-txt-clr-necro-dk a,
-a.xvr-txt-clr-necro-dk:hover {
+.xvr-txt-clr-nec-dk,
+.xvr-txt-clr-nec-dk a,
+a.xvr-txt-clr-nec-dk:hover {
     color: #005544;
 }
-.xvr-txt-clr-necro-md,
-.xvr-txt-clr-necro-md a,
-a.xvr-txt-clr-necro-med:hover {
+.xvr-txt-clr-nec-md,
+.xvr-txt-clr-nec-md a,
+a.xvr-txt-clr-nec-med:hover {
     color: #21BC72;
 }
-.xvr-txt-clr-necro-lt,
-.xvr-txt-clr-necro-lt a,
-a.xvr-txt-clr-necro-lt:hover {
+.xvr-txt-clr-nec-lt,
+.xvr-txt-clr-nec-lt a,
+a.xvr-txt-clr-nec-lt:hover {
     color: #AAE5C9;
 }
 .xvr-txt-clr-ele-dk,
