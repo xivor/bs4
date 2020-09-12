@@ -4,7 +4,7 @@ layout: default
 
 {% assign prof = site.data.profs[page.prof] %}
 
-    <div class=view mask "{{prof.mask}}">
+    <div class="view mask {{prof.mask}}">
         <div class="container xvr-container-dark mt-10">
             <div class="row">
                 <div class="col text-center">
@@ -21,7 +21,6 @@ layout: default
                 </div>
             </div>
             <div class="row">
-                {% include themes/build.html %}
                 <div class="col text-center text-uppercase">
                     <hr>
                     <span class="text-white">Author: </span>
@@ -33,6 +32,7 @@ layout: default
                 </div>
             </div>
             <div class="row mb-5">
+                {% include themes/build.html %}
                 <div class="col-12 col-md-12 col-lg-9 col-xl-9">
                     <div class="general-panel-wrapper">
                         <div class="row">
