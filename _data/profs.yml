@@ -91,21 +91,21 @@ necromancer:
   prof: necromancer
   class: necromancer
   icon: https://wiki.guildwars2.com/images/c/cd/Necromancer_tango_icon_200px.png
-  text-color: xvr-txt-clr-necro
+  text-color: xvr-txt-clr-necro-md
   mask: rgba-green-light
 reaper:
   xpac: hot
   prof: necromancer
   class: reaper
   icon: https://wiki.guildwars2.com/images/9/95/Reaper_tango_icon_200px.png
-  text-color: xvr-txt-clr-necro
+  text-color: xvr-txt-clr-necro-md
   mask: rgba-green-light
 scourge:
   xpac: pof
   prof: necromancer
   class: scourge
   icon: https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png
-  text-color: xvr-txt-clr-necro
+  text-color: xvr-txt-clr-necro-md
   mask: rgba-green-light
 
 ranger:
