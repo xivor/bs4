@@ -351,3 +351,8 @@ span.xvr-banner-text-bottom {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
+.clr-txt-necromancer,
+.clr-txt-necromancer a,
+a.clr-txt-necromancer:hover {
+    color: #5b775a;
+}

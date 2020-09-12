@@ -98,7 +98,7 @@ reaper:
   prof: necromancer
   class: reaper
   icon: https://wiki.guildwars2.com/images/9/95/Reaper_tango_icon_200px.png
-  text-color: green-text darken-4
+  text-color: clr-txt-necromancer darken-4
   mask: rgba-green-light
 scourge:
   xpac: pof
