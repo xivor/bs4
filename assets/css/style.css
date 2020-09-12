@@ -381,6 +381,112 @@ a.xvr-txt-clr-ele-med:hover {
 a.xvr-txt-clr-ele-lt:hover {
     color: #FAADB3;
 }
+.xvr-txt-clr-gua-dk,
+.xvr-txt-clr-gua-dk a,
+a.xvr-txt-clr-gua-dk:hover {
+    color: #0088AA;
+}
+.xvr-txt-clr-gua-md,
+.xvr-txt-clr-gua-md a,
+a.xvr-txt-clr-gua-med:hover {
+    color: #5FBCD3;
+}
+.xvr-txt-clr-gua-lt,
+.xvr-txt-clr-gua-lt a,
+a.xvr-txt-clr-gua-lt:hover {
+    color: #CCEAF1;
+}
+.xvr-txt-clr-rev-dk,
+.xvr-txt-clr-rev-dk a,
+a.xvr-txt-clr-rev-dk:hover {
+    color: #670F0F;
+}
+.xvr-txt-clr-rev-md,
+.xvr-txt-clr-rev-md a,
+a.xvr-txt-clr-rev-med:hover {
+    color: #A31300;
+}
+.xvr-txt-clr-rev-lt,
+.xvr-txt-clr-rev-lt a,
+a.xvr-txt-clr-rev-lt:hover {
+    color: #C46E6E;
+}
+.xvr-txt-clr-eng-dk,
+.xvr-txt-clr-eng-dk a,
+a.xvr-txt-clr-eng-dk:hover {
+    color: #874D24;
+}
+.xvr-txt-clr-eng-md,
+.xvr-txt-clr-eng-md a,
+a.xvr-txt-clr-eng-med:hover {
+    color: #CE7F4B;
+}
+.xvr-txt-clr-eng-lt,
+.xvr-txt-clr-eng-lt a,
+a.xvr-txt-clr-eng-lt:hover {
+    color: #E6BCA1;
+}
+.xvr-txt-clr-rgr-dk,
+.xvr-txt-clr-rgr-dk a,
+a.xvr-txt-clr-rgr-dk:hover {
+    color: #5E8F11;
+}
+.xvr-txt-clr-rgr-md,
+.xvr-txt-clr-rgr-md a,
+a.xvr-txt-clr-rgr-med:hover {
+    color: #98C44F;
+}
+.xvr-txt-clr-rgr-lt,
+.xvr-txt-clr-rgr-lt a,
+a.xvr-txt-clr-rgr-lt:hover {
+    color: #D4E7B5;
+}
+.xvr-txt-clr-mes-dk,
+.xvr-txt-clr-mes-dk a,
+a.xvr-txt-clr-mes-dk:hover {
+    color: #5F0975;
+}
+.xvr-txt-clr-mes-md,
+.xvr-txt-clr-mes-md a,
+a.xvr-txt-clr-mes-med:hover {
+    color: #DD55FF;
+}
+.xvr-txt-clr-mes-lt,
+.xvr-txt-clr-mes-lt a,
+a.xvr-txt-clr-mes-lt:hover {
+    color: #ECA1FF;
+}
+.xvr-txt-clr-thf-dk,
+.xvr-txt-clr-thf-dk a,
+a.xvr-txt-clr-thf-dk:hover {
+    color: #8C414A;
+}
+.xvr-txt-clr-thf-md,
+.xvr-txt-clr-thf-md a,
+a.xvr-txt-clr-thf-med:hover {
+    color: #9A7C81;
+}
+.xvr-txt-clr-thf-lt,
+.xvr-txt-clr-thf-lt a,
+a.xvr-txt-clr-thf-lt:hover {
+    color: #D3C5C8;
+}
+}
+.xvr-txt-clr-war-dk,
+.xvr-txt-clr-war-dk a,
+a.xvr-txt-clr-war-dk:hover {
+    color: #C38300;
+}
+.xvr-txt-clr-war-md,
+.xvr-txt-clr-war-md a,
+a.xvr-txt-clr-war-med:hover {
+    color: #DCB45D;
+}
+.xvr-txt-clr-war-lt,
+.xvr-txt-clr-war-lt a,
+a.xvr-txt-clr-war-lt:hover {
+    color: #EEDBB2;
+}
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
