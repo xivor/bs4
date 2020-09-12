@@ -6,6 +6,8 @@ build-type: condi
 build-role: support dps
 categories:
   - revenant
+author: Xivor
+updated: September 11, 2020
 ---
 
 … post contents …
