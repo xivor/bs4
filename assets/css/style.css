@@ -351,8 +351,25 @@ span.xvr-banner-text-bottom {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
-.clr-txt-necromancer,
-.clr-txt-necromancer a,
-a.clr-txt-necromancer:hover {
-    color: #5b775a;
+.xvr-txt-clr-necro,
+.xvr-txt-clr-necro a,
+a.xvr-txt-clr-necro:hover {
+    color: #005544;
+}
+.xvr-txt-clr-necro-md,
+.xvr-txt-clr-necro-md a,
+a.xvr-txt-clr-necro-med:hover {
+    color: #22BD72;
+}
+.xvr-txt-clr-necro-lt,
+.xvr-txt-clr-necro-lt a,
+a.xvr-txt-clr-necro-lt:hover {
+    color: #AAE5C9;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #005544 !important;
+    border-bottom: 1px solid #AAE5C9 !important;
 }
