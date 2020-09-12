@@ -257,22 +257,7 @@ hr {
 
 .xvr-banner-container-sc {}*/
 
-.xvr-banner-header-wrapper {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    display: inline-block;
-}
 
-.xvr-banner-header-icon {
-    display: inline-block;
-}
-
-.xvr-banner-header-text {
-    display: inline-block;
-    /* transform: translateY(40px);
-      */
-    ;
-}
 
 img.header-icon {
     max-width: 240px;

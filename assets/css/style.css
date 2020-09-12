@@ -301,6 +301,24 @@ hr {
     margin-right: 5.5em;
 }
 
+.xvr-banner-header-wrapper {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xvr-banner-header-icon {
+    display: inline-block;
+}
+
+.xvr-banner-header-text {
+    display: inline-block;
+    /* transform: translateY(40px);
+      */
+    ;
+}
 span.xvr-banner-text-top {
     font-size: 1.9rem;
     line-height: 1.9rem;
