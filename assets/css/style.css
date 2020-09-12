@@ -366,6 +366,21 @@ a.xvr-txt-clr-necro-med:hover {
 a.xvr-txt-clr-necro-lt:hover {
     color: #AAE5C9;
 }
+.xvr-txt-clr-ele-dk,
+.xvr-txt-clr-ele-dk a,
+a.xvr-txt-clr-ele-dk:hover {
+    color: #BA1718;
+}
+.xvr-txt-clr-ele-md,
+.xvr-txt-clr-ele-md a,
+a.xvr-txt-clr-ele-med:hover {
+    color: #F54251;
+}
+.xvr-txt-clr-ele-lt,
+.xvr-txt-clr-ele-lt a,
+a.xvr-txt-clr-ele-lt:hover {
+    color: #FAADB3;
+}
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;

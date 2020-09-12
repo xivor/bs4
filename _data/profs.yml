@@ -3,21 +3,21 @@ elementalist:
   prof: elementalist
   class: elementalist
   icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
-  text-color: red-text
+  text-color: xvr-txt-clr-ele-md
   mask: rgba-red-light
 tempest:
   xpac: hot
   prof: elementalist
   class: tempest
   icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
-  text-color: red-text
+  text-color: xvr-txt-clr-ele-md
   mask: rgba-red-light
 weaver:
   xpac: pof
   prof: elementalist
   class: weaver
   icon: https://wiki.guildwars2.com/images/3/31/Weaver_tango_icon_200px.png
-  text-color: red-text
+  text-color: xvr-txt-clr-ele-md
   mask: rgba-red-light
   
 engineer:
