@@ -199,13 +199,6 @@
     }
 }
 
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(19, 19, 19, .33) !important;
-    border-bottom: 1px solid rgba(236, 236, 236, .11) !important;
-}
 
 .shard {
     will-change: transform;
@@ -282,15 +275,15 @@ img.header-icon {
     background: #a3362e;
 }
 
-.clr-txt-elementalist,
-.clr-txt-elementalist a,
-a.clr-txt-elementalist:hover,
-.clr-txt-tempest,
-.clr-txt-tempest a,
-a.clr-txt-tempest:hover,
-.clr-txt-weaver,
-.clr-txt-weaver a,
-a.clr-txt-weaver:hover {
+.xvr-txt-clr-elementalist,
+.xvr-txt-clr-elementalist a,
+a.xvr-txt-clr-elementalist:hover,
+.xvr-txt-clr-tempest,
+.xvr-txt-clr-tempest a,
+a.xvr-txt-clr-tempest:hover,
+.xvr-txt-clr-weaver,
+.xvr-txt-clr-weaver a,
+a.xvr-txt-clr-weaver:hover {
     color: #c54838;
 }
 
@@ -324,15 +317,15 @@ a.clr-txt-weaver:hover {
     background: #bc8d16;
 }
 
-.clr-txt-warrior,
-.clr-txt-warrior a,
-a.clr-txt-warrior:hover,
-.clr-txt-berserker,
-.clr-txt-berserker a,
-a.clr-txt-berserker:hover,
-.clr-txt-spellbreaker,
-.clr-txt-spellbreaker a,
-a.clr-txt-spellbreaker:hover {
+.xvr-txt-clr-warrior,
+.xvr-txt-clr-warrior a,
+a.xvr-txt-clr-warrior:hover,
+.xvr-txt-clr-berserker,
+.xvr-txt-clr-berserker a,
+a.xvr-txt-clr-berserker:hover,
+.xvr-txt-clr-spellbreaker,
+.xvr-txt-clr-spellbreaker a,
+a.xvr-txt-clr-spellbreaker:hover {
     color: #d9ac3b;
 }
 
@@ -366,15 +359,15 @@ a.clr-txt-spellbreaker:hover {
     background: #572435;
 }
 
-.clr-txt-revenant,
-.clr-txt-revenant a,
-a.clr-txt-revenant:hover,
-.clr-txt-herald,
-.clr-txt-herald a,
-a.clr-txt-herald:hover,
-.clr-txt-renegade,
-.clr-txt-renegade a,
-a.clr-txt-renegade:hover {
+.xvr-txt-clr-revenant,
+.xvr-txt-clr-revenant a,
+a.xvr-txt-clr-revenant:hover,
+.xvr-txt-clr-herald,
+.xvr-txt-clr-herald a,
+a.xvr-txt-clr-herald:hover,
+.xvr-txt-clr-renegade,
+.xvr-txt-clr-renegade a,
+a.xvr-txt-clr-renegade:hover {
     color: #7e3648;
 }
 
@@ -408,15 +401,15 @@ a.clr-txt-renegade:hover {
     background: #67aecb;
 }
 
-.clr-txt-guardian,
-.clr-txt-guardian a,
-a.clr-txt-guardian:hover,
-.clr-txt-dragonhunter,
-.clr-txt-dragonhunter a,
-a.clr-txt-dragonhunter:hover,
-.clr-txt-firebrand,
-.clr-txt-firebrand a,
-a.clr-txt-firebrand:hover {
+.xvr-txt-clr-guardian,
+.xvr-txt-clr-guardian a,
+a.xvr-txt-clr-guardian:hover,
+.xvr-txt-clr-dragonhunter,
+.xvr-txt-clr-dragonhunter a,
+a.xvr-txt-clr-dragonhunter:hover,
+.xvr-txt-clr-firebrand,
+.xvr-txt-clr-firebrand a,
+a.xvr-txt-clr-firebrand:hover {
     color: #95d5e7;
 }
 
@@ -450,15 +443,15 @@ a.clr-txt-firebrand:hover {
     background: #724192;
 }
 
-.clr-txt-mesmer,
-.clr-txt-mesmer a,
-a.clr-txt-mesmer:hover,
-.clr-txt-chronomancer,
-.clr-txt-chronomancer a,
-a.clr-txt-chronomancer:hover,
-.clr-txt-mirage,
-.clr-txt-mirage a,
-a.clr-txt-mirage:hover {
+.xvr-txt-clr-mesmer,
+.xvr-txt-clr-mesmer a,
+a.xvr-txt-clr-mesmer:hover,
+.xvr-txt-clr-chronomancer,
+.xvr-txt-clr-chronomancer a,
+a.xvr-txt-clr-chronomancer:hover,
+.xvr-txt-clr-mirage,
+.xvr-txt-clr-mirage a,
+a.xvr-txt-clr-mirage:hover {
     color: #9d66a6;
 }
 
@@ -492,15 +485,15 @@ a.clr-txt-mirage:hover {
     background: #98692c;
 }
 
-.clr-txt-engineer,
-.clr-txt-engineer a,
-a.clr-txt-engineer:hover,
-.clr-txt-scrapper,
-.clr-txt-scrapper a,
-a.clr-txt-scrapper:hover,
-.clr-txt-holosmith,
-.clr-txt-holosmith a,
-a.clr-txt-holosmith:hover {
+.xvr-txt-clr-engineer,
+.xvr-txt-clr-engineer a,
+a.xvr-txt-clr-engineer:hover,
+.xvr-txt-clr-scrapper,
+.xvr-txt-clr-scrapper a,
+a.xvr-txt-clr-scrapper:hover,
+.xvr-txt-clr-holosmith,
+.xvr-txt-clr-holosmith a,
+a.xvr-txt-clr-holosmith:hover {
     color: #ba8840;
 }
 
@@ -534,15 +527,15 @@ a.clr-txt-holosmith:hover {
     background: #8ea53a;
 }
 
-.clr-txt-ranger,
-.clr-txt-ranger a,
-a.clr-txt-ranger:hover,
-.clr-txt-druid,
-.clr-txt-druid a,
-a.clr-txt-druid:hover,
-.clr-txt-soulbeast,
-.clr-txt-soulbeast a,
-a.clr-txt-soulbeast:hover {
+.xvr-txt-clr-ranger,
+.xvr-txt-clr-ranger a,
+a.xvr-txt-clr-ranger:hover,
+.xvr-txt-clr-druid,
+.xvr-txt-clr-druid a,
+a.xvr-txt-clr-druid:hover,
+.xvr-txt-clr-soulbeast,
+.xvr-txt-clr-soulbeast a,
+a.xvr-txt-clr-soulbeast:hover {
     color: #adc35d;
 }
 
@@ -576,15 +569,15 @@ a.clr-txt-soulbeast:hover {
     background: #495578;
 }
 
-.clr-txt-thief,
-.clr-txt-thief a,
-a.clr-txt-thief:hover,
-.clr-txt-daredevil,
-.clr-txt-daredevil a,
-a.clr-txt-daredevil:hover,
-.clr-txt-deadeye,
-.clr-txt-deadeye a,
-a.clr-txt-deadeye:hover {
+.xvr-txt-clr-thief,
+.xvr-txt-clr-thief a,
+a.xvr-txt-clr-thief:hover,
+.xvr-txt-clr-daredevil,
+.xvr-txt-clr-daredevil a,
+a.xvr-txt-clr-daredevil:hover,
+.xvr-txt-clr-deadeye,
+.xvr-txt-clr-deadeye a,
+a.xvr-txt-clr-deadeye:hover {
     color: #676e8b;
 }
 
@@ -618,17 +611,6 @@ a.clr-txt-deadeye:hover {
     background: #3f5847;
 }
 
-.clr-txt-necromancer,
-.clr-txt-necromancer a,
-a.clr-txt-necromancer:hover,
-.clr-txt-reaper,
-.clr-txt-reaper a,
-a.clr-txt-reaper:hover,
-.clr-txt-scourge,
-.clr-txt-scourge a,
-a.clr-txt-scourge:hover {
-    color: #5b775a;
-}
 
 .nav-pills-necromancer .nav-link.active,
 .nav-pills-necromancer .show>.nav-link {
