@@ -1,18 +1,21 @@
 elementalist:
   xpac: core
   prof: elementalist
+  class: elementalist
   icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
   text-color: red-text
   mask: rgba-red-light
 tempest:
   xpac: hot
   prof: elementalist
+  class: tempest
   icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
   text-color: red-text
   mask: rgba-red-light
 weaver:
   xpac: pof
   prof: elementalist
+  class: weaver
   icon: https://wiki.guildwars2.com/images/3/31/Weaver_tango_icon_200px.png
   text-color: red-text
   mask: rgba-red-light
@@ -20,18 +23,21 @@ weaver:
 engineer:
   xpac: core
   prof: engineer
+  class: engineer
   icon: https://wiki.guildwars2.com/images/2/2f/Engineer_tango_icon_200px.png
   text-color: orange-text
   mask: rgba-orange-light
 scrapper:
   xpac: hot
   prof: engineer
+  class: scrapper
   icon: https://wiki.guildwars2.com/images/3/3a/Scrapper_tango_icon_200px.png
   text-color: orange-text
   mask: rgba-orange-light
 holosmith:
   xpac: pof
   prof: engineer
+  class: holosmith
   icon: https://wiki.guildwars2.com/images/a/ae/Holosmith_tango_icon_200px.png
   text-color: orange-text
   mask: rgba-orange-light
@@ -39,18 +45,21 @@ holosmith:
 guardian:
   xpac: core
   prof: guardian
+  class: guardian
   icon: https://wiki.guildwars2.com/images/6/6c/Guardian_tango_icon_200px.png
   text-color: light-blue-text
   mask: rgba-blue-light
 dragonhunter:
   xpac: hot
   prof: guardian
+  class: dragonhunter
   icon: https://wiki.guildwars2.com/images/1/1f/Dragonhunter_tango_icon_200px.png
   text-color: light-blue-text
   mask: rgba-blue-light
 firebrand:
   xpac: pof
   prof: guardian
+  class: firebrand
   icon: https://wiki.guildwars2.com/images/7/73/Firebrand_tango_icon_200px.png
   text-color: light-blue-text
   mask: rgba-blue-light
@@ -58,18 +67,21 @@ firebrand:
 mesmer:
   xpac: core
   prof: mesmer
+  class: mesmer
   icon: https://wiki.guildwars2.com/images/7/73/Mesmer_tango_icon_200px.png
   text-color: purple-text
   mask: rgba-purple-light
 chronomancer:
   xpac: hot
   prof: mesmer
+  class: chronomancer
   icon: https://wiki.guildwars2.com/images/8/8b/Chronomancer_tango_icon_200px.png
   text-color: purple-text
   mask: rgba-purple-light
 mirage:
   xpac: pof
   prof: mesmer
+  class: mirage
   icon: https://wiki.guildwars2.com/images/a/a9/Mirage_tango_icon_200px.png
   text-color: purple-text
   mask: rgba-purple-light
@@ -77,18 +89,21 @@ mirage:
 necromancer:
   xpac: core
   prof: necromancer
+  class: necromancer
   icon: https://wiki.guildwars2.com/images/c/cd/Necromancer_tango_icon_200px.png
   text-color: green-text darken-4
   mask: rgba-green-light
 reaper:
   xpac: hot
   prof: necromancer
+  class: reaper
   icon: https://wiki.guildwars2.com/images/9/95/Reaper_tango_icon_200px.png
   text-color: green-text darken-4
   mask: rgba-green-light
 scourge:
   xpac: pof
   prof: necromancer
+  class: scourge
   icon: https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png
   text-color: green-text darken-4
   mask: rgba-green-light
@@ -96,18 +111,21 @@ scourge:
 ranger:
   xpac: core
   prof: ranger
+  class: ranger
   icon: https://wiki.guildwars2.com/images/5/51/Ranger_tango_icon_200px.png
   text-color: light-green-text
   mask: rgba-lime-light
 druid:
   xpac: hot
   prof: ranger
+  class: druid
   icon: https://wiki.guildwars2.com/images/6/6d/Druid_tango_icon_200px.png
   text-color: light-green-text
   mask: rgba-lime-light
 soulbeast:
   xpac: pof
   prof: ranger
+  class: soulbeast
   icon: https://wiki.guildwars2.com/images/f/f6/Soulbeast_tango_icon_200px.png
   text-color: light-green-text
   mask: rgba-lime-light
@@ -115,18 +133,21 @@ soulbeast:
 revenant:
   xpac: core
   prof: revenant
+  class: revenant
   icon: https://wiki.guildwars2.com/images/a/a8/Revenant_tango_icon_200px.png
   text-color: red-text darken-4
   mask: rgba-brown-light
 herald:
   xpac: hot
   prof: revenant
+  class: herald
   icon: https://wiki.guildwars2.com/images/c/c7/Herald_tango_icon_200px.png
   text-color: red-text darken-4
   mask: rgba-brown-light
 renegade:
   xpac: pof
   prof: revenant
+  class: renegade
   icon: https://wiki.guildwars2.com/images/b/bc/Renegade_tango_icon_200px.png
   text-color: red-text darken-4
   mask: rgba-brown-light
@@ -134,18 +155,21 @@ renegade:
 thief:
   xpac: core
   prof: thief
+  class: thief
   icon: https://wiki.guildwars2.com/images/1/19/Thief_tango_icon_200px.png
   text-color: grey-text
   mask: rgba-blue-grey-light
 daredevil:
   xpac: hot
   prof: thief
+  class: daredevil
   icon: https://wiki.guildwars2.com/images/c/ca/Daredevil_tango_icon_200px.png
   text-color: grey-text
   mask: rgba-blue-grey-light
 deadeye:
   xpac: pof
   prof: thief
+  class: deadeye
   icon: https://wiki.guildwars2.com/images/b/b0/Deadeye_tango_icon_200px.png
   text-color: grey-text
   mask: rgba-blue-grey-light
@@ -153,18 +177,21 @@ deadeye:
 warrior:
   xpac: core
   prof: warrior
+  class: warrior
   icon: https://wiki.guildwars2.com/images/d/db/Warrior_tango_icon_200px.png
   text-color: amber-text
   mask: rgba-yellow-light
 berserker:
   xpac: hot
   prof: warrior
+  class: berserker
   icon: https://wiki.guildwars2.com/images/8/80/Berserker_tango_icon_200px.png
   text-color: amber-text
   mask: rgba-yellow-light
 spellbreaker:
   xpac: pof
   prof: warrior
+  class: spellbreaker
   icon: https://wiki.guildwars2.com/images/7/78/Spellbreaker_tango_icon_200px.png
   text-color: amber-text
   mask: rgba-yellow-light
