@@ -278,39 +278,7 @@ img.header-icon {
     max-width: 240px;
 }
 
-span.xvr-banner-text-top {
-    font-size: 1.9rem;
-    line-height: 1.9rem;
-    font-weight: 600;
-    display: block;
-    display: block;
-    /*padding-left: 1rem;
-      */
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
-    /*margin-top: 1rem;
-      */
-    text-transform: uppercase;
-}
 
-span.xvr-banner-text {
-    font-size: 3.25rem;
-    line-height: 3.25rem;
-    font-weight: 600;
-    display: block;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
-    text-transform: uppercase;
-}
-
-span.xvr-banner-text-bottom {
-    font-size: 1.9rem;
-    line-height: 1.9rem;
-    font-weight: 600;
-    display: block;
-    /*padding-right: 1rem;
-      */
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
-    text-transform: uppercase;
-}
 
 /* PROFESSION COLORS */
 .clr-elementalist {
