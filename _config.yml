@@ -19,7 +19,7 @@ title: <span class="text-uppercase font-weight-bold" style="color:#1A503E; font-
 description: >- # this means to ignore newlines until "baseurl:"
   XivorHub is an information hub for WvW builds and tactics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xivor.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xivor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 excerpt_separator: "<!--more-->"
 

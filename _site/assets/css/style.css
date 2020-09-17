@@ -1,0 +1,495 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Mono);
+
+html,
+body {
+    color: #fff;
+    background-color: #1c1c1c;
+    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg2.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(19, 19, 19, .33) !important;
+    border-bottom: 1px solid rgba(236, 236, 236, .11) !important
+}
+
+.w-33 {
+    width: 33% !important;
+}
+
+.w-66 {
+    width: 66% !important;
+}
+
+
+.dropdown-divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.page-footer {
+    background-color: #1A503E;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+.shard-img-responsive {
+    top: 60px;
+    width: 180px;
+    height: 180px;
+}
+
+.shard-container-responsive {
+    margin-top: 90px;
+}
+
+/* Dynamic transparent nav */
+.top-nav-collapse {
+    background-color: #41A489 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #41A489 !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 384px;
+        height: 384px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 150;
+    }
+}
+
+/* Set Material Icons to same size as FontAwesome */
+.material-icons {
+    font: normal normal normal 16px/1 "Material Icons";
+    display: inline-block;
+    transform: translateY(10%);
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga";
+}
+
+/* Additional cell padding in Bootstrap methods */
+.pt-6 {
+    padding-top: 3.5em;
+}
+
+.pt-7 {
+    padding-top: 4.0em;
+}
+
+.pt-8 {
+    padding-top: 4.5em;
+}
+
+.pt-9 {
+    padding-top: 5.0em;
+}
+
+.pt-10 {
+    padding-top: 5.5em;
+}
+
+.pb-6 {
+    padding-bottom: 3.5em;
+}
+
+.pb-7 {
+    padding-bottom: 4.0em;
+}
+
+.pb-8 {
+    padding-bottom: 4.5em;
+}
+
+.pb-9 {
+    padding-bottom: 5.0em;
+}
+
+.pb-10 {
+    padding-bottom: 5.5em;
+}
+
+.pl-6 {
+    padding-left: 3.5em;
+}
+
+.pl-7 {
+    padding-left: 4.0em;
+}
+
+.pl-8 {
+    padding-left: 4.5em;
+}
+
+.pl-9 {
+    padding-left: 5.0em;
+}
+
+.pl-10 {
+    padding-left: 5.5em;
+}
+
+.pr-6 {
+    padding-right: 3.5em;
+}
+
+.pr-7 {
+    padding-right: 4.0em;
+}
+
+.pr-8 {
+    padding-right: 4.5em;
+}
+
+.pr-9 {
+    padding-right: 5.0em;
+}
+
+.pr-10 {
+    padding-right: 5.5em;
+}
+
+/* Additional cell margin in Bootstrap methods */
+.mt-6 {
+    margin-top: 3.5em;
+}
+
+.mt-7 {
+    margin-top: 4.0em;
+}
+
+.mt-8 {
+    margin-top: 4.5em;
+}
+
+.mt-9 {
+    margin-top: 5.0em;
+}
+
+.mt-10 {
+    margin-top: 5.5em;
+}
+
+.mb-6 {
+    margin-bottom: 3.5em;
+}
+
+.mb-7 {
+    margin-bottom: 4.0em;
+}
+
+.mb-8 {
+    margin-bottom: 4.5em;
+}
+
+.mb-9 {
+    margin-bottom: 5.0em;
+}
+
+.mb-10 {
+    margin-bottom: 5.5em;
+}
+
+.ml-6 {
+    margin-left: 3.5em;
+}
+
+.ml-7 {
+    margin-left: 4.0em;
+}
+
+.ml-8 {
+    margin-left: 4.5em;
+}
+
+.ml-9 {
+    margin-left: 5.0em;
+}
+
+.ml-10 {
+    margin-left: 5.5em;
+}
+
+.mr-6 {
+    margin-right: 3.5em;
+}
+
+.mr-7 {
+    margin-right: 4.0em;
+}
+
+.mr-8 {
+    margin-right: 4.5em;
+}
+
+.mr-9 {
+    margin-right: 5.0em;
+}
+
+.mr-10 {
+    margin-right: 5.5em;
+}
+
+.xvr-banner-header-wrapper {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xvr-banner-header-icon {
+    display: inline-block;
+}
+
+.xvr-banner-header-text {
+    display: inline-block;
+    /* transform: translateY(40px);
+      */
+    ;
+}
+span.xvr-banner-text-top {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    font-weight: 600;
+    display: block;
+    /*padding-left: 1rem;
+      */
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    /*margin-top: 1rem;
+      */
+    text-transform: uppercase;
+}
+
+span.xvr-banner-text {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 600;
+    display: block;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+span.xvr-banner-text-bottom {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    font-weight: 600;
+    display: block;
+    /*padding-right: 1rem;
+      */
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+.xvr-txt-clr-nec-dk,
+.xvr-txt-clr-nec-dk a,
+a.xvr-txt-clr-nec-dk:hover {
+    color: #005544;
+}
+.xvr-txt-clr-nec-md,
+.xvr-txt-clr-nec-md a,
+a.xvr-txt-clr-nec-med:hover {
+    color: #21BC72;
+}
+.xvr-txt-clr-nec-lt,
+.xvr-txt-clr-nec-lt a,
+a.xvr-txt-clr-nec-lt:hover {
+    color: #AAE5C9;
+}
+.xvr-txt-clr-ele-dk,
+.xvr-txt-clr-ele-dk a,
+a.xvr-txt-clr-ele-dk:hover {
+    color: #BA1718;
+}
+.xvr-txt-clr-ele-md,
+.xvr-txt-clr-ele-md a,
+a.xvr-txt-clr-ele-med:hover {
+    color: #F54251;
+}
+.xvr-txt-clr-ele-lt,
+.xvr-txt-clr-ele-lt a,
+a.xvr-txt-clr-ele-lt:hover {
+    color: #FAADB3;
+}
+.xvr-txt-clr-gua-dk,
+.xvr-txt-clr-gua-dk a,
+a.xvr-txt-clr-gua-dk:hover {
+    color: #0088AA;
+}
+.xvr-txt-clr-gua-md,
+.xvr-txt-clr-gua-md a,
+a.xvr-txt-clr-gua-med:hover {
+    color: #5FBCD3;
+}
+.xvr-txt-clr-gua-lt,
+.xvr-txt-clr-gua-lt a,
+a.xvr-txt-clr-gua-lt:hover {
+    color: #CCEAF1;
+}
+.xvr-txt-clr-rev-dk,
+.xvr-txt-clr-rev-dk a,
+a.xvr-txt-clr-rev-dk:hover {
+    color: #670F0F;
+}
+.xvr-txt-clr-rev-md,
+.xvr-txt-clr-rev-md a,
+a.xvr-txt-clr-rev-med:hover {
+    color: #A31300;
+}
+.xvr-txt-clr-rev-lt,
+.xvr-txt-clr-rev-lt a,
+a.xvr-txt-clr-rev-lt:hover {
+    color: #C46E6E;
+}
+.xvr-txt-clr-eng-dk,
+.xvr-txt-clr-eng-dk a,
+a.xvr-txt-clr-eng-dk:hover {
+    color: #874D24;
+}
+.xvr-txt-clr-eng-md,
+.xvr-txt-clr-eng-md a,
+a.xvr-txt-clr-eng-med:hover {
+    color: #CE7F4B;
+}
+.xvr-txt-clr-eng-lt,
+.xvr-txt-clr-eng-lt a,
+a.xvr-txt-clr-eng-lt:hover {
+    color: #E6BCA1;
+}
+.xvr-txt-clr-rgr-dk,
+.xvr-txt-clr-rgr-dk a,
+a.xvr-txt-clr-rgr-dk:hover {
+    color: #5E8F11;
+}
+.xvr-txt-clr-rgr-md,
+.xvr-txt-clr-rgr-md a,
+a.xvr-txt-clr-rgr-med:hover {
+    color: #98C44F;
+}
+.xvr-txt-clr-rgr-lt,
+.xvr-txt-clr-rgr-lt a,
+a.xvr-txt-clr-rgr-lt:hover {
+    color: #D4E7B5;
+}
+.xvr-txt-clr-mes-dk,
+.xvr-txt-clr-mes-dk a,
+a.xvr-txt-clr-mes-dk:hover {
+    color: #5F0975;
+}
+.xvr-txt-clr-mes-md,
+.xvr-txt-clr-mes-md a,
+a.xvr-txt-clr-mes-med:hover {
+    color: #DD55FF;
+}
+.xvr-txt-clr-mes-lt,
+.xvr-txt-clr-mes-lt a,
+a.xvr-txt-clr-mes-lt:hover {
+    color: #ECA1FF;
+}
+.xvr-txt-clr-thf-dk,
+.xvr-txt-clr-thf-dk a,
+a.xvr-txt-clr-thf-dk:hover {
+    color: #8C414A;
+}
+.xvr-txt-clr-thf-md,
+.xvr-txt-clr-thf-md a,
+a.xvr-txt-clr-thf-med:hover {
+    color: #9A7C81;
+}
+.xvr-txt-clr-thf-lt,
+.xvr-txt-clr-thf-lt a,
+a.xvr-txt-clr-thf-lt:hover {
+    color: #D3C5C8;
+}
+.xvr-txt-clr-war-dk,
+.xvr-txt-clr-war-dk a,
+a.xvr-txt-clr-war-dk:hover {
+    color: #C38300;
+}
+.xvr-txt-clr-war-md,
+.xvr-txt-clr-war-md a,
+a.xvr-txt-clr-war-med:hover {
+    color: #DCB45D;
+}
+.xvr-txt-clr-war-lt,
+.xvr-txt-clr-war-lt a,
+a.xvr-txt-clr-war-lt:hover {
+    color: #EEDBB2;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(19, 19, 19, .33) !important;
+    border-bottom: 1px solid rgba(236, 236, 236, .11) !important;
+}
