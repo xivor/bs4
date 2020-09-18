@@ -4,7 +4,7 @@ html,
 body {
     color: #fff;
     background-color: #1c1c1c;
-    background: url(https://xivor.github.io/bs4/assets/img/backgrounds/bg2.jpg);
+    background: url(https://xivor.github.io/assets/img/backgrounds/bg2.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -492,4 +492,17 @@ hr {
     border: 0;
     border-top: 1px solid rgba(19, 19, 19, .33) !important;
     border-bottom: 1px solid rgba(236, 236, 236, .11) !important;
+}
+.xvr-container-dark {
+    background: #212121;
+    padding-top: 1rem;
+    border-top: 24px solid #181818;
+    z-index: 1;
+    position: relative;
+}
+.general-panel-wrapper {
+    border: 1px solid rgba(236, 236, 236, 0.2);
+    border-radius: .25rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
 }
