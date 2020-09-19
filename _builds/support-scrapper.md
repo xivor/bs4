@@ -1,9 +1,9 @@
 ---
-title: Support Scrapper
+title: scrapper
 layout: build
 prof: scrapper
 pre-title: heal
-post-title: support
+tagline: support
 categories:
   - engineer
 author: Xivor

@@ -6,7 +6,9 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
-title: ArcDPS Squad Cleanses Window
+pre-title:
+title: ArcDPS
+tagline: Squad Cleanses Window
 updated: September 19, 2020
 description: Monitor the condition-cleansing ability of the group during combat encounters
 ---

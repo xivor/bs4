@@ -1,9 +1,9 @@
 ---
-title: DPS Invocation Herald
+title: herald
 layout: build
 prof: herald
 pre-title: power devastation
-post-title: dps
+tagline: dps
 categories:
   - revenant
 author: Xivor

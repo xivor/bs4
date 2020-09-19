@@ -49,32 +49,7 @@
             {% for item in site.guides %} {% if item.categories contains
             "addons" %}
             <li>
-              <a
-                class="dropdown-item"
-                href="{{ site.url }}/{{ site.baseurl }}{{ item.url }}"
-                >{{ item.title }}</a
-              >
-            </li>
-            {% endif %} {% endfor %}
-            <li>
-              <hr class="dropdown-divider" />
-            </li>
-            <li>
-              <h6 class="sub-title text-uppercase font-weight-bold text-center">
-                ArcDPS Configs
-              </h6>
-            </li>
-            <li>
-              <hr class="dropdown-divider" />
-            </li>
-            {% for item in site.guides %} {% if item.categories contains
-            "arcdps" %}
-            <li>
-              <a
-                class="dropdown-item"
-                href="{{ site.url }}{{ site.baseurl }}{{ item.url }}"
-                >{{ item.title }}</a
-              >
+              <a class="dropdown-item" href="{{ site.url }}/{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
             </li>
             {% endif %} {% endfor %}
           </ul>

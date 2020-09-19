@@ -1,13 +1,14 @@
 ---
 layout: guide
-categories:
-  - arcdps
+categories: arcdps
 tags:
   - Addons
   - ArcDPS
   - Guides
 author: Xivor
-title: ArcDPS UI/UX Configurations
+pre-title:
+title: ArcDPS 
+tagline: UI/UX Configurations
 updated: September 19, 2020
 description: Interface modifications for enhanced gameplay visuals during combat
 ---

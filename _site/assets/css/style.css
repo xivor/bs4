@@ -332,8 +332,8 @@ img.xvr-header-icon {
     ;
 }
 span.xvr-banner-text-top {
-    font-size: 1.9rem;
-    line-height: 1.9rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     font-weight: 600;
     display: block;
     /*padding-left: 1rem;
@@ -345,8 +345,8 @@ span.xvr-banner-text-top {
 }
 
 span.xvr-banner-text {
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 4rem;
+    line-height: 4rem;
     font-weight: 600;
     display: block;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
@@ -354,8 +354,8 @@ span.xvr-banner-text {
 }
 
 span.xvr-banner-text-bottom {
-    font-size: 1.9rem;
-    line-height: 1.9rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     font-weight: 600;
     display: block;
     /*padding-right: 1rem;

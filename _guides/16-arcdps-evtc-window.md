@@ -1,13 +1,14 @@
 ---
 layout: guide
-categories:
-  - arcdps
+categories: arcdps
 tags:
   - Addons
   - ArcDPS
   - Guides
 author: Xivor
-title: ArcDPS EVTC Logging
+pre-title:
+title: ArcDPS 
+tagline: EVTC Logging
 updated: September 19, 2020
 description: Record Guild Wars 2 metrics to parse out into easily-readble reports
 ---

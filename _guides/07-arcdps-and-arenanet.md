@@ -6,7 +6,9 @@ tags:
   - addons
   - arcdps
 author: Xivor
-title: ArcDPS & ArenaNet
+pre-title:
+title: ArcDPS
+tagline: ArenaNet
 updated: September 19, 2020
 description: What has ArenaNet said about ArcDPS and other 3rd party tools?
 ---

@@ -1,9 +1,9 @@
 ---
-title: DPS Immob Soulbeast
+title: soulbeast
 layout: build
 prof: soulbeast
 pre-title: power immob
-post-title: utility dps
+tagline: utility dps
 categories:
   - ranger
 author: Xivor

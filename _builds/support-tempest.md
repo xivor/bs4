@@ -1,9 +1,9 @@
 ---
-title: Support Tempest
+title: tempest
 layout: build
 prof: tempest
 pre-title: heal
-post-title: support
+tagline: support
 categories:
   - elementalist
 author: Xivor

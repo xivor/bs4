@@ -6,7 +6,9 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
-title: ArcDPS Damage Out Window
+pre-title:
+title: ArcDPS
+tagline: Damage Out Window
 updated: September 19, 2020
 description: Monitor the outgoing damage from the group in combat encounters
 ---

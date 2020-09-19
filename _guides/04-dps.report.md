@@ -6,16 +6,18 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
-title: DPS.Report 
+pre-title:
+title: DPS.Report
+tagline: EVTC Parser
 updated: September 19, 2020
 description: Review ArcDPS metrics in a polished readable report
 ---
 
 ## What is {{page.title}}?
 
-[{{page.title}}](https://dps.report) is a website that allows for users to {{page.description}}.<!--more-->  ArcDPS log can be uploaded and parsed into a human readable format that sorts out the details into tabs and charts.
+[{{page.title}}](https://dps.report) is third-party web application that is used to {{page.description | downcase}}.<!--more-->  ArcDPS log can be uploaded and parsed into a human readable format that sorts out the details into tabs and charts.
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%286%29.png)
+![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%286%29.png){:width="800px"}
 
 ## Usage
 

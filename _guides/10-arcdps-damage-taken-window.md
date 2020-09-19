@@ -6,7 +6,9 @@ tags:
   - arcDPS
   - guides
 author: Xivor
-title: ArcDPS Damage Taken Window
+pre-title:
+title: ArcDPS
+tagline: Damage Taken Window
 updated: September 19, 2020
 description: Monitor the damage taken in ArcDPS during combat encounters
 ---

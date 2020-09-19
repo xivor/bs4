@@ -6,16 +6,18 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
+pre-title:
 title: ArcDPS Log Manager 
+tagline: EVTC Management Utility
 updated: September 19, 2020
 description: Maintain and review ArcDPS combat logs and easily upload them to the web
 ---
 
 ## What is {{page.title}}?
 
-[{{page.title}}](https://gw2scratch.com/tools/manager) is a third-party application that is used to {{page.description}}.<!--more--> This utility gives a snapshot ArcDPS Log information and contains an integrated upload utility to [DPS.Report](https://dps.report).
+[{{page.title}}](https://gw2scratch.com/tools/manager) is a third-party software application that is used to {{page.description}}.<!--more--> This utility gives a snapshot ArcDPS Log information and contains an integrated upload utility to [DPS.Report](https://dps.report).
 
-![ArcDPS Log Manager]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/image%20%2830%29.png)
+![ArcDPS Log Manager]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/image%20%2830%29.png){:width="600px"}
 
 ## Installation
 

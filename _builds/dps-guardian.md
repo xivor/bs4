@@ -1,5 +1,5 @@
 ---
-title: DPS Guardian
+title: guardian
 layout: build
 prof: guardian
 pre-title: power

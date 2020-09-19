@@ -6,7 +6,9 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
-title: ArcDPS Boon Strips Window
+pre-title:
+title: ArcDPS
+tagline: Boon Strips Window
 updated: September 19, 2020
 description: Monitor the boon-stripping ability of the group during combat encounters
 ---

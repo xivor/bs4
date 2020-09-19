@@ -1,9 +1,9 @@
 ---
-title: Support Firebrand
+title: firebrand
 layout: build
 prof: firebrand
 pre-title: heal
-post-title: support
+tagline: support
 categories:
   - guardian
 author: Xivor

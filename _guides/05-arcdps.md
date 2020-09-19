@@ -1,13 +1,14 @@
 ---
 layout: guide
-categories:
-  - addons
+categories: addons
 tags:
   - Addons
   - ArcDPS
   - Guides
 author:
+pre-title:
 title: ArcDPS
+tagline: Damage Meter
 updated: September 19, 2020
 description: >-
   Enhanced your competitive gaming experience with on-the-fly and recorded
@@ -16,7 +17,7 @@ description: >-
 
 ## What is ArcDPS?
 
-[ArcDPS](https://www.deltaconnected.com/arcdps/) is a third-party developer add-on for Guild Wars 2 that provides DPS meter functionality for Guild Wars 2.<!--more--> It allows players within the same party/squad to see current and simulated damage between their fellow players. For information on whether ArcDPS is safe to use, please read the information on ArcDPS and ArenaNet's position located [here](arcdps-and-arenanet.md).
+[ArcDPS](https://www.deltaconnected.com/arcdps/) is a third-party software application that is used to {{page.description | downcase}} for Guild Wars 2.<!--more--> It allows players within the same party/squad to see current and simulated damage between their fellow players. For information on whether ArcDPS is safe to use, please read the information on ArcDPS and ArenaNet's position located [here](arcdps-and-arenanet.md).
 
 ![Example of ArcDPS in action]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/arcdps-action.gif)
 

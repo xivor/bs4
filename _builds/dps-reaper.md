@@ -1,9 +1,9 @@
 ---
-title: DPS Reaper
+title: reaper
 layout: build
 prof: reaper
 pre-title: power
-post-title: dps
+tagline: dps
 categories:
   - necromancer
 author: Xivor

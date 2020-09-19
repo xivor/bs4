@@ -1,13 +1,14 @@
 ---
 layout: guide
-categories: 
-  - arcdps
+categories: arcdps
 tags:
   - arcdps
   - addons
   - guide
 author: Xivor
-title: ArcDPS Boon Table Window
+pre-title:
+title: ArcDPS
+tagline: Boon Table Window
 updated: September 19, 2020
 description: Monitor the boon and buff uptime information for the group in combat encounters
 ---

@@ -6,7 +6,9 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
-title: ArcDPS Windows 
+pre-title:
+title: ArcDPS
+tagline: Windows 
 updated: September 19, 2020
 description: Monitor the live group metrics of the battle in Guild Wars 2
 ---

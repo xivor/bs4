@@ -6,14 +6,16 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
+pre-title:
 title: GW2 Radial
+tagline: Overlay Selector
 updated: September 19, 2020
 description: Enhance your Guild Wars 2 experience with a selector tool overlay for mounts, squad icons, and novelties
 ---
 
 ## What is {{page.title}}?
 
-GW2 Radial is third-party application that is used to {{page.description}}.<!--more--> 
+[{{page.title}}](https://github.com/Friendly0Fire/GW2Radial/releases/latest) is third-party software application that is used to {{page.description | downcase}}.<!--more--> 
 
 ## Installation
 
@@ -29,7 +31,7 @@ GW2 Radial is third-party application that is used to {{page.description}}.<!--m
 * Configure your radial size and responsiveness.
 * Configure your visibility settings, such as limiting to only certain markers.
 
-    ![Visibility &amp; Behavior Settings]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2849%29.png){:width="300px"}
+    ![Visibility &amp; Behavior Settings]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2849%29.png){:width="400px"}
 
 * Configure mounts, novelties and more in the same manner.
 

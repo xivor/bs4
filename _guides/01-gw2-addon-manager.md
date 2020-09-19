@@ -6,16 +6,18 @@ tags:
   - ArcDPS
   - Guides
 author: Xivor
+pre-title:
 title: GW2 Addon Manager
+tagline: Addon Management Utility
 updated: September 19, 2020
 description: Simplifies the process of managing third-party utilities for Guild Wars 2
 ---
 
 ## What is {{page.title}}?
 
-The[{{page.title}}](https://github.com/fmmmlee/GW2-Addon-Manager) (also called GW2-UOAOM) is a third-party application that {{page.description | downcase}}.<!--more--> It is a tool to improve the experience of using addons and plugins in Guild Wars 2 by handling installation, updates, and file management behind the scenes.
+[{{page.title}}](https://github.com/fmmmlee/GW2-Addon-Manager) (also called GW2-UOAOM) is a third-party software application that is used to {{page.description | downcase}}.<!--more--> It is a tool to improve the experience of using addons and plugins in Guild Wars 2 by handling installation, updates, and file management behind the scenes.
 
-![GW2-UOAOM Menu]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2838%29.png)
+![GW2-UOAOM Menu]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2838%29.png){:width="800px"}
 
 ## Pre-Installation Checklist
 

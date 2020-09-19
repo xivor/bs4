@@ -1,9 +1,9 @@
 ---
-title: DPS Elementalist
+title: elementalist
 layout: build
 prof: elementalist
 pre-title: power
-post-title: dps
+tagline: dps
 categories:
   - elementalist
 author: Xivor
