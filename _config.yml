@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xivor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
-    sass_dir: assets/_sass
+  sass_dir: assets/_sass
 excerpt_separator: "<!--more-->"
 
 # Site settings
@@ -68,7 +68,6 @@ gem: [jekyll-admin]
 # GW2 info
 gwiki:
   url: https://wiki.guildwars2.com/wiki/Main_Page
-
 
 # Permalinks
 #permalink: /:title/
