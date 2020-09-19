@@ -2,7 +2,7 @@
 title: DPS Dragonhunter
 layout: build
 prof: dragonhunter
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - guardian

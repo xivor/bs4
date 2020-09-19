@@ -2,7 +2,7 @@
 title: Support Firebrand
 layout: build
 prof: firebrand
-build-type: heal
+pre-title: heal
 build-role: support
 categories:
   - guardian

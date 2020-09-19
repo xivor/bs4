@@ -1,24 +1,23 @@
 ---
 layout: guide
-categories:
-  - addons
+categories: addons
 tags:
   - Addons
   - ArcDPS
   - Guides
 author: Xivor
 title: ArcDPS Log Manager 
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Maintain and review ArcDPS combat logs and easily upload them to the web
 ---
 
-#### What is {{page.title}}?
+## What is {{page.title}}?
 
 [{{page.title}}](https://gw2scratch.com/tools/manager) is a third-party application that is used to {{page.description}}.<!--more--> This utility gives a snapshot ArcDPS Log information and contains an integrated upload utility to [DPS.Report](https://dps.report).
 
 ![ArcDPS Log Manager]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/image%20%2830%29.png)
 
-#### Installation
+## Installation
 
 There is no installation executable. To use, follow the steps below:
 
@@ -26,14 +25,14 @@ There is no installation executable. To use, follow the steps below:
 2. Extract to the location of your choosing.
 3. Run the executable.
 
-#### Configuration
+## Configuration
 
 1. Navigate to Settings
 2. In the Logs tab, set the log directory that matches the directory ArcDPS stores logs. Default is **C:\\Users\\USER\_HERE\\Documents\\Guild Wars 2\\addons\\arcdps\\arcdps.cbtlogs.**
 3. Navigate to the Guild Wars 2 API Key tab and select the option to **Use the Guild Wars 2 API**.
 4. Save
 
-#### Usage
+## Usage
 
 ###### Logs Tab
 

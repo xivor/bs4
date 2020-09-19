@@ -2,7 +2,7 @@
 title: DPS Alacri-Renegade
 layout: build
 prof: renegade
-build-type: power alacrity
+pre-title: power alacrity
 build-role: support dps
 categories:
   - revenant

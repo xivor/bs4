@@ -7,12 +7,11 @@ tags:
   - Guides
 author: Xivor
 title: DPS.Report 
-tagline: View your ArcDPS metrics in a polished readable report
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Review ArcDPS metrics in a polished readable report
 ---
 
-#### What is {{page.title}}?
+## What is {{page.title}}?
 
 [{{page.title}}](https://dps.report) is a website that allows for users to {{page.description}}.<!--more-->  ArcDPS log can be uploaded and parsed into a human readable format that sorts out the details into tabs and charts.
 

@@ -7,17 +7,17 @@ tags:
   - guides
 author: Xivor
 title: ArcDPS Damage Taken Window
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Monitor the damage taken in ArcDPS during combat encounters
 ---
 
-#### What is the {{page.title}}?
+## What is the {{page.title}}?
 
 The {{page.title}} is where the user can {{page.description | downcase}}.<!--more-->  This window can be assigned to any of the **Area Stats** window slots other than the primary. These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
 ![Damage Taken window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/damagetaken.png)
 
-#### Configuration
+## Configuration
 
 ###### Data Settings
 

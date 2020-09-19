@@ -8,19 +8,19 @@ tags:
   - Guides
 author: Xivor
 title: ArcDPS UI/UX Configurations
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Interface modifications for enhanced gameplay visuals during combat
 ---
 
-#### What are {{page.title}}?
+## What are {{page.title}}?
 
 {{page.title}} are {{page.description | downcase}}.<!--more--> Specifically, these settings modify the way GW2 displays information on your screen and allows removal for more screen space and less screen clutter. These are quality-of-life enhancements that can assist in making the game experience better.
 
 ![]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/capture%20%286%29.png)
 
-#### Configure UI/UX Settings
+## Configure UI/UX Settings
 
-###### Suppress Objective Achievements:
+##### Suppress Objective Achievements:
 
 Removes the achievement tracking and list from the achievement Watch List on general objectives.
 
@@ -48,7 +48,7 @@ If this option is checked a window will pop-up when starting Guild Wars 2 that t
 
 Unknown and untested at this time. Leave unchecked.
 
-###### Recommended UI/UX Settings for WvW
+##### Recommended UI/UX Settings for WvW
 
 * ~~Suppress Objective Achievements: Off~~
 * ~~Suppress Objective Quests: Off~~

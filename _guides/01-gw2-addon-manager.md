@@ -7,17 +7,17 @@ tags:
   - Guides
 author: Xivor
 title: GW2 Addon Manager
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Simplifies the process of managing third-party utilities for Guild Wars 2
 ---
 
-#### What is {{page.title}}?
+## What is {{page.title}}?
 
 The[{{page.title}}](https://github.com/fmmmlee/GW2-Addon-Manager) (also called GW2-UOAOM) is a third-party application that {{page.description | downcase}}.<!--more--> It is a tool to improve the experience of using addons and plugins in Guild Wars 2 by handling installation, updates, and file management behind the scenes.
 
 ![GW2-UOAOM Menu]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2838%29.png)
 
-#### Pre-Installation Checklist
+## Pre-Installation Checklist
 
 Make sure the following items are validated prior to installation.
 
@@ -25,7 +25,7 @@ Make sure the following items are validated prior to installation.
 * .NET Framework (version 4.x and later - should be already installed if using Windows 10)
 * Remove any previously-installed add-ons that use plugins to load with Guild Wars 2, such as ArcDPS, GW2Radial, or d912pxy
 
-#### Installation
+## Installation
 
 1. Download the [latest stable release](https://github.com/fmmmlee/GW2-Addon-Manager/releases)
 2. Extract the zip file to any location you like
@@ -35,7 +35,7 @@ Make sure the following items are validated prior to installation.
    * Pin to Quick Access
 4. Run shortcut you created or the "GW2 Addon Manager.exe" executable
 
-#### Configuration
+## Configuration
 
 Note that the program won't work while GW2 or the GW2 launcher is running, as it needs to access and modify files that are locked while the game is active.
 
@@ -43,7 +43,7 @@ Note that the program won't work while GW2 or the GW2 launcher is running, as it
 * Select the addons you want to install using the checkboxes and click the large UPDATE button on the lower right
 * The next time you launch GW2, the addons you selected should be active!
 
-#### Additional Configuration Options
+## Additional Configuration Options
 
 ![Configuration Options menu]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image.png)
 

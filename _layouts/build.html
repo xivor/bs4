@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {% assign prof = site.data.profs[page.prof] %}
 
     <div class="view mask {{prof.mask}}">
@@ -9,13 +8,13 @@ layout: default
             <div class="row">
                 <div class="col text-center">
                     <div class="xvr-banner-header-wrapper text-white">
-                        <div class="xvr-banner-header-icon">
-                            <img src="{{prof.icon}}" alt="" class="header-icon">
+                        <div class="xvr-banner-header-icon pt-2 pb-2 pl-2 pr-5">
+                            <img src="{{prof.icon}}" alt="" class="xvr-header-icon rounded-circle img-fluid z-depth-1 img-thumbnail">
                         </div>
                         <div class="xvr-banner-header-text text-left">
-                            <span class="xvr-banner-text-top">{{page.build-type}}</span> 
-                            <span class="xvr-banner-text">{{prof.class}}</span> 
-                            <span class="xvr-banner-text-bottom text-right">WvW {{page.build-role}}</span> 
+                            <span class="xvr-banner-text-top">{{page.pre-title}}</span> 
+                            <span class="xvr-banner-text">{{prof.title}}</span> 
+                            <span class="xvr-banner-text-bottom text-right">WvW {{page.post-title}}</span> 
                         </div>
                     </div>
                 </div>

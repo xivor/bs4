@@ -2,7 +2,7 @@
 title: Support Tempest
 layout: build
 prof: tempest
-build-type: heal
+pre-title: heal
 build-role: support
 categories:
   - elementalist

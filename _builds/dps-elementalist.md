@@ -2,7 +2,7 @@
 title: DPS Elementalist
 layout: build
 prof: elementalist
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - elementalist

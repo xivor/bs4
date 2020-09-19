@@ -2,7 +2,7 @@
 title: DPS Devastation Herald
 layout: build
 prof: herald
-build-type: power devastation
+pre-title: power devastation
 build-role: dps
 categories:
   - revenant

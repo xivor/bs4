@@ -1,8 +1,8 @@
 ---
-title: Condi Alacri-Renegade
+title: Renegade
 layout: build
 prof: renegade
-build-type: condi
+pre-title: condi
 build-role: support dps
 categories:
   - revenant

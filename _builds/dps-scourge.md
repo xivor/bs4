@@ -2,7 +2,7 @@
 title: DPS Scourge
 layout: build
 prof: scourge
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - necromancer

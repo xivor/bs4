@@ -7,16 +7,16 @@ tags:
   - Guides
 author: Xivor
 title: ArcDPS Windows 
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Monitor the live group metrics of the battle in Guild Wars 2
 ---
 
-#### What are the {{page.title}}?
+## What are the {{page.title}}?
 
 The {{page.title}} are where the user can {{page.description | downcase}}.<!--more-->  These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
 
-#### Area Stats
+## Area Stats
 
 The **Areas stats [+] window** will display the raw current statistics for you and your party/squad-group/squad respectively. If in a large squad, these numbers can swap sporadically as large numbers of people handle different targets in different areas. 
 
@@ -24,7 +24,7 @@ The default configuration displays raw damage output. This displays the real-tim
 
 ![Area Stats window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2831%29.png)
 
-####  Area Stats Window Components
+##  Area Stats Window Components
 
 The bar will display (in order from left to right):
 
@@ -35,7 +35,7 @@ The bar will display (in order from left to right):
 * Damage Per Second
 * Percentage of squad total damage
 
-#### Area Stats Window Display Configuration
+## Area Stats Window Display Configuration
 
 The **Area Stats** window can be customized with a variety of special configurations that can display levels and types of combat statistics.
 
@@ -53,7 +53,7 @@ Right click on the Damage window to find the Display menu. Here is where we conf
 * **Stats Format:** Set the parameters for what you wish to display on the player bar:
 * **Title Bar Format:** Set the parameters for what you wish to display on the title bar. 
 
-#### Specialty Windows
+## Specialty Windows
 
 The **Area Stats** window is highly customizable and also allows for multiple instances of the window in order to track different data. Some recommended window configurations for WvW using the **Area Stats** window are listed below.
 
@@ -63,13 +63,13 @@ The **Area Stats** window is highly customizable and also allows for multiple in
 * [Squad Cleanses]({{09-arcdps-squad-cleanses-config}})
 * [Squad Boon Strips]({{08-arcdps-boon-strips-config}})
 
-#### Buffs Window
+## Buffs Window
 
 The **Buffs window** will display which and how many buffs players are receiving. By default, this involves buffs they are receiving and putting out. This is a confusing window and it is recommended to not use it.
 
 ![Buffs window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2826%29.png)
 
-#### Buff's Window Components
+## Buff's Window Components
 
 The bar will display (in order from left to right):
 
@@ -81,13 +81,13 @@ The bar will display (in order from left to right):
   * Displays total seconds the boon would be active for among all players it was applied to
   * Boon strips and conversions cannot be predicted and will not be factored in until they occur
 
-####  Self Stats Window
+##  Self Stats Window
 
  The **Self Stats window** will display stats that you are outputting in a minimalistic window.   
 
 ![Self Stats window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2825%29.png)
 
-#### Self Stats Window Components
+## Self Stats Window Components
 
 The window will display three columns (in order from left to right):
 
@@ -99,13 +99,13 @@ The window will display three columns (in order from left to right):
   * These stats are related to the primary target and additional targets. These numbers will ideally be higher with additional party members to heal and additional enemies to cleave.
   * Hovering over these stats will display the total number of stats and duration of the combat. (Example – 2,228 damage over 6.16 seconds)
 
-#### Self Skills Window
+## Self Skills Window
 
 The **Self Skills window** will display a chart of your damage sources. This window is very helpful for determining the effectiveness of your damage sources and can help you identify the effectiveness of a build and its intended damage.
 
 ![Self Skills window](https://flamesofthemist.com/wp-content/uploads/2018/12/arcdps_selfskills.png)
 
-#### Self Skills Window Components
+## Self Skills Window Components
 
 The chart will display four columns (in order from left to right):
 
@@ -116,7 +116,7 @@ The chart will display four columns (in order from left to right):
 
 In addition to sources, bars behind the text help visually identify the scale of effectiveness between abilities. Rank 1 will typically be a full bar as the most effective ability with the other bars as a percentage of that bar’s effective damage. In the above example, **Orb of Wrath's**  damage was the highest damage at 47.2%, the bar displays as 100%.  **Symbol of Punishment's** damage was at 25.8%, which is close to half of **Orb of Wrath's** damage. Therefore the bar reflects **Symbol of Punishment's** damage in relation to the top skill. 
 
-#### Self Skills Window Tooltips
+## Self Skills Window Tooltips
 
 Hovering over any attack/effect name will give you specific numbers to the targets.
 
@@ -125,13 +125,13 @@ Hovering over any attack/effect name will give you specific numbers to the targe
 * **Hits (all):** The amount of targets/times this attack could have landed and can be cut short by target removal, cancellation, downed state, etc.
 * **Damage Stats:** These numbers break down basic stats of the attack as a singular entity.
 
-#### Metrics Window
+## Metrics Window
 
 The **Metrics window** shows your Frames Per Second (FPS) \[F\], Ping \[P\], and Refresh Rate \[R\].
 
 ![Metrics window](https://flamesofthemist.com/wp-content/uploads/2018/12/arcdps_metrics.jpg)
 
-#### Metrics Window Components
+## Metrics Window Components
 
 * **F: Frames per Second** (Example – 95)
   * FPS is essentially how many frames the game is attempting to push to your monitor. The higher the number the smoother your experience will be. 
@@ -140,13 +140,13 @@ The **Metrics window** shows your Frames Per Second (FPS) \[F\], Ping \[P\], and
 * **R**: **Refresh Rate** (Example – 26).
   * The lower the number, the worse your response time is between the combat report and server ticks. A low number could cause combat damage to be calculated incorrectly to “real time” and can also effect ArcDPS directly in its reporting. 
 
-#### Logs Window
+## Logs Window
 
 The **Logs window** shows advanced information in a similar manner as the standard Guild Wars 2 combat log.
 
 ![Logs window](https://flamesofthemist.com/wp-content/uploads/2018/12/arcdps_log.jpg)
 
-#### Health Bar
+## Health Bar
 
 The **Health Bar** displays a number that is attached to the standard enemy health bars in the top-middle of the screen. It will display a number of up to 2 decimal places for better representation of the amount of health remaining on an enemy.
 

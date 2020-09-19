@@ -2,7 +2,7 @@
 title: Condi DPS Scourge
 layout: build
 prof: scourge
-build-type: condi
+pre-title: condi
 build-role: dps
 categories:
   - necromancer

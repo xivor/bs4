@@ -2,7 +2,7 @@
 title: DPS Immob Soulbeast
 layout: build
 prof: soulbeast
-build-type: power immob
+pre-title: power immob
 build-role: utility dps
 categories:
   - ranger

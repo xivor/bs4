@@ -2,7 +2,7 @@
 title: DPS Necromancer
 layout: build
 prof: necromancer
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - necromancer

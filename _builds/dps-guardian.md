@@ -2,7 +2,7 @@
 title: DPS Guardian
 layout: build
 prof: guardian
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - guardian

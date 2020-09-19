@@ -8,19 +8,19 @@ tags:
   - Guides
 author:
 title: ArcDPS
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: >-
   Enhanced your competitive gaming experience with on-the-fly and recorded
   gaming metrics
 ---
 
-#### What is ArcDPS?
+## What is ArcDPS?
 
 [ArcDPS](https://www.deltaconnected.com/arcdps/) is a third-party developer add-on for Guild Wars 2 that provides DPS meter functionality for Guild Wars 2.<!--more--> It allows players within the same party/squad to see current and simulated damage between their fellow players. For information on whether ArcDPS is safe to use, please read the information on ArcDPS and ArenaNet's position located [here](arcdps-and-arenanet.md).
 
 ![Example of ArcDPS in action]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/arcdps-action.gif)
 
-#### Installation
+## Installation
 
 This piece of documentation goes over the easiest and most concise method of installing [ArcDPS](https://www.deltaconnected.com/arcdps/) and maintaining an updated installation. This method uses an additional 3rd party utility called [The GW2 Unofficial Addon Manager](https://github.com/fmmmlee/GW2-Addon-Manager)(GW2-UOAOM).
 
@@ -33,17 +33,17 @@ Make sure that Guild Wars 2 is not running at the time of installation. For ArcD
 
 ![Select only the ArcDPS option]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/addon-manager-example-1.png)
 
-#### Usage
+## Usage
 
 Use **Alt+Shift+T** to access the ArcDPS options menu.
 
 Overall the user interface is quite straight forward. It displays your current damage, along with your squad/party if you happen to be in one. See the contents menu to the right for guides on creating customized windows for tracking combat statistics in WvW.
 
-#### Logging
+## Logging
 
 ArcDPS can log each battle encounter that your character engages in. To do so, logging must be enabled through the options menu. It is suggested to turn on Windows 10 compression if possible, as these log files can be extremely large.
 
-#### Reading your logs
+## Reading your logs
 
 Once a log is created it will be saved to C:/Documents/Guild Wars 2/addons/arcdps/arcdps.cbtlogs. These logs are saved in the EVTC format, and may be zipped if compression is enabled.
 

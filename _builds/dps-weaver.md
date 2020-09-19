@@ -2,7 +2,7 @@
 title: DPS Weaver
 layout: build
 prof: weaver
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - elementalist

@@ -8,17 +8,17 @@ tags:
   - guide
 author: Xivor
 title: ArcDPS Boon Table Window
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Monitor the boon and buff uptime information for the group in combat encounters
 ---
 
-#### What is the {{page.title}}?
+## What is the {{page.title}}?
 
 The [{{page.title}}](https://github.com/MarsEdge/GW2-ArcDPS-Boon-Table) is a third-party plugin to ArcDPS where the user can {{page.description | downcase}}.<!--more--> This window displays boon and buff uptime information for the group and subgroups. These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
 ![ArcDPS Boon Table]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2832%29.png)
 
-#### Installation
+## Installation
 
 This piece of documentation goes over the easiest and most concise method of installing ArcDPS Boon Table and maintaining an updated installation. This method uses an additional 3rd party utility called [The GW2 Unofficial Addon Manager](https://github.com/fmmmlee/GW2-Addon-Manager)(GW2-UOAOM).
 
@@ -29,31 +29,31 @@ Make sure that Guild Wars 2 is not running at the time of installation. For ArcD
 3. Click the large **UPDATE** button on the lower right
 4. At this time, **GW2-UOAOM** will download and install the latest version of **ArcDPS** and the **ArcDPS Boon Table**.
 
-#### Window Access
+## Window Access
 
 Use **Alt+Shift+B** to access the ArcDPS Boon Table window or press **Alt+Shift+T** and select it from the ArcDPS options menu.
 
 **Right-click** on the ArcDPS Boon Table to customize display options.
 
-#### Configuration
+## Configuration
 
-###### Display Mode
+##### Display Mode
 
 This option gives you the option to display **Boon Uptime** or **Boon Generation**. Boon Uptime allows tracking of boon spread over the team with ease, whereas Boon Generation allows tracking of individual player's boon output.
 
-###### Players
+##### Players
 
 This option displays individual players and the boon statistics for each player.
 
-###### SubGroups
+##### SubGroups
 
 This option displays a section for subgroups, and displays the overall boon statistics for each subgroup.
 
-###### Show Value as Progress Bar
+##### Show Value as Progress Bar
 
 This option gives a visual representation of the boon statistics by using a progress bar for each boon for each player.
 
-###### Boons
+##### Boons
 
 This option allows selection of the boons that will be displayed.
 
@@ -70,7 +70,7 @@ This option allows selection of the boons that will be displayed.
 * Swiftness
 * Resistance
 
-###### Traits
+##### Traits
 
 This option allows selection of the trait buffs that will be displayed.
 
@@ -82,7 +82,7 @@ This option allows selection of the trait buffs that will be displayed.
 * Vamp Aura (Vampiric Aura)
 * Stren Num (Strength in Numbers)
 
-###### Banners
+##### Banners
 
 This option allows selection of the Warrior banners that will be displayed.
 
@@ -91,7 +91,7 @@ This option allows selection of the Warrior banners that will be displayed.
 * Tactics
 * Defense
 
-###### Spirits
+##### Spirits
 
 This option allows selection of the Ranger Spirits that will be displayed.
 
@@ -101,24 +101,24 @@ This option allows selection of the Ranger Spirits that will be displayed.
 * Storm
 * Water
 
-###### Skills
+##### Skills
 
 This option allows selection of the skill buffs that will be displayed.
 
-###### Signets
+##### Signets
 
 This option allows selection of the signet buffs that will be displayed.
 
 * Inspiration
 
-###### Other
+##### Other
 
 This option allows selection of other buffs that will be displayed.
 
 * Stealth
 * Superspeed
 
-#### Recommended ArcDPS Boon Table Settings for WvW
+## Recommended ArcDPS Boon Table Settings for WvW
 
 * Might
 * Fury

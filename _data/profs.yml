@@ -2,21 +2,21 @@ elementalist:
   xpac: core
   prof: elementalist
   class: elementalist
-  icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-K7lLYZs8vJo/XL8JFBDx1mI/AAAAAAABXzA/IsqDFpPJGosd1vvfwHtlngLXiF3WTVnrgCLcBGAs/s1600/Elementalist-Profession-Icon.jpg
   text-color: xvr-txt-clr-ele-md
   mask: rgba-red-light
 tempest:
   xpac: hot
   prof: elementalist
   class: tempest
-  icon: https://wiki.guildwars2.com/images/a/a0/Elementalist_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-Sadqg_umEvA/XL8JLkY2c1I/AAAAAAABX0E/iGSyLpTa2d4zqbIedPT9Co3vka8UzHs1ACLcBGAs/s1600/Tempest-Elementalist-Profession-Icon.jpg
   text-color: xvr-txt-clr-ele-md
   mask: rgba-red-light
 weaver:
   xpac: pof
   prof: elementalist
   class: weaver
-  icon: https://wiki.guildwars2.com/images/3/31/Weaver_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-ZgXM_u8aHmU/XL8JNIVonDI/AAAAAAABX0Q/81pbdmUyXHk9J3y54JXeDNbZ--_FgiflQCLcBGAs/s1600/Weaver-Elementalist-Profession-Icon.jpg
   text-color: xvr-txt-clr-ele-md
   mask: rgba-red-light
   
@@ -24,21 +24,21 @@ engineer:
   xpac: core
   prof: engineer
   class: engineer
-  icon: https://wiki.guildwars2.com/images/2/2f/Engineer_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-Ryf-0kVa90k/XL8JFk04qOI/AAAAAAABXzE/7h1XshgbGkQ8ZYmafPsCB8RBA4DnEN7GwCLcBGAs/s1600/Engineer-Profession-Icon.jpg
   text-color: xvr-txt-clr-eng-md
   mask: rgba-orange-light
 scrapper:
   xpac: hot
   prof: engineer
   class: scrapper
-  icon: https://wiki.guildwars2.com/images/3/3a/Scrapper_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-IevKgG7_cLE/XL8JKAVAkEI/AAAAAAABXz4/EaniWJvoNoIoeJEGC5NnDajghC-hvOGvgCLcBGAs/s1600/Scrapper-Engineer-Profession-Icon.jpg
   text-color: xvr-txt-clr-eng-md
   mask: rgba-orange-light
 holosmith:
   xpac: pof
   prof: engineer
   class: holosmith
-  icon: https://wiki.guildwars2.com/images/a/ae/Holosmith_tango_icon_200px.png
+  icon: https://4.bp.blogspot.com/-9iWEqgtuuL0/XL8JG_Yy_1I/AAAAAAABXzU/OBgaFTI9r684Z_MNuL9w6cwE1PCyhm-PwCLcBGAs/s1600/Holosmith-Engineer-Profession-Icon.jpg
   text-color: xvr-txt-clr-eng-md
   mask: rgba-orange-light
 
@@ -46,21 +46,21 @@ guardian:
   xpac: core
   prof: guardian
   class: guardian
-  icon: https://wiki.guildwars2.com/images/6/6c/Guardian_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-Bh9SdDOyIJc/XL8JGoDWvmI/AAAAAAABXzM/DQd4f_5RUB466gzrZAhbIg8BFebOBgomwCLcBGAs/s1600/Guardian-Profession-Icon.jpg
   text-color: xvr-txt-clr-gua-md
   mask: rgba-blue-light
 dragonhunter:
   xpac: hot
   prof: guardian
   class: dragonhunter
-  icon: https://wiki.guildwars2.com/images/1/1f/Dragonhunter_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-p2232mgBgyY/XL8JEqxa5VI/AAAAAAABXy4/DbcS4HSQDq4zbACHibk_sAUr7BhqK_RrwCLcBGAs/s1600/Dragonhunter-Guardian-Profession-Icon.jpg
   text-color: xvr-txt-clr-gua-md
   mask: rgba-blue-light
 firebrand:
   xpac: pof
   prof: guardian
   class: firebrand
-  icon: https://wiki.guildwars2.com/images/7/73/Firebrand_tango_icon_200px.png
+  icon: https://2.bp.blogspot.com/-CdvTxIGgpvQ/XL8JGNXK_9I/AAAAAAABXzI/qhdBpOvnnVYX9p078ZF4KxueX1bbq8yPACLcBGAs/s1600/Firebrand-Guardian-Profession-Icon.jpg
   text-color: xvr-txt-clr-gua-md
   mask: rgba-blue-light
 
@@ -68,21 +68,21 @@ mesmer:
   xpac: core
   prof: mesmer
   class: mesmer
-  icon: https://wiki.guildwars2.com/images/7/73/Mesmer_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-x1Szic2kSdw/XL8JHOY_93I/AAAAAAABXzY/ZQ0Wxnu2GqUsRoJMvrUlD-JDuegfCKiLACLcBGAs/s1600/Mesmer-Profession-Icon.jpg
   text-color: xvr-txt-clr-mes-md
   mask: rgba-purple-light
 chronomancer:
   xpac: hot
   prof: mesmer
   class: chronomancer
-  icon: https://wiki.guildwars2.com/images/8/8b/Chronomancer_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-k1cifB_3Hy0/XL8JD6mBBsI/AAAAAAABXyo/cYAy293wSxYxYuTYiBV9wBgE6VchWx5IgCLcBGAs/s1600/Chronomancer-Mesmer-Profession-Icon.jpg
   text-color: xvr-txt-clr-mes-md
   mask: rgba-purple-light
 mirage:
   xpac: pof
   prof: mesmer
   class: mirage
-  icon: https://wiki.guildwars2.com/images/a/a9/Mirage_tango_icon_200px.png
+  icon: https://4.bp.blogspot.com/-xm-kWqPFjwI/XL8JHILLLVI/AAAAAAABXzc/VlmB82zdJcYqj90b-lFq2c0j9hYbPUSJQCLcBGAs/s1600/Mirage-Mesmer-Profession-Icon.jpg
   text-color: xvr-txt-clr-mes-md
   mask: rgba-purple-light
 
@@ -90,21 +90,21 @@ necromancer:
   xpac: core
   prof: necromancer
   class: necromancer
-  icon: https://wiki.guildwars2.com/images/c/cd/Necromancer_tango_icon_200px.png
+  icon: https://2.bp.blogspot.com/-92migGXQ_K0/XL8JHenccWI/AAAAAAABXzg/cb_0CT2e2qcbp16_JzHia_4ufLSYxsw8gCLcBGAs/s1600/Necromancer-Profession-Icon.jp
   text-color: xvr-txt-clr-nec-md
   mask: rgba-green-light
 reaper:
   xpac: hot
   prof: necromancer
   class: reaper
-  icon: https://wiki.guildwars2.com/images/9/95/Reaper_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-RKAcwg95tq4/XL8JIF1BHiI/AAAAAAABXzo/NATsy80POj0Kw5JGrmT5vHT2pKdLI0Z4gCLcBGAs/s1600/Reaper-Necromancer-Profession-Icon.jpg
   text-color: xvr-txt-clr-nec-md
   mask: rgba-green-light
 scourge:
   xpac: pof
   prof: necromancer
   class: scourge
-  icon: https://wiki.guildwars2.com/images/8/8a/Scourge_tango_icon_200px.png
+  icon: https://4.bp.blogspot.com/-QnS2gpy97Oo/XL8JJ_6LOmI/AAAAAAABXz0/f4-OMXzGs9ECSKzliQx5d8ey8hMN3CtCwCLcBGAs/s1600/Scourge-Necromancer-Profession-Icon.jpg
   text-color: xvr-txt-clr-nec-md
   mask: rgba-green-light
 
@@ -112,21 +112,21 @@ ranger:
   xpac: core
   prof: ranger
   class: ranger
-  icon: https://wiki.guildwars2.com/images/5/51/Ranger_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-pu3_vM_qYig/XL8JHxIYwEI/AAAAAAABXzk/4ZT3iYATdTUtirmmgmsGJBSsoHOzAmmeQCLcBGAs/s1600/Ranger-Profession-Icon.jpg
   text-color: xvr-txt-clr-rgr-md
   mask: rgba-lime-light
 druid:
   xpac: hot
   prof: ranger
   class: druid
-  icon: https://wiki.guildwars2.com/images/6/6d/Druid_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-0uia24eM03A/XL8JEwozpeI/AAAAAAABXy8/Gq9jF9VcZs4aIaU1ZX3711BoV6FHtsQyQCLcBGAs/s1600/Druid-Ranger-Profession-Icon.jpg
   text-color: xvr-txt-clr-rgr-md
   mask: rgba-lime-light
 soulbeast:
   xpac: pof
   prof: ranger
   class: soulbeast
-  icon: https://wiki.guildwars2.com/images/f/f6/Soulbeast_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-yYjCaOq74wA/XL8JK7JDXUI/AAAAAAABXz8/A0yacbaZbXEW5goiArLpna9v9ehrPk6HgCLcBGAs/s1600/Soulbeast-Ranger-Profession-Icon.jpg
   text-color: xvr-txt-clr-rgr-md
   mask: rgba-lime-light
 
@@ -134,21 +134,21 @@ revenant:
   xpac: core
   prof: revenant
   class: revenant
-  icon: https://wiki.guildwars2.com/images/a/a8/Revenant_tango_icon_200px.png
+  icon: https://2.bp.blogspot.com/-d8Xm07oetw4/XL8JJLhZrtI/AAAAAAABXzw/d9Dmob9IF4gtc21DUlU0s0YUY261bVq9wCLcBGAs/s1600/Revenant-Profession-Icon.jpg
   text-color: xvr-txt-clr-rev-md
   mask: rgba-brown-light
 herald:
   xpac: hot
   prof: revenant
   class: herald
-  icon: https://wiki.guildwars2.com/images/c/c7/Herald_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-DPnNf1syhoQ/XL8JGy_nL-I/AAAAAAABXzQ/oV5h7Py2e58m_6Mss1Tcqw2lSmx9-F8fACLcBGAs/s1600/Herald-Revenant-Profession-Icon.jpg
   text-color: xvr-txt-clr-rev-md
   mask: rgba-brown-light
 renegade:
   xpac: pof
   prof: revenant
   class: renegade
-  icon: https://wiki.guildwars2.com/images/b/bc/Renegade_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-53zUg9yGWlE/XL8JIonxvlI/AAAAAAABXzs/Mcok66kkdagzu1lSRDBirQ7KEQUQBh3tQCLcBGAs/s1600/Renegade-Revenant-Profession-Icon.jpg
   text-color: xvr-txt-clr-rev-md
   mask: rgba-brown-light
 
@@ -156,21 +156,21 @@ thief:
   xpac: core
   prof: thief
   class: thief
-  icon: https://wiki.guildwars2.com/images/1/19/Thief_tango_icon_200px.png
+  icon: https://2.bp.blogspot.com/-qHtAADmiUcE/XL8JMDUA7oI/AAAAAAABX0I/mq8Zks6P0CwHWpYeFMX342wWFbsVDhMQQCLcBGAs/s1600/Thief-Profession-Icon.jpg
   text-color: xvr-txt-clr-thf-md
   mask: rgba-blue-grey-light
 daredevil:
   xpac: hot
   prof: thief
   class: daredevil
-  icon: https://wiki.guildwars2.com/images/c/ca/Daredevil_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-WS4l7zpiDyA/XL8JD9tDPJI/AAAAAAABXyw/Rw_z0ldfC9I8FBqKcP1-lcpVX1kxlr3ogCLcBGAs/s1600/Daredevil-Thief-Profession-Icon.jpg
   text-color: xvr-txt-clr-thf-md
   mask: rgba-blue-grey-light
 deadeye:
   xpac: pof
   prof: thief
   class: deadeye
-  icon: https://wiki.guildwars2.com/images/b/b0/Deadeye_tango_icon_200px.png
+  icon: https://1.bp.blogspot.com/-C2hy45_2aNc/XL8JEb2KxFI/AAAAAAABXy0/WqWrJHj9kQIPnm4riJgw2w_EOfvDrqKogCLcBGAs/s1600/Deadeye-Thief-Profession-Icon.jpg
   text-color: xvr-txt-clr-thf-md
   mask: rgba-blue-grey-light
 
@@ -178,20 +178,20 @@ warrior:
   xpac: core
   prof: warrior
   class: warrior
-  icon: https://wiki.guildwars2.com/images/d/db/Warrior_tango_icon_200px.png
+  icon: https://2.bp.blogspot.com/-R014mP4JAOw/XL8JMwSumuI/AAAAAAABX0M/AqlKH0urNyYoZZvxKI395k0Y9NHHpPxKQCLcBGAs/s1600/Warrior-Profession-Icon.jpg
   text-color: xvr-txt-clr-war-md
   mask: rgba-yellow-light
 berserker:
   xpac: hot
   prof: warrior
   class: berserker
-  icon: https://wiki.guildwars2.com/images/8/80/Berserker_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-AO_oz02N-Cc/XL8JDyQp57I/AAAAAAABXys/B7P7RwU1ipU03tSqkrHqaYe_alUx92mdQCLcBGAs/s1600/Berserker-Warrior-Profession-Icon.jpg
   text-color: xvr-txt-clr-war-md
   mask: rgba-yellow-light
 spellbreaker:
   xpac: pof
   prof: warrior
   class: spellbreaker
-  icon: https://wiki.guildwars2.com/images/7/78/Spellbreaker_tango_icon_200px.png
+  icon: https://3.bp.blogspot.com/-9xynjH6DNXU/XL8JLP-GHkI/AAAAAAABX0A/1YfsxetewH4nDsnr1tnqC3FwC4KJ-IOzgCLcBGAs/s1600/Spellbreaker-Warrior-Profession-Icon.jpg
   text-color: xvr-txt-clr-war-md
   mask: rgba-yellow-light

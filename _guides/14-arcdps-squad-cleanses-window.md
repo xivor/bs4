@@ -7,32 +7,32 @@ tags:
   - Guides
 author: Xivor
 title: ArcDPS Squad Cleanses Window
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Monitor the condition-cleansing ability of the group during combat encounters
 ---
 
-#### What is the {{page.title}}?
+## What is the {{page.title}}?
 
 The {{page.title}} is where the user can {{page.description | downcase}}.<!--more--> These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
 ![Squad Cleanses window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%283%29.png)
 
-#### Configuration
+## Configuration
 
-###### Data Settings
+##### Data Settings
 
 * ~~In: Off~~
 * ~~Sort Per Second: Off~~
 * ~~Sort vs Target: Off~~
 * Fights to Keep: **1**
 
-###### Data - Persist Settings
+##### Data - Persist Settings
 
 * Reset Persistent on Party Join/Leave: **Selected**
 * Reset Persistent on Profession Change: **Selected**
 * Reset Persistent on Build Change: **Selected**
 
-###### Data - Stats Exclude Settings
+##### Data - Stats Exclude Settings
 
 * Use Window-Specific Excludes: **Selected**
 * ~~Vs Players: Off~~
@@ -47,11 +47,11 @@ The {{page.title}} is where the user can {{page.description | downcase}}.<!--mor
 * Use last damage event for combat end: **Selected**
 * Sliding Range: **0**
 
-###### Data - Sort Advanced
+##### Data - Sort Advanced
 
 * Strips Squad Current: **Selected**
 
-###### Data - Tooltip
+##### Data - Tooltip
 
 * Top Skills: **Selected**
 * Top Targets: **Selected**
@@ -62,7 +62,7 @@ The {{page.title}} is where the user can {{page.description | downcase}}.<!--mor
 * Strips/Cleanses: **Selected**
 * ~~Dodges: Off~~
 
-###### Data - Detail Default
+##### Data - Detail Default
 
 * ~~In: Off~~
 * ~~Friendly: Off~~
@@ -98,7 +98,7 @@ The {{page.title}} is where the user can {{page.description | downcase}}.<!--mor
 * Padding X: **0.000000**
 * Padding Y: **0.000000**
 
-###### Position
+##### Position
 
 * ~~Screen Relative Position: Off~~
 * ~~Window Relative Position: Off~~

@@ -2,7 +2,7 @@
 title: DPS Reaper
 layout: build
 prof: reaper
-build-type: power
+pre-title: power
 build-role: dps
 categories:
   - necromancer

@@ -2,7 +2,7 @@
 title: Support Scrapper
 layout: build
 prof: scrapper
-build-type: heal
+pre-title: heal
 build-role: support
 categories:
   - engineer

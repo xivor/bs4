@@ -7,17 +7,17 @@ tags:
   - Guides
 author: Xivor
 title: ArcDPS Damage Out Window
-date: 2020-08-30 02:02:00
+updated: September 19, 2020
 description: Monitor the outgoing damage from the group in combat encounters
 ---
 
-#### What is the {{page.title}}?
+## What is the {{page.title}}?
 
 The {{page.title}} is where the user can {{page.description | downcase}}.<!--more-->  This window can be assigned to any of the **Area Stats** window slots other than the primary. These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
 ![Damage Out window]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%289%29.png)
 
-#### Configuration
+## Configuration
 
 ###### Data Settings
 
