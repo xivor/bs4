@@ -3,7 +3,7 @@ title: Support Tempest
 layout: build
 prof: tempest
 pre-title: heal
-build-role: support
+post-title: support
 categories:
   - elementalist
 author: Xivor

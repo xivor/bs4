@@ -3,7 +3,7 @@ title: DPS Devastation Herald
 layout: build
 prof: herald
 pre-title: power devastation
-build-role: dps
+post-title: dps
 categories:
   - revenant
 author: Xivor

@@ -3,7 +3,7 @@ title: DPS Dragonhunter
 layout: build
 prof: dragonhunter
 pre-title: power
-build-role: dps
+post-title: dps
 categories:
   - guardian
 author: Xivor

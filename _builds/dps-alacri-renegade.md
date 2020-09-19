@@ -3,7 +3,7 @@ title: DPS Alacri-Renegade
 layout: build
 prof: renegade
 pre-title: power alacrity
-build-role: support dps
+post-title: support dps
 categories:
   - revenant
 author: Xivor

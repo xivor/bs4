@@ -3,7 +3,7 @@ title: DPS Scrapper
 layout: build
 prof: scrapper
 pre-title: power
-build-role: dps
+post-title: dps
 categories:
   - engineer
 author: Xivor

@@ -3,7 +3,7 @@ title: DPS Weaver
 layout: build
 prof: weaver
 pre-title: power
-build-role: dps
+post-title: dps
 categories:
   - elementalist
 author: Xivor

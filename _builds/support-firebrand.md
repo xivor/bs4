@@ -3,7 +3,7 @@ title: Support Firebrand
 layout: build
 prof: firebrand
 pre-title: heal
-build-role: support
+post-title: support
 categories:
   - guardian
 author: Xivor

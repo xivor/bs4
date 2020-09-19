@@ -3,7 +3,7 @@ title: Support Scrapper
 layout: build
 prof: scrapper
 pre-title: heal
-build-role: support
+post-title: support
 categories:
   - engineer
 author: Xivor

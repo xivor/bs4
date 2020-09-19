@@ -3,7 +3,7 @@ title: Condi DPS Scourge
 layout: build
 prof: scourge
 pre-title: condi
-build-role: dps
+post-title: dps
 categories:
   - necromancer
 author: Xivor

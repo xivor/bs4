@@ -3,7 +3,7 @@ title: DPS Necromancer
 layout: build
 prof: necromancer
 pre-title: power
-build-role: dps
+post-title: dps
 categories:
   - necromancer
 author: Xivor

@@ -3,7 +3,7 @@ title: DPS Guardian
 layout: build
 prof: guardian
 pre-title: power
-build-role: dps
+post-title: dps
 categories:
   - guardian
 author: Xivor

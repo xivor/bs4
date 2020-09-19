@@ -3,7 +3,7 @@ title: Renegade
 layout: build
 prof: renegade
 pre-title: condi
-build-role: support dps
+post-title: support dps
 categories:
   - revenant
 author: Xivor

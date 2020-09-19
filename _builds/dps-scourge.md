@@ -3,7 +3,7 @@ title: DPS Scourge
 layout: build
 prof: scourge
 pre-title: power
-build-role: dps
+post-title: dps
 categories:
   - necromancer
 author: Xivor
