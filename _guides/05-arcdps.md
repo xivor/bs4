@@ -19,7 +19,7 @@ description: >-
 
 [ArcDPS](https://www.deltaconnected.com/arcdps/) is a third-party software application that is used to {{page.description | downcase}} for Guild Wars 2.<!--more--> It allows players within the same party/squad to see current and simulated damage between their fellow players. For information on whether ArcDPS is safe to use, please read the information on ArcDPS and ArenaNet's position located [here](arcdps-and-arenanet.md).
 
-![Example of ArcDPS in action]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/arcdps-action.gif)
+![Example of ArcDPS in action]({{ site.url }}{{ site.baseurl }}/assets/img/addons/arcdps-action.gif){:width="800px"}
 
 ## Installation
 
@@ -32,7 +32,7 @@ Make sure that Guild Wars 2 is not running at the time of installation. For ArcD
 3. Click the large **UPDATE** button on the lower right
 4. At this time, **GW2-UOAOM** will download and install the latest version of **ArcDPS**.
 
-![Select only the ArcDPS option]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/addon-manager-example-1.png)
+![Select only the ArcDPS option]({{ site.url }}{{ site.baseurl }}/assets/img/addons/addon-manager-example-1.png){:width="800px"}
 
 ## Usage
 

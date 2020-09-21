@@ -17,7 +17,7 @@ description: Simplifies the process of managing third-party utilities for Guild 
 
 [{{page.title}}](https://github.com/fmmmlee/GW2-Addon-Manager) (also called GW2-UOAOM) is a third-party software application that is used to {{page.description | downcase}}.<!--more--> It is a tool to improve the experience of using addons and plugins in Guild Wars 2 by handling installation, updates, and file management behind the scenes.
 
-![GW2-UOAOM Menu]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2838%29.png){:width="800px"}
+![GW2-UOAOM Menu]({{ site.url }}{{ site.baseurl }}/assets/img/addons/image%20%2838%29.png){:width="800px"}
 
 ## Pre-Installation Checklist
 
@@ -47,7 +47,7 @@ Note that the program won't work while GW2 or the GW2 launcher is running, as it
 
 ## Additional Configuration Options
 
-![Configuration Options menu]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image.png)
+![Configuration Options menu]({{ site.url }}{{ site.baseurl }}/assets/img/addons/image.png)
 
 ###### Set Default
 

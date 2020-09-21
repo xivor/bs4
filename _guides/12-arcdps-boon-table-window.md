@@ -17,7 +17,7 @@ description: Monitor the boon and buff uptime information for the group in comba
 
 The [{{page.title}}](https://github.com/MarsEdge/GW2-ArcDPS-Boon-Table) is a third-party plugin to ArcDPS where the user can {{page.description | downcase}}.<!--more--> This window displays boon and buff uptime information for the group and subgroups. These configurations are specific to customizing the display of the {{page.title}} for WvW encounters. 
 
-![ArcDPS Boon Table]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%2832%29.png)
+![ArcDPS Boon Table]({{ site.url }}{{ site.baseurl }}/assets/img/addons/image%20%2832%29.png)
 
 ## Installation
 

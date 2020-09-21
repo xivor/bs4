@@ -17,7 +17,7 @@ description: Review ArcDPS metrics in a polished readable report
 
 [{{page.title}}](https://dps.report) is third-party web application that is used to {{page.description | downcase}}.<!--more-->  ArcDPS log can be uploaded and parsed into a human readable format that sorts out the details into tabs and charts.
 
-![]({{ site.url }}/{{ site.baseurl }}/assets/img/addons/image%20%286%29.png){:width="800px"}
+![]({{ site.url }}{{ site.baseurl }}/assets/img/addons/image%20%286%29.png){:width="800px"}
 
 ## Usage
 

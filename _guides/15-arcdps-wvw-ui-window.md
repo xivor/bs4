@@ -17,7 +17,7 @@ description: Interface modifications for enhanced gameplay visuals during combat
 
 {{page.title}} are {{page.description | downcase}}.<!--more--> Specifically, these settings modify the way GW2 displays information on your screen and allows removal for more screen space and less screen clutter. These are quality-of-life enhancements that can assist in making the game experience better.
 
-![]({{ site.url }}/{{ site.baseurl }} /assets/img/addons/capture%20%286%29.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/img/addons/capture%20%286%29.png)
 
 ## Configure UI/UX Settings
 
