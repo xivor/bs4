@@ -8,6 +8,11 @@ layout: default
 </head>
 <!--Head Content-->
 <body>
+  {% if page.layout == "guide" %}
+    {% assign prof = site.data.profs.default %}
+  {% else %}
+    {% assign prof = site.data.profs[page.title] %}
+  {% endif %}
   <!--Header-->
   <header>
     <!--Navbar -->

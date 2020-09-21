@@ -1,11 +1,11 @@
 ---
-title: scrapper
 layout: build
-prof: scrapper
 pre-title: power
+title: scrapper
 tagline: dps
 categories:
   - engineer
+  - power
 author: Xivor
 updated: September 11, 2020
 ---

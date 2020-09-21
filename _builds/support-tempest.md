@@ -1,11 +1,11 @@
 ---
-title: tempest
 layout: build
-prof: tempest
 pre-title: heal
+title: tempest
 tagline: support
 categories:
   - elementalist
+  - support
 author: Xivor
 updated: September 11, 2020
 ---

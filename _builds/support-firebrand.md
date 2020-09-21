@@ -1,11 +1,11 @@
 ---
-title: firebrand
 layout: build
-prof: firebrand
 pre-title: heal
+title: firebrand
 tagline: support
 categories:
   - guardian
+  - support
 author: Xivor
 updated: September 11, 2020
 ---

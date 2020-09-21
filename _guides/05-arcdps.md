@@ -5,7 +5,7 @@ tags:
   - Addons
   - ArcDPS
   - Guides
-author:
+author: Xivor
 pre-title:
 title: ArcDPS
 tagline: Damage Meter

@@ -1,6 +1,13 @@
+{% if page.layout == "guide" %}
+  {% assign prof = site.data.profs.default %}
+{% elsif page.layout == "build" %}
+  {% assign prof = site.data.profs[page.title] %}
+{% else %}
+  {% assign prof = site.data.profs.default %}
+{% endif %}
 <!-- Footer -->
 <footer
-  class="page-footer text-center text-md-left"
+  class="page-footer {{ prof.colors.dark-bg }} text-center text-md-left"
 >
   <!-- Footer Links -->
   <div class="container">

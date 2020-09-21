@@ -1,11 +1,11 @@
 ---
-title: necromancer
 layout: build
-prof: necromancer
 pre-title: power
+title: necromancer
 tagline: dps
 categories:
   - necromancer
+  - power
 author: Xivor
 updated: September 11, 2020
 ---

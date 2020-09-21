@@ -1,45 +1,44 @@
 ---
 layout: default
 ---
-
-
-    <div class="view mask rgba-black-light">
-        <div class="container xvr-container-dark mt-10 main-content">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="xvr-banner-header-wrapper text-white">
-                        <div class="xvr-banner-header-icon pt-2 pb-2 pl-2 pr-5">
-                            <img src="{{site.data.ctags.cat.white}}" alt="" class="xvr-header-icon rounded-circle img-fluid z-depth-1 img-thumbnail">
-                        </div>
-                        <div class="xvr-banner-header-text text-left">
-                            <span class="xvr-banner-text-top">{{page.pre-title}}</span> 
-                            <span class="xvr-banner-text">{{page.title}}</span> 
-                            <span class="xvr-banner-text-bottom text-right">{{page.tagline}}</span>  
+{% assign prof = site.data.profs.default %}
+<div class="view mask rgba-black-light">
+    <div class="container xvr-container-dark mt-10 main-content">
+        <div class="row">
+            <div class="col text-center">
+                <div class="xvr-banner-header-wrapper text-white">
+                    <div class="xvr-banner-header-icon pt-2 pb-2 pl-2 pr-5">
+                        <img src="{{site.data.ctags.cat.white}}" alt="" class="xvr-header-icon rounded-circle img-fluid z-depth-1 img-thumbnail">
+                    </div>
+                    <div class="xvr-banner-header-text text-left">
+                        <span class="xvr-banner-text-top">{{page.pre-title}}</span> 
+                        <span class="xvr-banner-text">{{page.title}}</span> 
+                        <span class="xvr-banner-text-bottom text-right">{{page.tagline}}</span>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-uppercase">
+                <hr>
+                <span class="text-white">Author: </span>
+                <span class="{{prof.colors.light}}">{{page.author}}</span>
+                <span class="text-white">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+                <span class="text-white">Last updated on </span>
+                <span class="{{prof.colors.light}}">{{page.updated}}.</span>
+                <hr>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="general-panel-wrapper">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-12 col-xl-12">{% include themes/guide.html %}
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col text-center text-uppercase">
-                    <hr>
-                    <span class="text-white">Author: </span>
-                    <span class="{{prof.text-color}}">{{page.author}}</span>
-                    <span class="text-white">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                    <span class="text-white">Last updated on </span>
-                    <span class="{{prof.text-color}}">{{page.updated}}.</span>
-                    <hr>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="general-panel-wrapper">
-                        <div class="row">
-                            <div class="col-12 col-md-12 col-lg-12 col-xl-12">{% include themes/guide.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>  
-    </div>
+        </div>
+    </div>  
+</div>
 

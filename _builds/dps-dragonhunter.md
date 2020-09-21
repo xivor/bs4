@@ -1,11 +1,11 @@
 ---
-title: dragonhunter
 layout: build
-prof: dragonhunter
 pre-title: power
+title: dragonhunter
 tagline: dps
 categories:
   - guardian
+  - power
 author: Xivor
 updated: September 11, 2020
 ---

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Mono);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap);
 
 html,
 body {
@@ -9,19 +9,31 @@ body {
     background-position: top;
     background-attachment: fixed;
     position: relative;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 0.95rem;
     height: 100%;
     line-height: 1.6;
     margin: 0;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: .5rem;
     margin-top: 2rem;
     font-weight: 600;
     line-height: 1.2;
 }
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -38,13 +50,8 @@ hr {
     width: 66% !important;
 }
 
-
 .dropdown-divider {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-.page-footer {
-    background-color: #1A503E;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -61,9 +68,6 @@ hr {
 }
 
 /* Dynamic transparent nav */
-.top-nav-collapse {
-    background-color: #41A489 !important;
-}
 
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
@@ -309,6 +313,10 @@ hr {
     margin-right: 5.5em;
 }
 
+img.xvr-header-icon {
+    max-width: 200px;
+}
+
 .xvr-banner-header-wrapper {
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -321,16 +329,13 @@ hr {
     display: inline-block;
 }
 
-img.xvr-header-icon {
-    max-width: 200px;
-}
-
 .xvr-banner-header-text {
     display: inline-block;
     /* transform: translateY(40px);
       */
     ;
 }
+
 span.xvr-banner-text-top {
     font-size: 1.8rem;
     line-height: 1.8rem;
@@ -363,148 +368,7 @@ span.xvr-banner-text-bottom {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
-.xvr-txt-clr-nec-dk,
-.xvr-txt-clr-nec-dk a,
-a.xvr-txt-clr-nec-dk:hover {
-    color: #005544;
-}
-.xvr-txt-clr-nec-md,
-.xvr-txt-clr-nec-md a,
-a.xvr-txt-clr-nec-med:hover {
-    color: #21BC72;
-}
-.xvr-txt-clr-nec-lt,
-.xvr-txt-clr-nec-lt a,
-a.xvr-txt-clr-nec-lt:hover {
-    color: #AAE5C9;
-}
-.xvr-txt-clr-ele-dk,
-.xvr-txt-clr-ele-dk a,
-a.xvr-txt-clr-ele-dk:hover {
-    color: #BA1718;
-}
-.xvr-txt-clr-ele-md,
-.xvr-txt-clr-ele-md a,
-a.xvr-txt-clr-ele-med:hover {
-    color: #F54251;
-}
-.xvr-txt-clr-ele-lt,
-.xvr-txt-clr-ele-lt a,
-a.xvr-txt-clr-ele-lt:hover {
-    color: #FAADB3;
-}
-.xvr-txt-clr-gua-dk,
-.xvr-txt-clr-gua-dk a,
-a.xvr-txt-clr-gua-dk:hover {
-    color: #0088AA;
-}
-.xvr-txt-clr-gua-md,
-.xvr-txt-clr-gua-md a,
-a.xvr-txt-clr-gua-med:hover {
-    color: #5FBCD3;
-}
-.xvr-txt-clr-gua-lt,
-.xvr-txt-clr-gua-lt a,
-a.xvr-txt-clr-gua-lt:hover {
-    color: #CCEAF1;
-}
-.xvr-txt-clr-rev-dk,
-.xvr-txt-clr-rev-dk a,
-a.xvr-txt-clr-rev-dk:hover {
-    color: #670F0F;
-}
-.xvr-txt-clr-rev-md,
-.xvr-txt-clr-rev-md a,
-a.xvr-txt-clr-rev-med:hover {
-    color: #A31300;
-}
-.xvr-txt-clr-rev-lt,
-.xvr-txt-clr-rev-lt a,
-a.xvr-txt-clr-rev-lt:hover {
-    color: #C46E6E;
-}
-.xvr-txt-clr-eng-dk,
-.xvr-txt-clr-eng-dk a,
-a.xvr-txt-clr-eng-dk:hover {
-    color: #874D24;
-}
-.xvr-txt-clr-eng-md,
-.xvr-txt-clr-eng-md a,
-a.xvr-txt-clr-eng-med:hover {
-    color: #CE7F4B;
-}
-.xvr-txt-clr-eng-lt,
-.xvr-txt-clr-eng-lt a,
-a.xvr-txt-clr-eng-lt:hover {
-    color: #E6BCA1;
-}
-.xvr-txt-clr-rgr-dk,
-.xvr-txt-clr-rgr-dk a,
-a.xvr-txt-clr-rgr-dk:hover {
-    color: #5E8F11;
-}
-.xvr-txt-clr-rgr-md,
-.xvr-txt-clr-rgr-md a,
-a.xvr-txt-clr-rgr-med:hover {
-    color: #98C44F;
-}
-.xvr-txt-clr-rgr-lt,
-.xvr-txt-clr-rgr-lt a,
-a.xvr-txt-clr-rgr-lt:hover {
-    color: #D4E7B5;
-}
-.xvr-txt-clr-mes-dk,
-.xvr-txt-clr-mes-dk a,
-a.xvr-txt-clr-mes-dk:hover {
-    color: #5F0975;
-}
-.xvr-txt-clr-mes-md,
-.xvr-txt-clr-mes-md a,
-a.xvr-txt-clr-mes-med:hover {
-    color: #DD55FF;
-}
-.xvr-txt-clr-mes-lt,
-.xvr-txt-clr-mes-lt a,
-a.xvr-txt-clr-mes-lt:hover {
-    color: #ECA1FF;
-}
-.xvr-txt-clr-thf-dk,
-.xvr-txt-clr-thf-dk a,
-a.xvr-txt-clr-thf-dk:hover {
-    color: #8C414A;
-}
-.xvr-txt-clr-thf-md,
-.xvr-txt-clr-thf-md a,
-a.xvr-txt-clr-thf-med:hover {
-    color: #9A7C81;
-}
-.xvr-txt-clr-thf-lt,
-.xvr-txt-clr-thf-lt a,
-a.xvr-txt-clr-thf-lt:hover {
-    color: #D3C5C8;
-}
-.xvr-txt-clr-war-dk,
-.xvr-txt-clr-war-dk a,
-a.xvr-txt-clr-war-dk:hover {
-    color: #C38300;
-}
-.xvr-txt-clr-war-md,
-.xvr-txt-clr-war-md a,
-a.xvr-txt-clr-war-med:hover {
-    color: #DCB45D;
-}
-.xvr-txt-clr-war-lt,
-.xvr-txt-clr-war-lt a,
-a.xvr-txt-clr-war-lt:hover {
-    color: #EEDBB2;
-}
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(19, 19, 19, .33) !important;
-    border-bottom: 1px solid rgba(236, 236, 236, .11) !important;
-}
+
 .xvr-container-dark {
     background: #212121;
     padding-top: 1rem;
@@ -512,9 +376,236 @@ hr {
     z-index: 1;
     position: relative;
 }
+
 .general-panel-wrapper {
     border: 1px solid rgba(236, 236, 236, 0.2);
     border-radius: .25rem;
     padding: 1rem 1rem;
     margin-bottom: 2rem;
+}
+
+/* Default Colors */
+.def-clr-primary-bg:hover,
+.def-clr-primary-bg:active {
+    background-color: #263238 !important
+}
+
+.def-clr-primary {
+    color: #263238
+}
+
+.def-clr-light {
+    color: #4f5b62
+}
+
+.def-clr-light-bg,
+.top-nav-collapse {
+    background-color: #4f5b62
+}
+
+.def-clr-dark{
+    color: #000a12
+}
+
+.def-clr-dark-bg,
+.page-footer, .btn:hover, .btn:active  {
+    background-color: #000a12
+}
+
+/* Elementalist Colors */
+.ele-clr-primary-bg:hover,
+.ele-clr-primary-bg:active {
+    background-color: #b71c1c !important
+}
+
+.ele-clr-primary {
+    color: #b71c1c
+}
+
+.ele-clr-light {
+    color: #f05545
+}
+
+.ele-clr-dark {
+    color: #7f0000
+}
+
+.ele-clr-dark-bg {
+    background-color: #7f0000
+}
+
+/* Engineer Colors */
+.eng-clr-primary-bg:hover,
+.eng-clr-primary-bg:active {
+    background-color: #ff6f00 !important
+}
+
+.eng-clr-primary {
+    color: #ff6f00
+}
+
+.eng-clr-light {
+    color: #ffa040
+}
+
+.eng-clr-dark {
+    color: #c43e00
+}
+
+.eng-clr-dark-bg {
+    background-color: #c43e00
+}
+
+/* Guardian Colors */
+.gua-clr-primary-bg:hover,
+.gua-clr-primary-bg:active {
+    background-color: #0277bd !important
+}
+
+.gua-clr-primary {
+    color: #0277bd
+}
+
+.gua-clr-light {
+    color: #58a5f0
+}
+
+.gua-clr-dark {
+    color: #004c8c
+}
+
+.gua-clr-dark-bg {
+    background-color: #004c8c
+}
+
+/* Mesmer Colors */
+.mes-clr-primary {
+    color: #7b1fa2
+}
+
+.mes-clr-primary-bg:hover,
+.mes-clr-primary-bg:active {
+    background-color: #7b1fa2 !important
+}
+
+.mes-clr-light {
+    color: #ae52d4
+}
+
+.mes-clr-dark {
+    color: #4a0072
+}
+
+.mes-clr-dark-bg {
+    background-color: #4a0072
+}
+
+/* Necromancer Colors */
+.nec-clr-primary-bg:hover,
+.nec-clr-primary-bg:active {
+    background-color: #388e3c !important
+}
+
+.nec-clr-primary {
+    color: #388e3c
+}
+
+.nec-clr-light {
+    color: #6abf69
+}
+
+.nec-clr-dark {
+    color: #00600f
+}
+
+.nec-clr-dark-bg {
+    background-color: #00600f
+}
+
+/* Ranger Colors */
+.ran-clr-primary-bg:hover,
+.ran-clr-primary-bg:active {
+    background-color: #558b2f !important
+}
+
+.ran-clr-primary {
+    color: #558b2f
+}
+
+.ran-clr-light {
+    color: #85bb5c
+}
+
+.ran-clr-dark {
+    color: #255d00
+}
+
+.ran-clr-dark-bg {
+    background-color: #255d00
+}
+
+/* Revenant Colors */
+.rev-clr-primary-bg:hover,
+.rev-clr-primary-bg:active {
+    background-color: #b71c1c !important
+}
+
+.rev-clr-primary {
+    color: #7f0000
+}
+
+.rev-clr-light {
+    color: #b53d2a
+}
+
+.rev-clr-dark {
+    color: #4e0000
+}
+
+.rev-clr-dark-bg {
+    background-color: #4e0000
+}
+
+/* Thief Colors */
+.thf-clr-primary-bg:hover,
+.thf-clr-primary-bg:active {
+    background-color: #6d4c41 !important
+}
+
+.thf-clr-primary {
+    color: #6d4c41
+}
+
+.thf-clr-light {
+    color: #9c786c
+}
+
+.thf-clr-dark {
+    color: #40241a
+}
+
+.thf-clr-dark-bg {
+    background-color: #40241a
+}
+
+/* Warrior Colors */
+.war-clr-primary-bg:hover,
+.war-clr-primary-bg:active {
+    background-color: #f9a825 !important
+}
+
+.war-clr-primary {
+    color: #f9a825
+}
+
+.war-clr-light {
+    color: #ffd95a
+}
+
+.war-clr-dark {
+    color: #c17900
+}
+
+.war-clr-dark-bg {
+    background-color: #c17900
 }

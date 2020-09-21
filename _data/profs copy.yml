@@ -1,0 +1,143 @@
+elementalist:
+  core:
+    class: elementalist
+    icon: https://1.bp.blogspot.com/-K7lLYZs8vJo/XL8JFBDx1mI/AAAAAAABXzA/IsqDFpPJGosd1vvfwHtlngLXiF3WTVnrgCLcBGAs/s1600/Elementalist-Profession-Icon.jpg
+  hot:
+    class: tempest
+    icon: https://1.bp.blogspot.com/-Sadqg_umEvA/XL8JLkY2c1I/AAAAAAABX0E/iGSyLpTa2d4zqbIedPT9Co3vka8UzHs1ACLcBGAs/s1600/Tempest-Elementalist-Profession-Icon.jpg
+  pof:
+    class: weaver
+    icon: https://3.bp.blogspot.com/-ZgXM_u8aHmU/XL8JNIVonDI/AAAAAAABX0Q/81pbdmUyXHk9J3y54JXeDNbZ--_FgiflQCLcBGAs/s1600/Weaver-Elementalist-Profession-Icon.jpg
+  colors:
+    primary: ele-clr-primary
+    dark: ele-clr-dark
+    light: ele-clr-light
+    mask: rgba-red-light
+  
+engineer:
+  core:
+    class: engineer
+    icon: https://1.bp.blogspot.com/-Ryf-0kVa90k/XL8JFk04qOI/AAAAAAABXzE/7h1XshgbGkQ8ZYmafPsCB8RBA4DnEN7GwCLcBGAs/s1600/Engineer-Profession-Icon.jpg
+  hot:
+    class: scrapper
+    icon: https://1.bp.blogspot.com/-IevKgG7_cLE/XL8JKAVAkEI/AAAAAAABXz4/EaniWJvoNoIoeJEGC5NnDajghC-hvOGvgCLcBGAs/s1600/Scrapper-Engineer-Profession-Icon.jpg
+  pof:
+    class: holosmith
+    icon: https://4.bp.blogspot.com/-9iWEqgtuuL0/XL8JG_Yy_1I/AAAAAAABXzU/OBgaFTI9r684Z_MNuL9w6cwE1PCyhm-PwCLcBGAs/s1600/Holosmith-Engineer-Profession-Icon.jpg
+  colors:
+    primary: eng-clr-primary
+    dark: eng-clr-dark
+    light: eng-clr-light
+    mask: rgba-orange-light
+
+guardian:
+  core:
+    class: guardian
+    icon: https://1.bp.blogspot.com/-Bh9SdDOyIJc/XL8JGoDWvmI/AAAAAAABXzM/DQd4f_5RUB466gzrZAhbIg8BFebOBgomwCLcBGAs/s1600/Guardian-Profession-Icon.jpg
+  hot:
+    class: dragonhunter
+    icon: https://3.bp.blogspot.com/-p2232mgBgyY/XL8JEqxa5VI/AAAAAAABXy4/DbcS4HSQDq4zbACHibk_sAUr7BhqK_RrwCLcBGAs/s1600/Dragonhunter-Guardian-Profession-Icon.jpg
+  pof:
+    class: firebrand
+    icon: https://2.bp.blogspot.com/-CdvTxIGgpvQ/XL8JGNXK_9I/AAAAAAABXzI/qhdBpOvnnVYX9p078ZF4KxueX1bbq8yPACLcBGAs/s1600/Firebrand-Guardian-Profession-Icon.jpg
+  colors:
+    primary: gua-clr-primary
+    dark: gua-clr-dark
+    light: gua-clr-light
+    mask: rgba-blue-light
+
+mesmer:
+  core:
+    class: mesmer
+    icon: https://1.bp.blogspot.com/-x1Szic2kSdw/XL8JHOY_93I/AAAAAAABXzY/ZQ0Wxnu2GqUsRoJMvrUlD-JDuegfCKiLACLcBGAs/s1600/Mesmer-Profession-Icon.jpg
+  hot:
+    class: chronomancer
+    icon: https://3.bp.blogspot.com/-k1cifB_3Hy0/XL8JD6mBBsI/AAAAAAABXyo/cYAy293wSxYxYuTYiBV9wBgE6VchWx5IgCLcBGAs/s1600/Chronomancer-Mesmer-Profession-Icon.jpg
+  pof:
+    class: mirage
+    icon: https://4.bp.blogspot.com/-xm-kWqPFjwI/XL8JHILLLVI/AAAAAAABXzc/VlmB82zdJcYqj90b-lFq2c0j9hYbPUSJQCLcBGAs/s1600/Mirage-Mesmer-Profession-Icon.jpg
+  colors:
+    primary: mes-clr-primary
+    dark: mes-clr-dark
+    light: mes-clr-light
+    mask: rgba-purple-light
+
+necromancer:
+  core:
+    class: necromancer
+    icon: https://2.bp.blogspot.com/-92migGXQ_K0/XL8JHenccWI/AAAAAAABXzg/cb_0CT2e2qcbp16_JzHia_4ufLSYxsw8gCLcBGAs/s1600/Necromancer-Profession-Icon.jpg
+  hot:
+    class: reaper
+    icon: https://3.bp.blogspot.com/-RKAcwg95tq4/XL8JIF1BHiI/AAAAAAABXzo/NATsy80POj0Kw5JGrmT5vHT2pKdLI0Z4gCLcBGAs/s1600/Reaper-Necromancer-Profession-Icon.jpg
+  pof:
+    class: scourge
+    icon: https://4.bp.blogspot.com/-QnS2gpy97Oo/XL8JJ_6LOmI/AAAAAAABXz0/f4-OMXzGs9ECSKzliQx5d8ey8hMN3CtCwCLcBGAs/s1600/Scourge-Necromancer-Profession-Icon.jpg
+  colors:
+    primary: nec-clr-primary
+    dark: nec-clr-dark
+    light: nec-clr-light
+    mask: rgba-green-light
+
+ranger:
+  core:
+    class: ranger
+    icon: https://3.bp.blogspot.com/-pu3_vM_qYig/XL8JHxIYwEI/AAAAAAABXzk/4ZT3iYATdTUtirmmgmsGJBSsoHOzAmmeQCLcBGAs/s1600/Ranger-Profession-Icon.jpg
+  hot:
+    class: druid
+    icon: https://3.bp.blogspot.com/-0uia24eM03A/XL8JEwozpeI/AAAAAAABXy8/Gq9jF9VcZs4aIaU1ZX3711BoV6FHtsQyQCLcBGAs/s1600/Druid-Ranger-Profession-Icon.jpg
+  pof:
+    class: soulbeast
+    icon: https://1.bp.blogspot.com/-yYjCaOq74wA/XL8JK7JDXUI/AAAAAAABXz8/A0yacbaZbXEW5goiArLpna9v9ehrPk6HgCLcBGAs/s1600/Soulbeast-Ranger-Profession-Icon.jpg
+  colors:
+    primary: ran-clr-primary
+    dark: ran-clr-dark
+    light: ran-clr-light
+    mask: rgba-lime-light
+
+revenant:
+  core:
+    class: revenant
+    icon: https://2.bp.blogspot.com/-d8Xm07oetw4/XL8JJLhZrtI/AAAAAAABXzw/d9Dmob9IF4gtc21DUlU0s0YUY261bVq9wCLcBGAs/s1600/Revenant-Profession-Icon.jpg
+  hot:
+    class: herald
+    icon: https://1.bp.blogspot.com/-DPnNf1syhoQ/XL8JGy_nL-I/AAAAAAABXzQ/oV5h7Py2e58m_6Mss1Tcqw2lSmx9-F8fACLcBGAs/s1600/Herald-Revenant-Profession-Icon.jpg
+  pof:
+    class: renegade
+    icon: https://3.bp.blogspot.com/-53zUg9yGWlE/XL8JIonxvlI/AAAAAAABXzs/Mcok66kkdagzu1lSRDBirQ7KEQUQBh3tQCLcBGAs/s1600/Renegade-Revenant-Profession-Icon.jpg 
+  colors:
+    primary: rev-clr-primary
+    dark: rev-clr-dark
+    light: rev-clr-light
+    mask: rgba-brown-light
+
+thief:
+  core:
+    class: thief
+    icon: https://2.bp.blogspot.com/-qHtAADmiUcE/XL8JMDUA7oI/AAAAAAABX0I/mq8Zks6P0CwHWpYeFMX342wWFbsVDhMQQCLcBGAs/s1600/Thief-Profession-Icon.jpg
+  hot:
+    class: daredevil
+    icon: https://1.bp.blogspot.com/-WS4l7zpiDyA/XL8JD9tDPJI/AAAAAAABXyw/Rw_z0ldfC9I8FBqKcP1-lcpVX1kxlr3ogCLcBGAs/s1600/Daredevil-Thief-Profession-Icon.jpg
+  pof:
+    class: deadeye
+    icon: https://1.bp.blogspot.com/-C2hy45_2aNc/XL8JEb2KxFI/AAAAAAABXy0/WqWrJHj9kQIPnm4riJgw2w_EOfvDrqKogCLcBGAs/s1600/Deadeye-Thief-Profession-Icon.jpg
+  colors:
+    primary: thf-clr-primary
+    dark: thf-clr-dark
+    light: thf-clr-light
+    mask: rgba-blue-grey-light
+
+warrior:
+  core:
+    class: warrior
+    icon: https://2.bp.blogspot.com/-R014mP4JAOw/XL8JMwSumuI/AAAAAAABX0M/AqlKH0urNyYoZZvxKI395k0Y9NHHpPxKQCLcBGAs/s1600/Warrior-Profession-Icon.jpg
+  hot:
+    class: berserker
+    icon: https://3.bp.blogspot.com/-AO_oz02N-Cc/XL8JDyQp57I/AAAAAAABXys/B7P7RwU1ipU03tSqkrHqaYe_alUx92mdQCLcBGAs/s1600/Berserker-Warrior-Profession-Icon.jpg
+  pof:
+    class: spellbreaker
+    icon: https://3.bp.blogspot.com/-9xynjH6DNXU/XL8JLP-GHkI/AAAAAAABX0A/1YfsxetewH4nDsnr1tnqC3FwC4KJ-IOzgCLcBGAs/s1600/Spellbreaker-Warrior-Profession-Icon.jpg 
+  colors:
+    primary: war-clr-primary
+    dark: war-clr-dark
+    light: war-clr-light
+    mask: rgba-yellow-light

@@ -1,11 +1,11 @@
 ---
-title: renegade
 layout: build
-prof: renegade
 pre-title: power alacrity
+title: renegade
 tagline: support dps
 categories:
   - revenant
+  - power
 author: Xivor
 updated: September 11, 2020
 ---
