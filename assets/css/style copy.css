@@ -1,5 +1,5 @@
-/* @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Archivo+Black:wght@300;400&display=swap);*/
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black:wght@200;300;400;500;600;700;800&display=swap);
 
 html,
 body {
@@ -10,7 +10,7 @@ body {
     background-position: top;
     background-attachment: fixed;
     position: relative;
-    /*font-family: "Archivo+Black", sans-serif;*/
+    font-family: "Archivo+Black", sans-serif;
     font-size: 0.95rem;
     height: 100%;
     line-height: 1.6;
@@ -33,7 +33,7 @@ h6 {
     margin-top: .5rem;
     font-weight: 600;
     line-height: 1.2;
-    /*font-family: "Oswald", sans-serif;*/
+    font-family: "Oswald", sans-serif;
 }
 
 hr {
@@ -92,9 +92,73 @@ hr {
     padding-bottom: .3em;
 }
 
-/*.navbar-brand span {
+.navbar-brand span {
     font-family: "Oswald", sans-serif;
-}*/
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #41A489 !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 256px;
+        height: 256px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 100;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .shard-img-responsive {
+        top: 60px;
+        width: 384px;
+        height: 384px;
+    }
+
+    .shard-container-responsive {
+        margin-top: 150;
+    }
+}
 
 /* Set Material Icons to same size as FontAwesome */
 .material-icons {
@@ -274,9 +338,8 @@ hr {
     margin-right: 5.5em;
 }
 
-/* Header styles */
 img.xvr-header-icon {
-    max-width: 120px;
+    max-width: 200px;
 }
 
 .xvr-banner-header-wrapper {
