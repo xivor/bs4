@@ -63,7 +63,7 @@ The **Area Stats** window is highly customizable and also allows for multiple in
 * [Squad Damage Taken]({% link _guides/10-arcdps-damage-taken-window.md %})
 * [Squad Average DPS]({% link _guides/11-arcdps-average-dps-window.md %})
 * [Squad Cleanses]({% link _guides/14-arcdps-squad-cleanses-window.md %})
-* [Squad Boon Strips]({% link _guides/12-arcdps-boon-strips-window.md %})
+* [Squad Boon Strips]({% link _guides/13-arcdps-boon-strips-window.md %})
 
 ## Buffs Window
 
