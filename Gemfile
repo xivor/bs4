@@ -21,8 +21,6 @@ gem "jekyll", "~> 3.9.0"
 group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'kramdown-parser-gfm', "~> 1.1.0"
-  gem 'premonition'
-  gem 'jekyll-admin'
   gem 'jekyll-liquify'
 # gem 'github-pages', '~> 207'
 end
