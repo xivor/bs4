@@ -59,11 +59,11 @@ Right click on the Damage window to find the Display menu. Here is where we conf
 
 The **Area Stats** window is highly customizable and also allows for multiple instances of the window in order to track different data. Some recommended window configurations for WvW using the **Area Stats** window are listed below.
 
-* [Squad Damage Out]({{04-arcdps-damage-out-config}})
-* [Squad Damage Taken]({{05-arcdps-damage-taken-config}})
-* [Squad Average DPS]({{06-arcdps-average-dps-window}})
-* [Squad Cleanses]({{09-arcdps-squad-cleanses-config}})
-* [Squad Boon Strips]({{08-arcdps-boon-strips-config}})
+* [Squad Damage Out]({% link _guides/09-arcdps-damage-out-window.md %})
+* [Squad Damage Taken]({% link _guides/10-arcdps-damage-taken-window.md %})
+* [Squad Average DPS]({% link _guides/11-arcdps-average-dps-window.md %})
+* [Squad Cleanses]({% link _guides/14-arcdps-squad-cleanses-window.md %})
+* [Squad Boon Strips]({% link _guides/13-arcdps-boon-strips-window.md %})
 
 ## Buffs Window
 

@@ -21,6 +21,6 @@ description: Review ArcDPS metrics in a polished readable report
 
 ## Usage
 
-1. Upload files either manually through the main website page or through using the [ArcDPS Log Manager]({{11-arcdps-log-manager}}).
+1. Upload files either manually through the main website page or through using the [ArcDPS Log Manager]({% link _guides/06-arcdps-log-manager.md %}).
 2. Review the report for an enormous amount of statistical data on damage, support, movement, and more.
 

@@ -9,7 +9,7 @@ author: Xivor
 pre-title:
 title: ArcDPS Log Manager 
 tagline: EVTC Management Utility
-updated: September 19, 2020
+updated: September 20, 2020
 description: Maintain and review ArcDPS combat logs and easily upload them to the web
 ---
 
