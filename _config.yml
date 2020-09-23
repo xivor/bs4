@@ -59,9 +59,8 @@ collections:
 
 # Plugins in use
 plugins:
-  - premonition
 
-gem: [jekyll-admin]
+gem: 
 
 # GW2 info
 gwiki:
