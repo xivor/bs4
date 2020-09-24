@@ -1,118 +1,21 @@
-/* @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Archivo+Black:wght@300;400&display=swap);*/
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black:wght@300;400&display=swap);
 
-html,
-body {
+/*************************************************/
+/* Default Page Body Styles */
+/*************************************************/
+.body-text {
     color: #fff;
+}
+
+.body-bg {
     background-color: #1c1c1c;
     background: url(https://xivor.github.io/assets/img/backgrounds/bg2.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
-    position: relative;
-    /*font-family: "Archivo+Black", sans-serif;*/
-    font-size: 0.95rem;
-    height: 100%;
-    line-height: 1.6;
-    margin: 0;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-    font-weight: 600;
-    line-height: 1.2;
-    /*font-family: "Oswald", sans-serif;*/
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(19, 19, 19, .33) !important;
-    border-bottom: 1px solid rgba(236, 236, 236, .11) !important
-}
-
-.chunk p {
-    margin-bottom:2em;
-}
-
-.chunk p + ul, .chunk p + ol {
-    margin-top:-2em;
-}
-
-.w-33 {
-    width: 33% !important;
-}
-
-.w-66 {
-    width: 66% !important;
-}
-
-.dropdown-divider {
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-
-/* Shard Logo Styles */
-.shard {
-    top:6.45em
-}
-
-.shard-img-responsive {
-    top: 60px;
-    width: 180px;
-    height: 180px;
-}
-
-.shard-container-responsive {
-    margin-top: 90px;
-}
-
-/* Navbar Styles */
-.navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-}
-
-.navbar-brand {
-    padding-top: .3em
-}
-.navbar-brand img {
-    padding-bottom: .3em;
-}
-
-/*.navbar-brand span {
-    font-family: "Oswald", sans-serif;
-}*/
-
-/* Set Material Icons to same size as FontAwesome */
-.material-icons {
-    font: normal normal normal 16px/1 "Material Icons";
-    display: inline-block;
-    transform: translateY(10%);
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: "liga";
-}
-
-/* Additional cell padding in Bootstrap methods */
 .pt-6 {
     padding-top: 3.5em;
 }
@@ -193,7 +96,6 @@ hr {
     padding-right: 5.5em;
 }
 
-/* Additional cell margin in Bootstrap methods */
 .mt-6 {
     margin-top: 3.5em;
 }
@@ -274,12 +176,51 @@ hr {
     margin-right: 5.5em;
 }
 
-/* Header styles */
-img.xvr-header-icon {
-    max-width: 120px;
+/* 
+****POSSIBLY NOT IN USE*****
+.w-33 {
+    width: 33% !important;
 }
 
-.xvr-banner-header-wrapper {
+.w-66 {
+    width: 66% !important;
+}
+*/
+
+
+/*************************************************/
+/* Guides Styles */
+/*************************************************/
+.guide-body {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.guide-body h2, h6 {
+    font-family: Oswald;
+    padding-top:0.5em
+}
+
+.guide-body p + ul, p + ol {
+    margin-top:-1em
+}
+
+.guide-border {
+    border: 1px solid rgba(236, 236, 236, 0.2);
+    border-radius: .25rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.guide-hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(236, 236, 236, 0.2);
+    border-bottom: 1px solid rgba(236, 236, 236, 0.11)
+}
+
+.guide-header-wrapper {
     padding-top: 0rem;
     padding-bottom: 0rem;
     display: flex;
@@ -287,31 +228,28 @@ img.xvr-header-icon {
     justify-content: center;
 }
 
-.xvr-banner-header-icon {
+.guide-header-icon {
     display: inline-block;
+    max-width: 200px;
 }
 
-.xvr-banner-header-text {
+.guide-header-text {
     display: inline-block;
     /* transform: translateY(40px);
       */
     ;
 }
 
-span.xvr-banner-text-top {
+span.guide-header-text-top {
     font-size: 1.8rem;
     line-height: 1.8rem;
     font-weight: 600;
     display: block;
-    /*padding-left: 1rem;
-      */
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
-    /*margin-top: 1rem;
-      */
     text-transform: uppercase;
 }
 
-span.xvr-banner-text {
+span.guide-header-text {
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 600;
@@ -320,17 +258,19 @@ span.xvr-banner-text {
     text-transform: uppercase;
 }
 
-span.xvr-banner-text-bottom {
+span.guide-header-text-bottom {
     font-size: 1.8rem;
     line-height: 1.8rem;
     font-weight: 600;
     display: block;
-    /*padding-right: 1rem;
-      */
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
 
+
+/*************************************************/
+/* Container Styles */
+/*************************************************/
 .xvr-container-dark {
     background: #212121;
     padding-top: 1rem;
@@ -339,14 +279,63 @@ span.xvr-banner-text-bottom {
     position: relative;
 }
 
-.general-panel-wrapper {
-    border: 1px solid rgba(236, 236, 236, 0.2);
-    border-radius: .25rem;
-    padding: 1rem 1rem;
-    margin-bottom: 2rem;
+
+/*************************************************/
+/* Shard Logo Styles */
+/*************************************************/
+.shard {
+    top: 6.45em
 }
 
-/* Default Colors */
+.shard-img-responsive {
+    top: 60px;
+    width: 180px;
+    height: 180px;
+}
+
+.shard-container-responsive {
+    margin-top: 90px;
+}
+
+
+/*************************************************/
+/* Navbar Styles */
+/*************************************************/
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+.navbar-brand {
+    padding-top: .3em
+}
+
+.navbar-brand img {
+    padding-bottom: .3em;
+}
+
+
+/*************************************************/
+/* Set Material Icons to same size as FontAwesome */
+/*************************************************/
+.material-icons {
+    font: normal normal normal 16px/1 "Material Icons";
+    display: inline-block;
+    transform: translateY(10%);
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga";
+}
+
+
+/*************************************************/
+/* Profession Colors */
+/*************************************************/
 .def-clr-primary-bg:hover,
 .def-clr-primary-bg:active {
     background-color: #263238 !important
@@ -365,12 +354,14 @@ span.xvr-banner-text-bottom {
     background-color: #4f5b62
 }
 
-.def-clr-dark{
+.def-clr-dark {
     color: #000a12
 }
 
 .def-clr-dark-bg,
-.page-footer, .btn:hover, .btn:active  {
+.page-footer,
+.btn:hover,
+.btn:active {
     background-color: #000a12
 }
 
