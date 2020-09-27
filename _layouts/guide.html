@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
+{% if page.layout == "guide" %}
 {% assign prof = site.data.profs.default %}
+{% elsif page.layout == "build" %}
+{% assign prof = site.data.profs[page.title] %}
+{% else %}
+{% assign prof = site.data.profs.default %}
+{% endif %}
 <div class="view mask rgba-black-light">
     <div class="mt-10">
         <div class="container xvr-container-dark main-content">
@@ -27,7 +33,7 @@ layout: default
                     <span class="{{prof.colors.light}}">{{page.author}}</span>
                     <span class="text-white">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
                     <span class="text-white">Last updated on </span>
-                    <span class="{{prof.colors.light}}">{{page.updated}}.</span>
+                    <span class="{{prof.colors.light}}">{{page.updated}}</span>
                     <hr class="guide-hr">
                 </div>
             </div>

@@ -1,10 +1,12 @@
 default:
   colors:
-    primary: def-clr-primary
-    primary-bg: def-clr-primary-bg
-    dark: def-clr-dark
-    light: def-clr-light
-    mask: rgba-black-light
+    primary: text-primary
+    primary-bg: 
+    dark: body-text-darken-5
+    dark-bg: 
+    light: body-text-lighten-3
+    light-bg: 
+    mask: 
     
 elementalist:
   xpac: core

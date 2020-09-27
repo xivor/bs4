@@ -8,6 +8,14 @@
     color: #fff;
 }
 
+.body-text-darken-5 {
+    color: #1c2331
+}
+
+.body-text-lighten-3 {
+    color: #929fba
+}
+
 .body-bg {
     background-color: #1c1c1c;
     background: url(https://xivor.github.io/assets/img/backgrounds/bg2.jpg);
@@ -176,16 +184,6 @@
     margin-right: 5.5em;
 }
 
-/* 
-****POSSIBLY NOT IN USE*****
-.w-33 {
-    width: 33% !important;
-}
-
-.w-66 {
-    width: 66% !important;
-}
-*/
 
 
 /*************************************************/
@@ -196,13 +194,15 @@
     line-height: 1.6;
 }
 
-.guide-body h2, h6 {
+.guide-body h2,
+h6 {
     font-family: Oswald;
-    padding-top:0.5em
+    padding-top: 0.5em
 }
 
-.guide-body p + ul, p + ol {
-    margin-top:-1em
+.guide-body p+ul,
+p+ol {
+    margin-top: -1em
 }
 
 .guide-border {
@@ -215,9 +215,7 @@
 .guide-hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 0;
     border-top: 1px solid rgba(236, 236, 236, 0.2);
-    border-bottom: 1px solid rgba(236, 236, 236, 0.11)
 }
 
 .guide-header-wrapper {
@@ -269,6 +267,16 @@ span.guide-header-text-bottom {
 
 
 /*************************************************/
+/* Footer Styles */
+/*************************************************/
+.footer-hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+/*************************************************/
 /* Container Styles */
 /*************************************************/
 .xvr-container-dark {
@@ -305,14 +313,9 @@ span.guide-header-text-bottom {
     background: transparent !important;
 }
 
-.navbar-brand {
-    padding-top: .3em
+.navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover, .navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:focus, .navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active {
+    background-color: #1c2331;
 }
-
-.navbar-brand img {
-    padding-bottom: .3em;
-}
-
 
 /*************************************************/
 /* Set Material Icons to same size as FontAwesome */
@@ -336,33 +339,24 @@ span.guide-header-text-bottom {
 /*************************************************/
 /* Profession Colors */
 /*************************************************/
-.def-clr-primary-bg:hover,
-.def-clr-primary-bg:active {
-    background-color: #263238 !important
-}
-
 .def-clr-primary {
-    color: #263238
+    color: #2196f3
 }
 
 .def-clr-light {
-    color: #4f5b62
+    color: #e3f2fd
 }
 
-.def-clr-light-bg,
-.top-nav-collapse {
-    background-color: #4f5b62
+.def-clr-light-bg {
+    background-color: #e3f2fd
 }
 
 .def-clr-dark {
-    color: #000a12
+    color: #1c2331
 }
 
-.def-clr-dark-bg,
-.page-footer,
-.btn:hover,
-.btn:active {
-    background-color: #000a12
+.def-clr-dark-bg {
+    background-color: #1c2331
 }
 
 /* Elementalist Colors */
