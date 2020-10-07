@@ -1,0 +1,22 @@
+nav-guides:
+  - name: Guides
+    icon:
+      - fa: fab fa-leanpub
+    subfolderitems:
+      - name: GW2 Addon Manager
+      - link: /guides/01-gw2-addon-manager.html
+      - name: D912pxy
+      - link: /guides/02-d912pxy.html
+      - name: GW2 Radial
+      - link: /guides/03-gw2-radial.html
+      - name: DPS.Report
+      - link: /guides/04-dps.report.html
+      - name: ArcDPS
+      - link: /guides/05-arcdps.html
+        subsubfolderitems:
+          - name: ArcDPS Log Manager
+          - link: 1.html
+          - name: ArcDPS & ArenaNet
+          - link: 1.html
+          - name: ArcDPS WvW Windows
+          - link: 1.html

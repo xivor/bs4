@@ -1,0 +1,21 @@
+nav-builds:
+  - name: Builds
+    icon:
+      - fa: fa fa-wrench
+    subfolderitems:
+      - name: Elementalist
+      - link: /builds/elementalist.html
+      - name: Guardian
+      - link: /builds/guardian.html
+      - name: Engineer
+      - link: /builds/engineer.html
+      - name: Necromancer
+      - link: /builds/necromancer.html
+      - name: Warrior
+      - link: /builds/warrior.html
+      - name: Revenant
+      - link: /builds/revenant.html
+      - name: Thief
+      - link: /builds/thief.html
+      - name: Ranger
+      - link: /builds/ranger.html

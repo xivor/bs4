@@ -1,0 +1,9 @@
+nav-about:
+  - name: About
+    icon:
+      - fa: fa fa-user
+    subfolderitems:
+      - name: About Me
+      - link: /about-me.html
+      - name: About Site
+      - link: /about-site.html
