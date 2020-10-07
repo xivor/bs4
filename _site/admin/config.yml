@@ -75,7 +75,7 @@ collections:
         file: "_data/navigation.yml"
         fields:
           - label: "Navigation Items"
-            name: "items"
+            name: "nav"
             widget: "list"
             fields:
               - {label: Name, name: name, widget: string}

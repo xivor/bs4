@@ -48,6 +48,4 @@ nav:
         url: /about-me.html
       - page: About Site
         url: /about-site.html
-items:
-  - name: test
-    link: test.html
+
