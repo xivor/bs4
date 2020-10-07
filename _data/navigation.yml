@@ -1,10 +1,55 @@
 # _data/navigation.yml
-items:
-  - name: Home
-    link: /
-  - name: About
-    link: /about.html
-  - name: Blog
-    link: /blog.html
-  - name: Staff
-    link: /staff.html
+nav:
+  - title: Guides
+    icon:
+      - fa: fab fa-leanpub
+    subfolderitems:
+      - page: GW2 Addon Manager
+        url: /guides/01-gw2-addon-manager.html
+      - page: D912pxy
+        url: /guides/02-d912pxy.html
+      - page: GW2 Radial
+        url: /guides/03-gw2-radial.html
+      - page: DPS.Report
+        url: /guides/04-dps.report.html
+      - page: ArcDPS
+        url: /guides/05-arcdps.html
+        subsubfolderitems:
+          - page: ArcDPS Log Manager
+          - url:
+          - page: ArcDPS & ArenaNet
+          - url:
+          - page: ArcDPS WvW Windows
+          - url:
+  - title: Builds
+    icon:
+      - fa: fa fa-wrench
+    subfolderitems:
+      - page: Elementalist
+        url: /builds/elementalist.html
+      - page: Guardian
+        url: /builds/guardian.html
+      - page: Engineer
+        url: /builds/engineer.html
+      - page: Necromancer
+        url: /builds/necromancer.html
+      - page: Warrior
+        url: /builds/warrior.html
+      - page: Revenant
+        url: /builds/revenant.html
+      - page: Thief
+        url: /builds/thief.html
+      - page: Ranger
+        url: /builds/ranger.html
+  - title: About
+    icon:
+      - fa: fa fa-user
+    subfolderitems:
+      - page: About Me
+        url: /about-me.html
+      - page: About Site
+        url: /about-site.html
+
+
+
+

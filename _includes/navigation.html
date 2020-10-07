@@ -1,7 +1,85 @@
-<nav>
-    {% for item in site.data.navigation.items %}
-      <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-        {{ item.name }}
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand text-uppercase font-weight-bold" href="{{ site.url }}">
+      <img src="{{ site.navbar-logo }}" height="35" alt="" loading="lazy" />&nbsp;<span
+        class="{{prof.colors.dark}}">Xivor</span><span>Hub</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExample01"
+      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarExample01">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0 font-weight-bolder">
+        {% if site.data.navigation.nav[0] %}
+        {% for item in site.data.navigation.nav %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false"
+            role="button" aria-haspopup="true" href="{{ item.url }}">
+            {% if item.icon[0] %}
+            {% for entry in item.icon %}<i class="{{ entry.fa }}">&nbsp;</i>
+            {% endfor %}
+            {% endif %}{{ item.title }}</a>
+          {% if item.subfolderitems[0] %}
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {% for entry in item.subfolderitems %}
+            <li><a class="dropdown-item" href="{{ entry.url }}">{{ entry.page }}</a></li>
+            {% endfor %}
+
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+
+  <!--Social Icons-->
+  <ul class="navbar-nav list-inline">
+    <!--Icons-->
+    {% if site.author.youtube %}
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tooltip" title="Connect with me"
+        href="https://www.youtube.com/channel/{{ site.author.youtube }}" rel="nofollow" target="_blank">
+        <i class="fab fa-youtube"></i>
       </a>
-    {% endfor %}
-  </nav>
+    </li>
+    {% endif %} {% if site.author.twitch %}
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tooltip" title="Connect with me"
+        href="https://www.twitch.tv/{{ site.author.twitch }}" rel="nofollow" target="_blank">
+        <i class="fab fa-twitch"></i>
+      </a>
+    </li>
+    {% endif %} {% if site.author.facebook %}
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tooltip" title="Connect with me"
+        href="https://www.facebook.com/{{ site.author.facebook }}" rel="nofollow" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    {% endif %} {% if site.author.twitter %}
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tooltip" title="Connect with me"
+        href="https://twitter.com/{{ site.author.twitter }}" rel="nofollow" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    {% endif %} {% if site.author.linkedin %}
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tooltip" title="Connect with me"
+        href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="nofollow" target="_blank">
+        <i class="fab fa-linkedin"></i></a>
+    </li>
+    {% endif %} {% if site.author.github %}
+    <li class="nav-item">
+      <a class="nav-link" href="https://github.com/{{ site.author.github }}" rel="nofollow" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+  <!-- Social Icons -->
+  </div>
+  </div>
+</nav>
