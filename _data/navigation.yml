@@ -1,51 +1,51 @@
 nav:
-  - title: Guides
+  - name: Guides
     icon:
       - fa: fab fa-leanpub
     subfolderitems:
-      - page: GW2 Addon Manager
-        url: /guides/01-gw2-addon-manager.html
-      - page: D912pxy
-        url: /guides/02-d912pxy.html
-      - page: GW2 Radial
-        url: /guides/03-gw2-radial.html
-      - page: DPS.Report
-        url: /guides/04-dps.report.html
-      - page: ArcDPS
-        url: /guides/05-arcdps.html
+      - name: GW2 Addon Manager
+        link: /guides/01-gw2-addon-manager.html
+      - name: D912pxy
+        link: /guides/02-d912pxy.html
+      - name: GW2 Radial
+        link: /guides/03-gw2-radial.html
+      - name: DPS.Report
+        link: /guides/04-dps.report.html
+      - name: ArcDPS
+        link: /guides/05-arcdps.html
         subsubfolderitems:
-          - page: ArcDPS Log Manager
-          - ? url
-          - page: ArcDPS & ArenaNet
-          - ? url
-          - page: ArcDPS WvW Windows
-          - ? url
-  - title: Builds
+          - name: ArcDPS Log Manager
+          - ? link
+          - name: ArcDPS & ArenaNet
+          - ? link
+          - name: ArcDPS WvW Windows
+          - ? link
+  - name: Builds
     icon:
       - fa: fa fa-wrench
     subfolderitems:
-      - page: Elementalist
-        url: /builds/elementalist.html
-      - page: Guardian
-        url: /builds/guardian.html
-      - page: Engineer
-        url: /builds/engineer.html
-      - page: Necromancer
-        url: /builds/necromancer.html
-      - page: Warrior
-        url: /builds/warrior.html
-      - page: Revenant
-        url: /builds/revenant.html
-      - page: Thief
-        url: /builds/thief.html
-      - page: Ranger
-        url: /builds/ranger.html
-  - title: About
+      - name: Elementalist
+        link: /builds/elementalist.html
+      - name: Guardian
+        link: /builds/guardian.html
+      - name: Engineer
+        link: /builds/engineer.html
+      - name: Necromancer
+        link: /builds/necromancer.html
+      - name: Warrior
+        link: /builds/warrior.html
+      - name: Revenant
+        link: /builds/revenant.html
+      - name: Thief
+        link: /builds/thief.html
+      - name: Ranger
+        link: /builds/ranger.html
+  - name: About
     icon:
       - fa: fa fa-user
     subfolderitems:
-      - page: About Me
-        url: /about-me.html
-      - page: About Site
-        url: /about-site.html
+      - name: About Me
+        link: /about-me.html
+      - name: About Site
+        link: /about-site.html
 
