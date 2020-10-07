@@ -58,9 +58,6 @@ collections:
     sort by: order
 
 # Plugins in use
-plugins:
-
-gem: 
 
 # GW2 info
 gwiki:
