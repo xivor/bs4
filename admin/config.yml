@@ -48,7 +48,7 @@ collections:
     files:
       - label: "Navigation"
         name: "navigation"
-        file: "_data/nav.yml"
+        file: "_data/navigation.yml"
         fields:
           - label: "Navigation Items"
             name: "items"
