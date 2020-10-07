@@ -29,3 +29,17 @@
     $("#mdb-lightbox-ui").load("../../mdb-addons/mdb-lightbox-ui.html");
   });
 </script>
+
+
+<!-- Netlify Identity-->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

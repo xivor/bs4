@@ -21,6 +21,7 @@
 <!-- Custom styles -->
 <style>
 </style>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <!--Head Content-->
 <body class="body-bg body-text navy-blue-skin">
@@ -375,7 +376,8 @@
       <div class="col-md-7 col-lg-8 col-xl-7 mx-auto mt-3">
         <p>
           Crafted with <i class="fa fa-heart"></i> with
-          <a href="https://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a> and <a href="https://jekyllrb.com/">Jekyll</a>. Powered by <a href="https://netlify.com/">Netlify.
+          <a href="https://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a> and <a
+            href="https://jekyllrb.com/">Jekyll</a>. Powered by <a href="https://netlify.com/">Netlify.
         </p>
       </div>
       <!-- Grid column -->
@@ -387,35 +389,43 @@
           <p>Follow Xivor on social media</p>
           <ul class="list-unstyled list-inline">
             <li class="list-inline-item mx-0">
-              
-              <a href="https://www.youtube.com/channel/UCQm3mI-FElTqMPWkvQOE7_A" class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button" rel="nofollow" target="_blank">
+
+              <a href="https://www.youtube.com/channel/UCQm3mI-FElTqMPWkvQOE7_A"
+                class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button"
+                rel="nofollow" target="_blank">
                 <i class="fab fa-youtube"></i>
               </a>
-              
+
             </li>
             <li class="list-inline-item mx-0">
-              
-              <a href="https://www.twitch.tv/xivor" class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button" rel="nofollow" target="_blank">
+
+              <a href="https://www.twitch.tv/xivor"
+                class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button"
+                rel="nofollow" target="_blank">
                 <i class="fab fa-twitch"></i>
               </a>
-              
+
             </li>
             <li class="list-inline-item mx-0">
-              
+
             </li>
             <li class="list-inline-item mx-0">
-              
-              <a href="https://www.linkedin.com/in/rogerleecormier" class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button" rel="nofollow" target="_blank">
+
+              <a href="https://www.linkedin.com/in/rogerleecormier"
+                class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button"
+                rel="nofollow" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              
+
             </li>
             <li class="list-inline-item mx-0">
-              
-              <a href="https://github.com/xivor/xivor.github.io" class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button" rel="nofollow" target="_blank">
+
+              <a href="https://github.com/xivor/xivor.github.io"
+                class="btn-floating btn-sm rgba-white-slight mr-xl-4 waves-effect waves-light" role="button"
+                rel="nofollow" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
-              
+
             </li>
           </ul>
         </div>
@@ -461,6 +471,20 @@
   $(function () {
     $("#mdb-lightbox-ui").load("../../mdb-addons/mdb-lightbox-ui.html");
   });
+</script>
+
+
+<!-- Netlify Identity-->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
 </script>
 
   <!--Footer-->
