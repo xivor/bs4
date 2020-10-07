@@ -1,4 +1,3 @@
-# _data/navigation.yml
 nav:
   - title: Guides
     icon:
@@ -16,11 +15,11 @@ nav:
         url: /guides/05-arcdps.html
         subsubfolderitems:
           - page: ArcDPS Log Manager
-          - url:
+          - ? url
           - page: ArcDPS & ArenaNet
-          - url:
+          - ? url
           - page: ArcDPS WvW Windows
-          - url:
+          - ? url
   - title: Builds
     icon:
       - fa: fa fa-wrench
@@ -49,7 +48,6 @@ nav:
         url: /about-me.html
       - page: About Site
         url: /about-site.html
-
-
-
-
+items:
+  - name: test
+    link: test.html
