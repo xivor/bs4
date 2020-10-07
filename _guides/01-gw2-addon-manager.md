@@ -1,15 +1,16 @@
 ---
 layout: guide
-categories: addons
+author: Xivor
+tagline: Addon Management Utility
+pre-title: null
+title: GW2 Addon Manager
+date: 2020-10-07T05:58:24.621Z
 tags:
   - Addons
   - ArcDPS
   - Guides
-author: Xivor
-pre-title:
-title: GW2 Addon Manager
-tagline: Addon Management Utility
 updated: September 19, 2020
+categories: addons
 description: Simplifies the process of managing third-party utilities for Guild Wars 2
 ---
 
