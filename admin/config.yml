@@ -80,6 +80,36 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
+      - label: "Guides Navigation"
+        name: "nav-guides"
+        file: "_data/nav-guides.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "nav-guides"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+      - label: "Builds Navigation"
+        name: "nav-builds"
+        file: "_data/nav-builds.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "nav-builds"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+      - label: "About Navigation"
+        name: "nav-about"
+        file: "_data/nav-about.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "nav-about"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
 fields:
   - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
   - { label: 'Title', name: 'title', widget: 'string' }

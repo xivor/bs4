@@ -2,9 +2,9 @@ default:
   colors:
     primary: text-primary
     primary-bg: 
-    dark: body-text-darken-5
+    dark: body-text-primary-dark
     dark-bg: 
-    light: body-text-lighten-3
+    light: body-text-primary-light
     light-bg: 
     mask: 
     

@@ -8,12 +8,29 @@
     color: #fff;
 }
 
-.body-text-darken-5 {
-    color: #1c2331
+
+.body-text-primary {
+    color: #212121
 }
 
-.body-text-lighten-3 {
-    color: #929fba
+.body-text-primary-light {
+    color: #484848
+}
+
+.body-text-primary-dark {
+    color: #000000
+}
+
+.body-text-secondary {
+    color: #353b50
+}
+
+.body-text-secondary-light {
+    color: #5f657c
+}
+
+.body-text-secondary-dark {
+    color: #0e1528
 }
 
 .body-bg {
@@ -185,14 +202,17 @@
 }
 
 
+/*************************************************/
+/* Additional Social Icon Styles */
+/*************************************************/
+.btn-tw {
+    background-color: #9147ff !important;
+}
+
 
 /*************************************************/
 /* Guides Styles */
 /*************************************************/
-.guide-body {
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
 
 .guide-body h2,
 h6 {
@@ -205,8 +225,20 @@ p+ol {
     margin-top: -1em
 }
 
+.guide-body a {
+    color: #2bbbad;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.guide-body a:hover {
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #219287;
+}
+
 .guide-border {
-    border: 1px solid rgba(236, 236, 236, 0.2);
+    border: 1px solid #484848;
     border-radius: .25rem;
     padding: 1rem 1rem;
     margin-bottom: 1rem;
@@ -215,7 +247,7 @@ p+ol {
 .guide-hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-top: 1px solid rgba(236, 236, 236, 0.2);
+    border-top: 1px solid #484848;
 }
 
 .guide-header-wrapper {
@@ -272,17 +304,17 @@ span.guide-header-text-bottom {
 .footer-hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-top: 1px solid #5f657c
 }
 
 
 /*************************************************/
 /* Container Styles */
 /*************************************************/
-.xvr-container-dark {
+.container-dark {
     background: #212121;
     padding-top: 1rem;
-    border-top: 24px solid #181818;
+    border-top: 24px solid #000;
     z-index: 1;
     position: relative;
 }
@@ -313,8 +345,32 @@ span.guide-header-text-bottom {
     background: transparent !important;
 }
 
-.navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover, .navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:focus, .navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active {
-    background-color: #1c2331;
+.navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover,
+.navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:focus,
+.navy-blue-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active {
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #ff5722;
+}
+
+.navy-blue-skin .navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover,
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-weight: bold;
+}
+
+.navy-blue-skin .navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover,
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #FF5722;
+    font-weight: bold;
 }
 
 /*************************************************/
@@ -352,11 +408,11 @@ span.guide-header-text-bottom {
 }
 
 .def-clr-dark {
-    color: #1c2331
+    color: #0e1528
 }
 
 .def-clr-dark-bg {
-    background-color: #1c2331
+    background-color: #0e1528
 }
 
 /* Elementalist Colors */

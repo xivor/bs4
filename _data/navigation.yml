@@ -4,50 +4,50 @@ nav:
       - fa: fab fa-leanpub
     subfolderitems:
       - name: GW2 Addon Manager
-      - link: /guides/01-gw2-addon-manager.html
+        link: /guides/01-gw2-addon-manager.html
       - name: D912pxy
-      - link: /guides/02-d912pxy.html
+        link: /guides/02-d912pxy.html
       - name: GW2 Radial
-      - link: /guides/03-gw2-radial.html
+        link: /guides/03-gw2-radial.html
       - name: DPS.Report
-      - link: /guides/04-dps.report.html
+        link: /guides/04-dps.report.html
       - name: ArcDPS
-      - link: /guides/05-arcdps.html
+        link: /guides/05-arcdps.html
         subsubfolderitems:
           - name: ArcDPS Log Manager
-          - link: 1.html
+            link: 1.html
           - name: ArcDPS & ArenaNet
-          - link: 1.html
+            link: 1.html
           - name: ArcDPS WvW Windows
-          - link: 1.html
+            link: 1.html
   - name: Builds
     icon:
       - fa: fa fa-wrench
     subfolderitems:
       - name: Elementalist
-      - link: /builds/elementalist.html
+        link: /builds/elementalist.html
       - name: Guardian
-      - link: /builds/guardian.html
+        link: /builds/guardian.html
       - name: Engineer
-      - link: /builds/engineer.html
+        link: /builds/engineer.html
       - name: Necromancer
-      - link: /builds/necromancer.html
+        link: /builds/necromancer.html
       - name: Warrior
-      - link: /builds/warrior.html
+        link: /builds/warrior.html
       - name: Revenant
-      - link: /builds/revenant.html
+        link: /builds/revenant.html
       - name: Thief
-      - link: /builds/thief.html
+        link: /builds/thief.html
       - name: Ranger
-      - link: /builds/ranger.html
+        link: /builds/ranger.html
   - name: About
     icon:
       - fa: fa fa-user
     subfolderitems:
       - name: About Me
-      - link: /about-me.html
+        link: /about-me.html
       - name: About Site
-      - link: /about-site.html
+        link: /about-site.html
   
   
 
